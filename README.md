@@ -29,7 +29,14 @@ Windows: después de preparar la compilación, abre `scripts/iniciar-windows.cmd
 
 ## Publicar en Vercel
 
-Conectar el proyecto a `deyes19/la-manta-aprende`, usar `main` como rama de producción y dejar **Root Directory** en la raíz del repositorio. Seleccionar Node.js 24.x. `vercel.json` configura instalación con `npm ci`, compilación con `npm run build` y salida en `apps/web/dist`.
+Conectar el proyecto a `deyes19/la-manta-aprende`, usar `main` como rama de producción y seleccionar Node.js 24.x. Las rutas de salida se interpretan desde **Root Directory**. Configurar una de estas dos opciones completas:
+
+| Root Directory | Output Directory | Configuración |
+| --- | --- | --- |
+| Vacío (raíz del repositorio) | `apps/web/dist` | `vercel.json` |
+| `apps/web` | `dist` | `apps/web/vercel.json` |
+
+En ambos casos, instalar con `npm ci` y compilar con `npm run build`. La opción recomendada para una configuración nueva es raíz vacía con salida `apps/web/dist`. Si se elige `apps/web`, habilitar **Include source files outside of the Root Directory in the Build Step**, porque el código usa `packages/content-schema` del repositorio. Evitar mezclar raíz vacía con salida `dist`: la compilación genera `apps/web/dist`, y Vercel no encontrará una carpeta `dist` en la raíz. El repositorio incluye un `vercel.json` en cada raíz admitida para hacer explícita la salida.
 
 Con la integración Git activa, cada push a `main` solicita un despliegue. Confirmar el commit y el estado **Ready** en Deployments antes de darlo por publicado. Usar el dominio de producción de Domains para el aula; los enlaces individuales de despliegue corresponden a versiones concretas. Si la PWA instalada muestra una actualización, terminar la actividad y exportar los resultados antes de aplicarla. Esperar la preparación sin conexión de los recursos nuevos.
 
