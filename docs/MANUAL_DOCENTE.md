@@ -31,3 +31,7 @@ El modo docente no exige contraseña y no es una barrera de seguridad. Supervisa
 - Confirmar el nombre vigente del alcalde y aportar imagen/cartel oficial del escudo para la observación local. El programa no los falsifica ni confunde un escudo genérico con el colombiano.
 - Resolver fragmento «Lo» de Matemáticas 4 y encabezado de período inconsistente de transición. No se completan por suposición.
 - Probar autonomía en aula y funcionamiento en Windows real. La aprobación curricular/pedagógica no la otorga una suite de pruebas.
+
+## Elegir una voz para el aula
+
+Abrir **Elegir voz** → **Voz del navegador** → **Voz en español** y pulsar **Probar voz**. Escuchar en el equipo que usará el estudiante; la lista depende del navegador y del sistema. Elegir una opción marcada **instalada** y probarla sin Internet antes de la clase. Si no hay voz disponible o falla, se reproducen los audios locales. Para usar siempre esos archivos, elegir **Audios guardados**. La preferencia se guarda por navegador y equipo. Ver [detalles de narración](VOZ_COLOMBIANA.md).

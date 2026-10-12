@@ -1,6 +1,22 @@
 # Narración femenina colombiana
 
-Preferencia: Salomé, `es-CO-SalomeNeural`, velocidad -8%. Los MP3 actuales siguen siendo eSpeak; todavía no se ha generado ni aprobado una muestra neural. No se necesita Azure para probar la ruta de Edge.
+La plataforma permite usar la voz del navegador, sin una cuenta de Azure. Los MP3 de respaldo siguen siendo eSpeak; todavía no se ha generado ni aprobado una muestra neural de Salomé.
+
+## Voz del navegador (opción inicial)
+
+En la plataforma, abrir **Elegir voz**, seleccionar **Voz del navegador**, elegir una **Voz en español** y pulsar **Probar voz**. La elección se conserva en ese navegador y equipo. Las instrucciones, pistas y retroalimentación usan el mismo sistema. Escuchar y Repetir empiezan desde el principio; Detener corta la locución; Velocidad permite escuchar más despacio. Solo suena una narración a la vez.
+
+El modo automático prefiere voces instaladas, y da prioridad al español colombiano y a nombres de voces femeninas conocidos dentro de las voces disponibles. La API no informa el género de manera universal: el docente debe escuchar y elegir. Las voces y su calidad cambian entre Windows, Android, macOS y navegadores. **No se garantiza que exista una voz colombiana ni que aparezca la voz del lector de Edge**; su lector y la API de voz web pueden ofrecer listas distintas.
+
+Las opciones marcan **instalada** o **necesita internet**, según la información del navegador. Para el aula sin conexión, probar la voz instalada desconectando Internet en el equipo real. Si falta la voz seleccionada o falla al iniciar, la plataforma usa otra voz española disponible o los MP3 locales. También se pueden elegir directamente **Audios guardados**. Las voces que necesitan Internet pueden enviar el guion al proveedor del navegador; no se narra información de estudiantes con este sistema.
+
+En Windows, se pueden instalar voces en español desde Configuración → Hora e idioma → Voz (la ubicación puede variar según la versión). Reiniciar el navegador y revisar la lista. Algunas voces naturales de Windows no están disponibles para páginas web. La prueba en los equipos escolares es necesaria.
+
+Se comprobó selección, repetición, detención, persistencia, recuperación de fallos y operación offline con voces simuladas en Chromium. Las pruebas no certifican la calidad audible ni la disponibilidad de voces en Windows.
+
+## MP3 neural colombiano opcional
+
+Preferencia para generación futura: Salomé, `es-CO-SalomeNeural`, velocidad -8%. Esta preparación no es necesaria para usar la voz del navegador.
 
 ## Ruta sin cuenta de Azure
 

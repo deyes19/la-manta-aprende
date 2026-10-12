@@ -129,6 +129,7 @@ main {
 }
 .accessibility {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 0.5rem;
   margin-bottom: 1rem;
@@ -776,4 +777,35 @@ textarea:focus-visible {
 }
 .spatial-composition button:disabled {
   opacity: 0.8;
+}
+
+.voice-settings {
+  order: 3;
+  flex: 1 1 100%;
+  margin: 0;
+}
+.voice-settings summary {
+  cursor: pointer;
+  min-height: 44px;
+  padding: 0.6rem;
+  font-weight: 700;
+}
+.voice-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.7rem;
+  padding: 0.8rem;
+}
+.voice-options p {
+  flex-basis: 100%;
+  margin: 0.2rem 0;
+}
+.voice-options label {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+.voice-options select {
+  width: 100%;
+  max-width: 100%;
 }
