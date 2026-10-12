@@ -1,0 +1,101 @@
+{
+  "id": "g2-matematicas-p4-multiplicacion",
+  "titulo": "La multiplicación en nuestra huerta",
+  "grado": 2,
+  "asignatura": "Matemáticas",
+  "periodo": 4,
+  "fuente": {
+    "archivo": "Malla Curricular 2026 Matemáticas 1° a 5°_v2101.docx",
+    "ejeTematico": "La multiplicación; Tablas de multiplicación por 2, 3, 4, 5",
+    "estadoValidacion": "identificado_en_malla"
+  },
+  "curriculo": {
+    "competencia": "Resolución de problemas multiplicativos de adición repetida",
+    "evidencias": [
+      "Representa colecciones organizadas en grupos iguales",
+      "Expresa una situación mediante suma repetida",
+      "Relaciona suma repetida con multiplicación",
+      "Resuelve problemas multiplicativos sencillos del contexto"
+    ]
+  },
+  "materiales": ["cuaderno de Matemáticas", "lápiz", "tapas o semillas (opcional)"],
+  "nota": "Ejemplo de contenido para orientar el desarrollo; no es un OVA ejecutable ni valida automáticamente el cuaderno.",
+  "pasos": [
+    {
+      "id": "presentacion",
+      "tipo": "presentacion",
+      "instruccionVisible": "Busca tu cuaderno y un lápiz. Hoy vamos a contar frutas y semillas usando la multiplicación.",
+      "narracion": "Busca tu cuaderno y un lápiz. Hoy vamos a contar frutas y semillas usando la multiplicación. Cuando estés listo, pulsa Empezar."
+    },
+    {
+      "id": "exploracion",
+      "tipo": "exploracion",
+      "instruccionVisible": "Observa 3 canastas. Cada canasta tiene 4 mangos. Cuenta todos los mangos. Puedes tocar cada canasta para ver los mangos que contiene.",
+      "respuestaEsperada": 12
+    },
+    {
+      "id": "explicacion",
+      "tipo": "explicacion",
+      "instruccionVisible": "Tres grupos de cuatro se pueden sumar así: 4 + 4 + 4 = 12. También se escribe 3 × 4 = 12."
+    },
+    {
+      "id": "cuaderno-1",
+      "tipo": "mi_cuaderno",
+      "instruccionVisible": "Abre tu cuaderno de Matemáticas. Escribe la fecha de hoy y copia el título.",
+      "bloquesLiteralmenteCopiables": ["Tema: La multiplicación"],
+      "condicionAvance": "autodeclaracion_de_copia"
+    },
+    {
+      "id": "cuaderno-2",
+      "tipo": "mi_cuaderno",
+      "instruccionVisible": "Copia la siguiente definición en tu cuaderno.",
+      "bloquesLiteralmenteCopiables": ["La multiplicación sirve para contar grupos iguales. Es una suma repetida."],
+      "condicionAvance": "autodeclaracion_de_copia"
+    },
+    {
+      "id": "cuaderno-3",
+      "tipo": "mi_cuaderno",
+      "instruccionVisible": "Copia el ejemplo y dibuja las tres canastas con cuatro mangos en cada una.",
+      "bloquesLiteralmenteCopiables": ["Ejemplo: 3 canastas con 4 mangos en cada una.", "4 + 4 + 4 = 12", "3 × 4 = 12 mangos."],
+      "condicionAvance": "autodeclaracion_de_copia"
+    },
+    {
+      "id": "cuaderno-4",
+      "tipo": "mi_cuaderno",
+      "instruccionVisible": "Copia y resuelve los tres ejercicios en tu cuaderno. Pulsa Escuchar para oírlos otra vez.",
+      "ejerciciosEscritos": [
+        {"enunciado": "1. Hay 5 canastas con 2 naranjas cada una. Dibuja los grupos, escribe la suma repetida y la multiplicación.", "solucionDocente": "2 + 2 + 2 + 2 + 2 = 10; 5 × 2 = 10"},
+        {"enunciado": "2. Hay 4 corrales con 3 gallinas en cada corral. ¿Cuántas gallinas hay en total? Escribe la suma repetida y la multiplicación.", "solucionDocente": "3 + 3 + 3 + 3 = 12; 4 × 3 = 12"},
+        {"enunciado": "3. Dibuja 2 filas de 5 plantas, cuenta el total y escribe la multiplicación.", "solucionDocente": "2 × 5 = 10 plantas"}
+      ],
+      "condicionAvance": "autodeclaracion_de_actividad"
+    },
+    {
+      "id": "practica-guiada",
+      "tipo": "practica_guiada",
+      "instruccionVisible": "Vamos a representar las canastas con dibujos y números. Si te equivocas, pide una pista e inténtalo otra vez.",
+      "ejercicios": [
+        {"pregunta": "¿Cuántos mangos hay en 3 grupos de 4?", "respuestaEsperada": 12, "pista": "Suma 4 + 4 + 4."},
+        {"pregunta": "¿Cuántas semillas hay en 5 grupos de 2?", "respuestaEsperada": 10, "pista": "Cuenta 2, 4, 6, 8, 10."}
+      ]
+    },
+    {
+      "id": "mision",
+      "tipo": "mision_contextual",
+      "instruccionVisible": "La huerta necesita 5 bandejas con 4 semillas cada una. Organiza o dibuja los grupos, escribe la multiplicación y calcula cuántas semillas se necesitan.",
+      "respuestaEsperada": 20,
+      "explicacion": "5 grupos de 4 semillas son 4 + 4 + 4 + 4 + 4 = 20."
+    },
+    {
+      "id": "evaluacion",
+      "tipo": "evaluacion",
+      "instruccionVisible": "Demuestra lo que aprendiste. Resuelve los retos tú solo y escucha las preguntas cuando lo necesites.",
+      "objetivosMedidos": ["grupos_iguales", "suma_repetida", "multiplicacion", "problemas"]
+    },
+    {
+      "id": "cierre",
+      "tipo": "cierre",
+      "instruccionVisible": "¡Terminaste! Revisa tu cuaderno y muéstrale al docente el título, la definición, los tres ejercicios y las correcciones."
+    }
+  ]
+}

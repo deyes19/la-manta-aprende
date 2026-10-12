@@ -1,0 +1,557 @@
+{
+  "id": "g2-matematicas-p4-multiplicacion",
+  "version": 1,
+  "title": "La multiplicación en nuestra huerta",
+  "grade": 2,
+  "subject": "Matemáticas",
+  "period": 4,
+  "source": {
+    "file": "docs/kit/02_EJEMPLO_UNIDAD_MAT2_P4.json",
+    "locator": "Ejemplo completo; malla original no disponible",
+    "status": "PENDIENTE_FUENTE"
+  },
+  "curriculum": {
+    "competence": "Propuesta: resolver problemas de grupos iguales mediante suma repetida y multiplicación",
+    "evidence": [
+      "Representa grupos iguales",
+      "Relaciona suma repetida con multiplicación",
+      "Resuelve problemas contextualizados"
+    ],
+    "dba": null
+  },
+  "steps": [
+    {
+      "id": "bienvenida",
+      "phase": "Hoy aprenderé",
+      "title": "¡Bienvenido a la huerta!",
+      "instruction": "Busca tu cuaderno de Matemáticas y un lápiz. Vamos a contar grupos iguales. Pulsa el altavoz para escuchar; la flecha para continuar. Puedes parar y volver después.",
+      "text": [
+        "Aprenderás a representar grupos iguales, sumar y multiplicar por 2, 3, 4 y 5.",
+        "Necesitas cuaderno y lápiz. Puedes usar 20 tapas o semillas, o los dibujos de la pantalla.",
+        "Recorre ocho momentos, con pausas cuando lo necesites. Hoy completarás una unidad, no una carrera."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "descubro",
+      "phase": "Descubro",
+      "title": "¿Cuántos mangos hay?",
+      "instruction": "Toca cada canasta para mostrar sus cuatro mangos. Cuenta los mangos y escribe cuántos hay en total.",
+      "text": [],
+      "hint": "Abre las tres canastas. Cuenta cuatro, ocho, doce.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ],
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántos mangos hay en tres canastas de cuatro?",
+        "answer": 12,
+        "explanation": "Hay tres grupos de cuatro: 4 + 4 + 4 = 12 mangos.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "iguales",
+      "phase": "Aprendo",
+      "title": "Grupos iguales",
+      "instruction": "Observa las canastas. Todas tienen cuatro mangos. Cuenta una canasta y comprueba que las otras tienen la misma cantidad.",
+      "text": [
+        "Multiplicamos cuando todos los grupos tienen la misma cantidad.",
+        "3 es la cantidad de canastas. 4 es la cantidad de mangos en cada canasta."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ]
+    },
+    {
+      "id": "suma",
+      "phase": "Aprendo",
+      "title": "Una suma que se repite",
+      "instruction": "Lee o escucha el ejemplo completo. Sigue las tres canastas con tu dedo.",
+      "text": [
+        "4 + 4 + 4 = 12",
+        "3 × 4 = 12 mangos",
+        "Se lee: tres grupos de cuatro son doce. El signo × significa multiplicar."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ]
+    },
+    {
+      "id": "tabla-2",
+      "phase": "Aprendo",
+      "title": "La tabla del 2",
+      "instruction": "Cambia el número de grupos con los botones menos y más. Cada grupo tiene 2 semillas. Observa cómo cambia la suma y el total.",
+      "text": [
+        "En esta tabla contamos grupos de 2.",
+        "1 × 2 = 2\n2 × 2 = 4\n3 × 2 = 6\n4 × 2 = 8\n5 × 2 = 10\n6 × 2 = 12\n7 × 2 = 14\n8 × 2 = 16\n9 × 2 = 18\n10 × 2 = 20"
+      ],
+      "hint": "Agrega un grupo: el total aumenta en 2. Quita un grupo: disminuye en 2. Puedes contar cada objeto.",
+      "groups": [
+        3,
+        2,
+        "🌰"
+      ]
+    },
+    {
+      "id": "tabla-3",
+      "phase": "Aprendo",
+      "title": "La tabla del 3",
+      "instruction": "Cambia el número de grupos con los botones menos y más. Cada grupo tiene 3 gallinas. Observa cómo cambia la suma y el total.",
+      "text": [
+        "En esta tabla contamos grupos de 3.",
+        "1 × 3 = 3\n2 × 3 = 6\n3 × 3 = 9\n4 × 3 = 12\n5 × 3 = 15\n6 × 3 = 18\n7 × 3 = 21\n8 × 3 = 24\n9 × 3 = 27\n10 × 3 = 30"
+      ],
+      "hint": "Agrega un grupo: el total aumenta en 3. Quita un grupo: disminuye en 3. Puedes contar cada objeto.",
+      "groups": [
+        3,
+        3,
+        "🐔"
+      ]
+    },
+    {
+      "id": "tabla-4",
+      "phase": "Aprendo",
+      "title": "La tabla del 4",
+      "instruction": "Cambia el número de grupos con los botones menos y más. Cada grupo tiene 4 mangos. Observa cómo cambia la suma y el total.",
+      "text": [
+        "En esta tabla contamos grupos de 4.",
+        "1 × 4 = 4\n2 × 4 = 8\n3 × 4 = 12\n4 × 4 = 16\n5 × 4 = 20\n6 × 4 = 24\n7 × 4 = 28\n8 × 4 = 32\n9 × 4 = 36\n10 × 4 = 40"
+      ],
+      "hint": "Agrega un grupo: el total aumenta en 4. Quita un grupo: disminuye en 4. Puedes contar cada objeto.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ]
+    },
+    {
+      "id": "tabla-5",
+      "phase": "Aprendo",
+      "title": "La tabla del 5",
+      "instruction": "Cambia el número de grupos con los botones menos y más. Cada grupo tiene 5 plantas. Observa cómo cambia la suma y el total.",
+      "text": [
+        "En esta tabla contamos grupos de 5.",
+        "1 × 5 = 5\n2 × 5 = 10\n3 × 5 = 15\n4 × 5 = 20\n5 × 5 = 25\n6 × 5 = 30\n7 × 5 = 35\n8 × 5 = 40\n9 × 5 = 45\n10 × 5 = 50"
+      ],
+      "hint": "Agrega un grupo: el total aumenta en 5. Quita un grupo: disminuye en 5. Puedes contar cada objeto.",
+      "groups": [
+        3,
+        5,
+        "🌱"
+      ]
+    },
+    {
+      "id": "cuaderno-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la fecha y el título",
+      "instruction": "Abre tu cuaderno de Matemáticas. Escribe la fecha de hoy. En la siguiente línea copia este título. Pulsa Ya terminé cuando lo hayas escrito.",
+      "text": [
+        "Tema: La multiplicación"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-idea",
+      "phase": "Mi cuaderno",
+      "title": "Copia la idea",
+      "instruction": "Debajo del título, copia esta definición. Puedes escucharla y hacer pausas mientras escribes.",
+      "text": [
+        "La multiplicación sirve para contar grupos que tienen la misma cantidad de elementos. Es una suma repetida."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia un ejemplo",
+      "instruction": "Copia las tres líneas del ejemplo. Luego dibuja tres canastas con cuatro mangos en cada una. Cuenta tus doce mangos.",
+      "text": [
+        "Ejemplo: 3 canastas con 4 mangos en cada una.",
+        "4 + 4 + 4 = 12",
+        "3 × 4 = 12 mangos."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ]
+    },
+    {
+      "id": "cuaderno-tabla-2",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la tabla del 2",
+      "instruction": "Escribe el título Tabla del 2. Copia estas diez multiplicaciones, una por línea. Puedes descansar después de cinco. No necesitas escribir rápido.",
+      "text": [
+        "Tabla del 2",
+        "1 × 2 = 2",
+        "2 × 2 = 4",
+        "3 × 2 = 6",
+        "4 × 2 = 8",
+        "5 × 2 = 10",
+        "6 × 2 = 12",
+        "7 × 2 = 14",
+        "8 × 2 = 16",
+        "9 × 2 = 18",
+        "10 × 2 = 20"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-tabla-3",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la tabla del 3",
+      "instruction": "Escribe el título Tabla del 3. Copia estas diez multiplicaciones, una por línea. Puedes descansar después de cinco. No necesitas escribir rápido.",
+      "text": [
+        "Tabla del 3",
+        "1 × 3 = 3",
+        "2 × 3 = 6",
+        "3 × 3 = 9",
+        "4 × 3 = 12",
+        "5 × 3 = 15",
+        "6 × 3 = 18",
+        "7 × 3 = 21",
+        "8 × 3 = 24",
+        "9 × 3 = 27",
+        "10 × 3 = 30"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-tabla-4",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la tabla del 4",
+      "instruction": "Escribe el título Tabla del 4. Copia estas diez multiplicaciones, una por línea. Puedes descansar después de cinco. No necesitas escribir rápido.",
+      "text": [
+        "Tabla del 4",
+        "1 × 4 = 4",
+        "2 × 4 = 8",
+        "3 × 4 = 12",
+        "4 × 4 = 16",
+        "5 × 4 = 20",
+        "6 × 4 = 24",
+        "7 × 4 = 28",
+        "8 × 4 = 32",
+        "9 × 4 = 36",
+        "10 × 4 = 40"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-tabla-5",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la tabla del 5",
+      "instruction": "Escribe el título Tabla del 5. Copia estas diez multiplicaciones, una por línea. Puedes descansar después de cinco. No necesitas escribir rápido.",
+      "text": [
+        "Tabla del 5",
+        "1 × 5 = 5",
+        "2 × 5 = 10",
+        "3 × 5 = 15",
+        "4 × 5 = 20",
+        "5 × 5 = 25",
+        "6 × 5 = 30",
+        "7 × 5 = 35",
+        "8 × 5 = 40",
+        "9 × 5 = 45",
+        "10 × 5 = 50"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-ejercicio-1",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia este enunciado completo. Debajo, haz el dibujo y resuelve lo que pide. Cuando termines, pulsa Ya terminé.",
+      "text": [
+        "1. Hay 5 canastas con 2 naranjas cada una. Dibuja las canastas con sus naranjas. Escribe la suma repetida y la multiplicación. ¿Cuántas naranjas hay en total?"
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-ejercicio-2",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia este enunciado completo. Debajo, haz el dibujo y resuelve lo que pide. Cuando termines, pulsa Ya terminé.",
+      "text": [
+        "2. Hay 4 corrales con 3 gallinas en cada corral. ¿Cuántas gallinas hay en total? Dibuja los grupos y escribe la suma repetida y la multiplicación."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-ejercicio-3",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia este enunciado completo. Debajo, haz el dibujo y resuelve lo que pide. Cuando termines, pulsa Ya terminé.",
+      "text": [
+        "3. Dibuja 2 filas de 5 plantas. Cuenta las plantas y escribe la suma repetida y la multiplicación."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-revision-1",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara esta solución con tu cuaderno. Si es diferente, vuelve a contar los dibujos y corrige. Tu docente revisará la escritura: el programa no ve tu cuaderno.",
+      "text": [
+        "1. Hay 5 canastas con 2 naranjas cada una. Dibuja las canastas con sus naranjas. Escribe la suma repetida y la multiplicación. ¿Cuántas naranjas hay en total?",
+        "2 + 2 + 2 + 2 + 2 = 10. 5 × 2 = 10 naranjas."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-revision-2",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara esta solución con tu cuaderno. Si es diferente, vuelve a contar los dibujos y corrige. Tu docente revisará la escritura: el programa no ve tu cuaderno.",
+      "text": [
+        "2. Hay 4 corrales con 3 gallinas en cada corral. ¿Cuántas gallinas hay en total? Dibuja los grupos y escribe la suma repetida y la multiplicación.",
+        "3 + 3 + 3 + 3 = 12. 4 × 3 = 12 gallinas."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "cuaderno-revision-3",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara esta solución con tu cuaderno. Si es diferente, vuelve a contar los dibujos y corrige. Tu docente revisará la escritura: el programa no ve tu cuaderno.",
+      "text": [
+        "3. Dibuja 2 filas de 5 plantas. Cuenta las plantas y escribe la suma repetida y la multiplicación.",
+        "5 + 5 = 10. 2 × 5 = 10 plantas."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "practica-2",
+      "phase": "Practico",
+      "title": "Cuenta de 2 en 2",
+      "instruction": "Cuenta los grupos y escribe el total. Puedes usar los dibujos o tus tapas. Pulsa Comprobar y escucha la explicación.",
+      "text": [],
+      "hint": "Cuenta cada grupo por separado. Después suma sus cantidades.",
+      "groups": [
+        5,
+        2,
+        "🌰"
+      ],
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas semillas hay en 5 grupos de 2?",
+        "answer": 10,
+        "explanation": "5 grupos de 2 son 2 + 2 + 2 + 2 + 2 = 10. 5 × 2 = 10.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "practica-3",
+      "phase": "Practico",
+      "title": "Cuenta de 3 en 3",
+      "instruction": "Cuenta los grupos y escribe el total. Puedes usar los dibujos o tus tapas. Pulsa Comprobar y escucha la explicación.",
+      "text": [],
+      "hint": "Cuenta cada grupo por separado. Después suma sus cantidades.",
+      "groups": [
+        4,
+        3,
+        "🐔"
+      ],
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas gallinas hay en 4 grupos de 3?",
+        "answer": 12,
+        "explanation": "4 grupos de 3 son 3 + 3 + 3 + 3 = 12. 4 × 3 = 12.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "practica-4",
+      "phase": "Practico",
+      "title": "Cuenta de 4 en 4",
+      "instruction": "Cuenta los grupos y escribe el total. Puedes usar los dibujos o tus tapas. Pulsa Comprobar y escucha la explicación.",
+      "text": [],
+      "hint": "Cuenta cada grupo por separado. Después suma sus cantidades.",
+      "groups": [
+        3,
+        4,
+        "🥭"
+      ],
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas mangos hay en 3 grupos de 4?",
+        "answer": 12,
+        "explanation": "3 grupos de 4 son 4 + 4 + 4 = 12. 3 × 4 = 12.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "practica-5",
+      "phase": "Practico",
+      "title": "Cuenta de 5 en 5",
+      "instruction": "Cuenta los grupos y escribe el total. Puedes usar los dibujos o tus tapas. Pulsa Comprobar y escucha la explicación.",
+      "text": [],
+      "hint": "Cuenta cada grupo por separado. Después suma sus cantidades.",
+      "groups": [
+        2,
+        5,
+        "🌱"
+      ],
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas plantas hay en 2 grupos de 5?",
+        "answer": 10,
+        "explanation": "2 grupos de 5 son 5 + 5 = 10. 2 × 5 = 10.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "practica-suma",
+      "phase": "Practico",
+      "title": "Elige la suma",
+      "instruction": "Observa tres corrales de dos gallinas. Toca la suma que cuenta todas las gallinas y pulsa Comprobar.",
+      "text": [],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda.",
+      "groups": [
+        3,
+        2,
+        "🐔"
+      ],
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué suma representa tres grupos de dos?",
+        "answer": "2 + 2 + 2",
+        "explanation": "Sumamos dos tres veces: una por cada corral. El total es seis.",
+        "objective": "suma_repetida",
+        "choices": [
+          "3 + 2",
+          "2 + 2 + 2",
+          "3 + 3"
+        ]
+      }
+    },
+    {
+      "id": "mision",
+      "phase": "Mi misión",
+      "title": "Semillas para nuestra huerta",
+      "instruction": "La huerta necesita cinco bandejas con cuatro semillas cada una. Pulsa cada bandeja para agregar semillas hasta que todas tengan cuatro. Después pulsa Comprobar.",
+      "text": [],
+      "hint": "Cada toque agrega una semilla. Después de cinco semillas la bandeja vuelve a cero. Deja exactamente cuatro en cada una.",
+      "groups": [
+        5,
+        4,
+        "🌰"
+      ],
+      "activity": {
+        "kind": "groups",
+        "prompt": "Prepara cinco grupos de cuatro semillas.",
+        "answer": 20,
+        "explanation": "Cinco bandejas con cuatro semillas son 4 + 4 + 4 + 4 + 4 = 20. Se necesitan veinte semillas.",
+        "objective": "grupos_iguales"
+      }
+    },
+    {
+      "id": "mision-cuaderno",
+      "phase": "Mi misión",
+      "title": "Registra tu misión",
+      "instruction": "Copia el problema y la solución. Dibuja cinco bandejas con cuatro semillas en cada una.",
+      "text": [
+        "La huerta necesita 5 bandejas con 4 semillas cada una. ¿Cuántas semillas se necesitan?",
+        "4 + 4 + 4 + 4 + 4 = 20",
+        "5 × 4 = 20 semillas."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    },
+    {
+      "id": "evaluacion-grupos",
+      "phase": "Demuestro lo aprendido",
+      "title": "Representa los grupos",
+      "instruction": "Ahora intenta resolver por tu cuenta. Prepara tres canastas con dos mangos cada una tocando las canastas. Después pulsa Comprobar.",
+      "text": [],
+      "hint": "Si necesitas ayuda, úsala: quedará registrada para tu docente. Reparte dos mangos en cada canasta.",
+      "groups": [
+        3,
+        2,
+        "🥭"
+      ],
+      "activity": {
+        "kind": "groups",
+        "prompt": "Forma tres grupos de dos mangos.",
+        "answer": 6,
+        "explanation": "Tres grupos de dos contienen seis mangos. Cada canasta debe tener exactamente dos.",
+        "objective": "grupos_iguales"
+      }
+    },
+    {
+      "id": "evaluacion-suma",
+      "phase": "Demuestro lo aprendido",
+      "title": "Representa una suma",
+      "instruction": "Hay cuatro corrales con tres gallinas cada uno. Toca la suma que representa la situación y pulsa Comprobar.",
+      "text": [],
+      "hint": "La suma debe tener cuatro cantidades iguales; cada una vale tres.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué suma corresponde a cuatro grupos de tres?",
+        "answer": "3 + 3 + 3 + 3",
+        "explanation": "Una cantidad de tres por cada uno de los cuatro corrales: 3 + 3 + 3 + 3 = 12.",
+        "objective": "suma_repetida",
+        "choices": [
+          "4 + 3",
+          "3 + 3 + 3 + 3",
+          "4 + 4 + 4"
+        ]
+      }
+    },
+    {
+      "id": "evaluacion-multiplicacion",
+      "phase": "Demuestro lo aprendido",
+      "title": "Escribe con multiplicación",
+      "instruction": "Hay dos filas con cinco plantas en cada fila. Toca la multiplicación que escribe primero la cantidad de filas y luego las plantas de cada fila.",
+      "text": [],
+      "hint": "Primero escribe cuántos grupos hay. Después escribe la cantidad de cada grupo.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué multiplicación representa dos grupos de cinco?",
+        "answer": "2 × 5",
+        "explanation": "Dos filas por cinco plantas en cada fila: 2 × 5 = 10. 5 × 2 también da diez, pero describe cinco grupos de dos.",
+        "objective": "multiplicacion",
+        "choices": [
+          "2 × 5",
+          "2 × 2",
+          "5 + 2"
+        ]
+      }
+    },
+    {
+      "id": "evaluacion-problema",
+      "phase": "Demuestro lo aprendido",
+      "title": "Resuelve un problema",
+      "instruction": "Para sembrar tenemos cinco bolsas con cuatro semillas en cada bolsa. Escribe cuántas semillas hay en total y pulsa Comprobar.",
+      "text": [],
+      "hint": "Puedes representar las cinco bolsas con tapas y sumar cuatro cinco veces.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas semillas hay en cinco bolsas de cuatro?",
+        "answer": 20,
+        "explanation": "Cinco grupos de cuatro: 4 + 4 + 4 + 4 + 4 = 20 semillas.",
+        "objective": "problemas"
+      }
+    },
+    {
+      "id": "cierre",
+      "phase": "Terminé",
+      "title": "Comparte lo que aprendiste",
+      "instruction": "Elige cómo te sentiste. Luego muestra al docente tu cuaderno abierto: título, definición, ejemplo dibujado, tablas del dos al cinco, tres ejercicios corregidos y misión de semillas. Pídele que revise tus dibujos y operaciones.",
+      "text": [
+        "Multiplicar nos ayuda a contar grupos iguales. Podemos dibujar, sumar y escribir una multiplicación.",
+        "Tus respuestas digitales se guardan en este equipo. Tu confirmación de copia no demuestra la calidad del cuaderno.",
+        "Si algo fue difícil, señala la opción de abajo y cuéntale al docente qué apoyo te ayudó."
+      ],
+      "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
+    }
+  ]
+}

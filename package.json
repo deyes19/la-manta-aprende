@@ -1,0 +1,28 @@
+{
+  "name": "la-manta-aprende",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "preview": "npm run preview -w apps/web",
+    "test": "npm run test -w apps/web",
+    "test:e2e": "npm run test:e2e -w apps/web",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "start": "node scripts/serve-dist.mjs",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "audit:curriculum": "tsx scripts/audit-curriculum.ts"
+  },
+  "devDependencies": {
+    "@echogarden/espeak-ng-emscripten": "^0.3.5",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
