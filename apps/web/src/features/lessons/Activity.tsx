@@ -1,5 +1,11 @@
 import { useState } from "react";
 import type { Step } from "../../data/content";
+const normalize = (value: string | number) =>
+  String(value)
+    .normalize("NFC")
+    .trim()
+    .replace(/\s+/g, " ")
+    .toLocaleLowerCase("es");
 export function isCorrect(
   step: Step,
   value: string | number,
@@ -13,6 +19,10 @@ export function isCorrect(
     );
   if (a.kind === "number")
     return String(value).trim() !== "" && Number(value) === a.answer;
+  if (a.kind === "text")
+    return [String(a.answer), ...(a.acceptedAnswers ?? [])].some(
+      (answer) => normalize(value) === normalize(answer),
+    );
   return value === a.answer;
 }
 export function Groups({
@@ -102,6 +112,7 @@ export function Activity({
   onAttempt: (value: string | number, correct: boolean) => Promise<boolean>;
   done: boolean;
 }) {
+  const [ordered, setOrdered] = useState(step.activity!.choices ?? []);
   const [value, setValue] = useState<string>("");
   const [counts, setCounts] = useState(
     Array(step.groups?.[0] ?? 0).fill(0) as number[],
@@ -140,12 +151,44 @@ export function Activity({
             </label>
           ))}
         </fieldset>
+      ) : a.kind === "order" ? (
+        <ol className="order-activity">
+          {ordered.map((item, i) => (
+            <li key={item}>
+              <span>{item}</span>
+              <button
+                aria-label={`Subir ${item}`}
+                disabled={i === 0}
+                onClick={() => {
+                  const next = [...ordered];
+                  [next[i - 1], next[i]] = [next[i], next[i - 1]];
+                  setOrdered(next);
+                  setFeedback(null);
+                }}
+              >
+                ↑
+              </button>
+              <button
+                aria-label={`Bajar ${item}`}
+                disabled={i === ordered.length - 1}
+                onClick={() => {
+                  const next = [...ordered];
+                  [next[i], next[i + 1]] = [next[i + 1], next[i]];
+                  setOrdered(next);
+                  setFeedback(null);
+                }}
+              >
+                ↓
+              </button>
+            </li>
+          ))}
+        </ol>
       ) : (
         <label>
           Tu respuesta
           <input
-            type="number"
-            inputMode="numeric"
+            type={a.kind === "text" ? "text" : "number"}
+            inputMode={a.kind === "text" ? "text" : "numeric"}
             min="0"
             step="1"
             value={value}
@@ -158,14 +201,15 @@ export function Activity({
       )}
       <button
         className="primary"
-        disabled={busy || (a.kind !== "groups" && !value)}
+        disabled={busy || (!["groups", "order"].includes(a.kind) && !value)}
         onClick={async () => {
-          const correct = isCorrect(step, value, counts);
+          const response = a.kind === "order" ? ordered.join("|") : value;
+          const correct = isCorrect(step, response, counts);
           setBusy(true);
           try {
             if (
               await onAttempt(
-                a.kind === "groups" ? counts.join(",") : value,
+                a.kind === "groups" ? counts.join(",") : response,
                 correct,
               )
             )

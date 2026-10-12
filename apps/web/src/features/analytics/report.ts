@@ -1,40 +1,50 @@
 import type { Profile, Progress } from "../../offline/store";
-import { pilot } from "../../data/content";
-export function rows(profiles: Profile[], progress: Progress[]) {
-  return profiles.flatMap((p) => {
-    const r = progress.find(
-      (r) => r.profileId === p.id && r.unitId === pilot.id,
-    );
-    return pilot.steps
-      .filter((s) => s.phase === "Demuestro lo aprendido")
-      .map((s) => {
-        const a = r?.attempts[s.id] ?? [];
-        return {
-          perfilId: p.id,
-          alias: p.alias,
-          grupo: p.group,
-          grado: p.grade,
-          unidad: pilot.id,
-          version: r?.version ?? pilot.version,
-          estadoCurricular: pilot.source.status,
-          objetivo: s.activity!.objective,
-          primerIntento: a.length
-            ? a[0].correct
-              ? "acierto"
-              : "por_revisar"
-            : "sin_responder",
-          intentos: a.length,
-          ayudas: r?.hints[s.id] ?? 0,
-          logro: a.some((t) => t.correct)
-            ? "demostrado_con_registro_de_apoyos"
-            : "pendiente",
-          terminado: r?.finished ?? false,
-          cuaderno: "autodeclaracion_no_verificada",
-          autoevaluacion: r?.selfReport ?? "",
-          actualizado: r?.updatedAt ?? "",
-        };
-      });
-  });
+import { units, type Unit } from "../../data/content";
+export function rows(
+  profiles: Profile[],
+  progress: Progress[],
+  catalog: Unit[] = units,
+) {
+  return profiles.flatMap((p) =>
+    catalog
+      .filter((unit) => unit.grade === p.grade)
+      .flatMap((unit) => {
+        const r = progress.find(
+          (r) => r.profileId === p.id && r.unitId === unit.id,
+        );
+        return unit.steps
+          .filter((s) => s.phase === "Demuestro lo aprendido" && s.activity)
+          .map((s) => {
+            const a = r?.attempts[s.id] ?? [];
+            return {
+              perfilId: p.id,
+              alias: p.alias,
+              grupo: p.group,
+              grado: p.grade,
+              unidad: unit.id,
+              asignatura: unit.subject,
+              periodo: unit.period,
+              version: r?.version ?? unit.version,
+              estadoCurricular: unit.source.status,
+              objetivo: s.activity!.objective,
+              primerIntento: a.length
+                ? a[0].correct
+                  ? "acierto"
+                  : "por_revisar"
+                : "sin_responder",
+              intentos: a.length,
+              ayudas: r?.hints[s.id] ?? 0,
+              logro: a.some((t) => t.correct)
+                ? "demostrado_con_registro_de_apoyos"
+                : "pendiente",
+              terminado: r?.finished ?? false,
+              cuaderno: "autodeclaracion_no_verificada",
+              autoevaluacion: r?.selfReport ?? "",
+              actualizado: r?.updatedAt ?? "",
+            };
+          });
+      }),
+  );
 }
 const cell = (v: unknown) => {
   let t = String(v);

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { pilot } from "../data/content";
+import { units } from "../data/content";
 export async function checkOffline() {
   if (!("serviceWorker" in navigator) || !("caches" in window)) return false;
   const registration = await navigator.serviceWorker.getRegistration();
@@ -9,11 +9,13 @@ export async function checkOffline() {
     "ruta",
     "autoevaluacion",
     "guardado",
-    ...pilot.steps.flatMap((s) => [
-      s.id,
-      s.id + "-hint",
-      ...(s.activity ? [s.id + "-success", s.id + "-retry"] : []),
-    ]),
+    ...units
+      .flatMap((unit) => unit.steps)
+      .flatMap((s) => [
+        s.id,
+        s.id + "-hint",
+        ...(s.activity ? [s.id + "-success", s.id + "-retry"] : []),
+      ]),
   ];
   const results = await Promise.all(
     ids.map((id) => caches.match(`/audio/${id}.mp3`, { ignoreSearch: true })),

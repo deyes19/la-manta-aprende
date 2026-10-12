@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import { pilot } from "../../data/content";
+import { gradeLabel, type Unit } from "../../data/content";
 import { Audio, playFeedback } from "../../components/Audio";
 import { Activity, Groups } from "./Activity";
 import { saveProgress, type Progress, type Profile } from "../../offline/store";
-const phases = [
+const primaryPhases = [
   "Hoy aprenderé",
   "Descubro",
   "Aprendo",
@@ -15,10 +15,12 @@ const phases = [
 ];
 export function Player({
   profile,
+  unit,
   initial,
   onExit,
 }: {
   profile: Profile;
+  unit: Unit;
   initial: Progress;
   onExit: () => void;
 }) {
@@ -29,7 +31,11 @@ export function Player({
   const [saving, setSaving] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
   const stop = useRef<() => void>(() => {});
-  const s = pilot.steps[p.index];
+  const phases =
+    unit.approach === "preschool"
+      ? [...new Set(unit.steps.map((s) => s.phase))]
+      : primaryPhases;
+  const s = unit.steps[p.index];
   const done = !!p.attempts[s.id]?.some((a) => a.correct);
   const current = phases.indexOf(s.phase);
   useEffect(() => {
@@ -61,15 +67,16 @@ export function Player({
       <div className="lesson-top">
         <button onClick={onExit}>⌂ Volver a mi ruta</button>
         <span>
-          {profile.avatar} {profile.alias} · Segundo
+          {profile.avatar} {profile.alias} · {gradeLabel(profile.grade)} ·{" "}
+          {unit.subject}
         </span>
         <span>
-          {p.index + 1} / {pilot.steps.length}
+          {p.index + 1} / {unit.steps.length}
         </span>
       </div>
       <progress
         value={p.completed.length}
-        max={pilot.steps.length}
+        max={unit.steps.length}
         aria-label="Pantallas completadas"
       />
       <ol className="phase-list">
@@ -91,8 +98,13 @@ export function Player({
         </h2>
         <p className="instruction">{s.instruction}</p>
         <Audio id={s.id} auto />
+        {s.symbol && (
+          <div className="lesson-symbol" aria-hidden="true">
+            {s.symbol}
+          </div>
+        )}
         <div className={s.phase === "Mi cuaderno" ? "notebook" : "reading"}>
-          {s.id === "cuaderno-titulo" && (
+          {(s.showDate || s.id === "cuaderno-titulo") && (
             <p>
               Fecha:{" "}
               {new Intl.DateTimeFormat("es-CO", {
@@ -108,7 +120,7 @@ export function Player({
           <Groups
             key={`groups-${s.id}`}
             groups={s.groups}
-            adjustable={s.id.startsWith("tabla-")}
+            adjustable={s.adjustableGroups ?? s.id.startsWith("tabla-")}
           />
         )}
         <button
@@ -141,7 +153,8 @@ export function Player({
         )}
         {profile.support === "visual" && (
           <p className="support-note">
-            👐 Puedes usar tapas o semillas: representa un grupo a la vez.
+            👐 Observa los dibujos y usa objetos o tarjetas cuando la consigna
+            lo indique. Haz una acción a la vez.
           </p>
         )}
         {s.activity && (
@@ -202,7 +215,8 @@ export function Player({
             <Audio id="autoevaluacion" />
             {p.finished && (
               <p role="status" className="success">
-                Tu trabajo quedó guardado. ¡Comparte tu cuaderno con el docente!
+                Tu trabajo quedó guardado. ¡Comparte lo que hiciste con el
+                docente!
               </p>
             )}
           </fieldset>
@@ -227,7 +241,7 @@ export function Player({
               (s.phase === "Terminé" && !selfReport)
             }
             onClick={async () => {
-              const last = p.index === pilot.steps.length - 1;
+              const last = p.index === unit.steps.length - 1;
               if (
                 await commit({
                   ...p,

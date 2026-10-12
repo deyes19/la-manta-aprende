@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { pilot } from "../../data/content";
+import { units, gradeLabel } from "../../data/content";
 import {
   deleteProfile,
   putProfile,
@@ -18,12 +18,14 @@ export function Dashboard({
 }) {
   const [group, setGroup] = useState("");
   const [student, setStudent] = useState("");
+  const [unitId, setUnitId] = useState("");
   const [error, setError] = useState("");
   const [remove, setRemove] = useState("");
   const filtered = profiles.filter(
     (p) => (!group || p.group === group) && (!student || p.id === student),
   );
-  const data = rows(filtered, progress);
+  const catalog = units.filter((u) => !unitId || u.id === unitId);
+  const data = rows(filtered, progress, catalog);
   async function change(p: Profile, patch: Partial<Profile>) {
     try {
       await putProfile({ ...p, ...patch });
@@ -37,15 +39,16 @@ export function Dashboard({
       <p className="eyebrow">Aula multigrado · sede Villanueva</p>
       <h2>Panel docente</h2>
       <p>
-        Los resultados describen esta práctica; no son notas oficiales. El
-        cuaderno y las producciones requieren observación docente.
+        Los resultados describen actividades, no notas oficiales. El cuaderno y
+        las producciones requieren observación docente.
       </p>
       <div className="warning">
-        <strong>Revisión curricular pendiente</strong>
+        <strong>Revisión curricular y pedagógica</strong>
         <p>
-          El kit propone este tema para segundo, período IV. Falta consultar la
-          malla original, validar competencias, evidencias, duración y voz. No
-          se han auditado los 315 registros mencionados en el kit.
+          Cobertura solicitada: transición a quinto, cuarto período,
+          Matemáticas, Lengua Castellana y Ciencias Sociales. Solo se muestran
+          unidades ejecutables. Consulta el estado y el localizador de fuente de
+          cada unidad; los temas pendientes no se presentan como desarrollados.
         </p>
       </div>
       <div className="filters">
@@ -77,10 +80,21 @@ export function Dashboard({
               ))}
           </select>
         </label>
+        <label>
+          Unidad
+          <select value={unitId} onChange={(e) => setUnitId(e.target.value)}>
+            <option value="">Todas las unidades</option>
+            {units.map((u) => (
+              <option key={u.id} value={u.id}>
+                {gradeLabel(u.grade)} · {u.subject} · {u.title}
+              </option>
+            ))}
+          </select>
+        </label>
       </div>
       <div className="toolbar">
         <button
-          disabled={!filtered.length}
+          disabled={!data.length}
           onClick={() =>
             download(
               "manta-resultados.csv",
@@ -98,16 +112,21 @@ export function Dashboard({
               "manta-evidencias.json",
               JSON.stringify(
                 {
-                  schemaVersion: 1,
+                  schemaVersion: 2,
                   exportedAt: new Date().toISOString(),
-                  unit: {
-                    id: pilot.id,
-                    version: pilot.version,
-                    source: pilot.source,
-                  },
+                  units: catalog.map((u) => ({
+                    id: u.id,
+                    version: u.version,
+                    grade: u.grade,
+                    subject: u.subject,
+                    period: u.period,
+                    source: u.source,
+                  })),
                   profiles: filtered,
-                  progress: progress.filter((r) =>
-                    filtered.some((p) => p.id === r.profileId),
+                  progress: progress.filter(
+                    (r) =>
+                      filtered.some((p) => p.id === r.profileId) &&
+                      catalog.some((u) => u.id === r.unitId),
                   ),
                   summary: data,
                 },
@@ -121,40 +140,60 @@ export function Dashboard({
           ↓ Exportar JSON
         </button>
         <button
-          disabled={!filtered.some((p) => p.grade === 2)}
+          disabled={
+            !unitId ||
+            !filtered.some((p) => catalog.some((u) => u.grade === p.grade))
+          }
           onClick={async () => {
             try {
-              for (const p of filtered.filter((p) => p.grade === 2))
-                await putProfile({ ...p, assigned: true });
+              const unit = catalog[0];
+              for (const p of filtered.filter((p) => p.grade === unit.grade))
+                await putProfile({
+                  ...p,
+                  assignedUnits: [
+                    ...new Set([...(p.assignedUnits ?? []), unit.id]),
+                  ],
+                });
               await refresh();
             } catch {
               setError("No se completó la asignación. Revisa los perfiles.");
             }
           }}
         >
-          📌 Asignar piloto a segundo
+          📌 Asignar unidad seleccionada
         </button>
       </div>
       {error && <p role="alert">{error}</p>}
       <div className="teacher-grid">
         {filtered.map((p) => {
-          const r = progress.find((r) => r.profileId === p.id);
-          const report = data.filter((d) => d.perfilId === p.id);
+          const report = data.filter((r) => r.perfilId === p.id);
           return (
-            <article className="panel" key={p.id}>
+            <article key={p.id} className="panel">
               <h3>
-                {p.avatar} {p.alias} ·{" "}
-                {p.grade === 0 ? "Transición" : `Grado ${p.grade}`}
+                {p.avatar} {p.alias} · {gradeLabel(p.grade)}
               </h3>
-              <p>
-                {r?.completed.length ?? 0} / {pilot.steps.length} pantallas ·{" "}
-                {r?.finished ? "Terminó" : "En proceso"}
-              </p>
+              {catalog
+                .filter((u) => u.grade === p.grade)
+                .map((u) => {
+                  const r = progress.find(
+                    (r) => r.profileId === p.id && r.unitId === u.id,
+                  );
+                  return (
+                    <div key={u.id}>
+                      <strong>
+                        {u.subject} · {u.title}
+                      </strong>
+                      <p>
+                        {r?.completed.length ?? 0} / {u.steps.length} pantallas
+                        · {r?.finished ? "Terminó" : "En proceso"}
+                      </p>
+                    </div>
+                  );
+                })}
               <label>
                 Grupo
                 <input
                   defaultValue={p.group}
-                  key={p.id + "-group"}
                   maxLength={40}
                   onBlur={(e) => {
                     if (e.target.value.trim())
@@ -180,24 +219,25 @@ export function Dashboard({
                 </select>
               </label>
               <p className="fine">
-                El apoyo cambia el acceso, conserva el objetivo. Si se requiere
-                ajustar el objetivo, documentarlo en una próxima revisión
-                pedagógica.
+                El apoyo cambia el acceso, conserva el objetivo. Cualquier
+                ajuste del objetivo requiere documentar una decisión pedagógica.
               </p>
               <ul className="results">
-                {report.map((d) => (
-                  <li key={d.objetivo}>
-                    <strong>{d.objetivo.replaceAll("_", " ")}</strong>
+                {report.map((r) => (
+                  <li key={r.unidad + "-" + r.objetivo}>
+                    <strong>
+                      {r.asignatura} · {r.objetivo.replaceAll("_", " ")}
+                    </strong>
                     <span>
-                      Primer intento: {d.primerIntento} · {d.intentos} intentos
-                      · {d.ayudas} ayudas
+                      Primer intento: {r.primerIntento} · {r.intentos} intentos
+                      · {r.ayudas} ayudas
                     </span>
                   </li>
                 ))}
               </ul>
               <p>
-                Cuaderno: declaración del estudiante; no verificado
-                automáticamente.
+                Producciones físicas: confirmación del estudiante, no
+                verificación automática.
               </p>
               {remove === p.id ? (
                 <div role="group" aria-label="Confirmar borrado">
@@ -234,19 +274,25 @@ export function Dashboard({
       )}
       <details>
         <summary>Guía de observación y fuentes</summary>
-        <p>{pilot.curriculum.competence}</p>
-        <ul>
-          {pilot.curriculum.evidence.map((e) => (
-            <li key={e}>{e}</li>
-          ))}
-        </ul>
+        {catalog.map((u) => (
+          <div key={u.id}>
+            <h3>
+              {gradeLabel(u.grade)} · {u.subject} · {u.title}
+            </h3>
+            <p>{u.curriculum.competence}</p>
+            <ul>
+              {u.curriculum.evidence.map((e) => (
+                <li key={e}>{e}</li>
+              ))}
+            </ul>
+            <p>
+              Fuente: {u.source.file}. Localizador: {u.source.locator}. Estado:{" "}
+              {u.source.status}.
+            </p>
+          </div>
+        ))}
         <p>
-          Fuente disponible: {pilot.source.file}. Estado: {pilot.source.status}.
-          Guía completa en docs/MANUAL_DOCENTE.md.
-        </p>
-        <p>
-          Revisa: grupos con igual cantidad, correspondencia
-          dibujo-suma-multiplicación, correcciones y explicación oral. No
+          Observa también las explicaciones orales, dibujos y correcciones. No
           interpretes lentitud de escritura como ausencia de comprensión.
         </p>
       </details>

@@ -1,16 +1,28 @@
 // Development-only GPL-3.0 eSpeak-NG tool; no synthesizer code is bundled in the app.
 import create from "@echogarden/espeak-ng-emscripten";
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import {
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  readdirSync,
+  existsSync,
+} from "node:fs";
 import { spawnSync } from "node:child_process";
 const engine = await create();
 const voice = new engine.eSpeakNGWorker();
 voice.set_voice("", "es", 0, 0, 0);
 voice.set_rate(145);
-const unit = JSON.parse(
-  readFileSync("apps/web/src/content/pilot.json", "utf8"),
-);
+const units = readdirSync("apps/web/src/content")
+  .filter((name) => name.endsWith(".json"))
+  .map((name) =>
+    JSON.parse(readFileSync(`apps/web/src/content/${name}`, "utf8")),
+  )
+  .filter((data) => Array.isArray(data.steps));
+const previous = existsSync("apps/web/public/audio/transcripts.json")
+  ? JSON.parse(readFileSync("apps/web/public/audio/transcripts.json", "utf8"))
+  : {};
 const narrations = {};
-for (const s of unit.steps) {
+for (const s of units.flatMap((unit) => unit.steps)) {
   narrations[s.id] = [
     s.title,
     s.instruction,
@@ -30,15 +42,17 @@ for (const s of unit.steps) {
 }
 Object.assign(narrations, {
   inicio:
-    "Bienvenido a La Manta Aprende. Elige tu nombre o escribe un alias. Elige tu grado y pulsa Crear perfil. Si estás en segundo, elige período cuatro, Matemáticas y Abrir unidad. Puedes escuchar cada pantalla con el botón del altavoz.",
-  ruta: "Estás en tu ruta. Selecciona período cuatro y Matemáticas. Abre La multiplicación en nuestra huerta. Pulsa Empezar o Reanudar.",
+    "Bienvenido a La Manta Aprende. Elige tu nombre o escribe un alias. Elige tu grado y pulsa Crear perfil. Después elige período cuatro, una asignatura y Abrir unidad. Puedes escuchar cada pantalla con el botón del altavoz.",
+  ruta: "Estás en tu ruta. Selecciona período cuatro y la asignatura que quieres aprender. Elige una unidad disponible. Pulsa Abrir unidad o Reanudar.",
   autoevaluacion:
     "¿Cómo te sentiste? Elige: lo hice con confianza, necesité una pista, o quiero practicar de nuevo. Después pulsa Guardar y terminar.",
   guardado:
-    "Tu trabajo quedó guardado. Muestra tu cuaderno al docente. Puedes volver a la ruta con el botón de la casa.",
+    "Tu trabajo quedó guardado. Muestra al docente el trabajo que hiciste. Puedes volver a la ruta con el botón de la casa.",
 });
 mkdirSync("apps/web/public/audio", { recursive: true });
 for (const [id, raw] of Object.entries(narrations)) {
+  if (previous[id] === raw && existsSync(`apps/web/public/audio/${id}.mp3`))
+    continue;
   const text = raw
     .replaceAll("×", " por ")
     .replaceAll("+", " más ")

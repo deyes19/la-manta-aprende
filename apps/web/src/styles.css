@@ -641,3 +641,23 @@ footer span {
     background: white;
   }
 }
+.lesson-symbol {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.order-activity {
+  padding-left: 1.5rem;
+}
+.order-activity li {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.order-activity li span {
+  display: inline-block;
+  min-width: 50%;
+  margin-right: 0.5rem;
+}
+.order-activity button {
+  margin: 0.2rem;
+}

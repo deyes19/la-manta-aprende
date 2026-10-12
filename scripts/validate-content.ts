@@ -1,16 +1,28 @@
-import { unitSchema } from "../packages/content-schema/index";
-import { readFileSync, existsSync } from "node:fs";
-const unit = unitSchema.parse(
-  JSON.parse(readFileSync("apps/web/src/content/pilot.json", "utf8")),
+import { units } from "../apps/web/src/data/content";
+import { existsSync, readFileSync } from "node:fs";
+const ids = new Set<string>();
+const transcripts = JSON.parse(
+  readFileSync("apps/web/public/audio/transcripts.json", "utf8"),
 );
-for (const s of unit.steps)
-  for (const suffix of [
-    "",
-    "-hint",
-    ...(s.activity ? ["-success", "-retry"] : []),
-  ])
-    if (!existsSync(`apps/web/public/audio/${s.id}${suffix}.mp3`))
-      throw new Error(`Audio faltante: ${s.id}${suffix}`);
+for (const unit of units) {
+  for (const s of unit.steps) {
+    if (ids.has(s.id))
+      throw new Error(`ID de pantalla compartido entre unidades: ${s.id}`);
+    ids.add(s.id);
+    for (const suffix of [
+      "",
+      "-hint",
+      ...(s.activity ? ["-success", "-retry"] : []),
+    ]) {
+      const id = s.id + suffix;
+      if (!existsSync(`apps/web/public/audio/${id}.mp3`) || !transcripts[id])
+        throw new Error(`Audio/transcripción faltante: ${id}`);
+    }
+  }
+  console.log(
+    `${unit.id}: ${unit.steps.length} pantallas válidas, audios presentes; ${unit.source.status}`,
+  );
+}
 console.log(
-  `${unit.steps.length} pantallas válidas; audios locales presentes. Estado curricular: ${unit.source.status}`,
+  `${units.length} unidades ejecutables. La cobertura pendiente no se contabiliza como OVA.`,
 );

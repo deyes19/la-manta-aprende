@@ -4,6 +4,10 @@ Primera entrega ejecutable para I. E. La Manta, sede Villanueva, Montería, Cór
 
 **Estado pedagógico: PENDIENTE_FUENTE.** El kit inicial no contiene las mallas originales. El ejemplo orienta la propuesta; no demuestra aprobación institucional. No se han desarrollado otras unidades ni auditado las cifras curriculares citadas en el kit.
 
+## Ampliación a las tres áreas
+
+Alcance confirmado: transición a quinto, cuarto período, Matemáticas, Lengua Castellana y Ciencias Sociales. El motor, catálogo y reportes ahora admiten múltiples unidades y objetivos por área; únicamente el piloto de Matemáticas de segundo está disponible. Las mallas se identificaron en Drive, pero su descarga necesita habilitar `drive.usercontent.google.com` o aportar los originales. Consulta [cobertura y bloqueo actual](docs/ALCANCE_CUARTO_PERIODO.md).
+
 ## Ejecutar
 
 Requisitos: Node.js 24 LTS y npm. Desde la raíz del proyecto:

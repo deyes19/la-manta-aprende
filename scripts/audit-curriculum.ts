@@ -1,14 +1,12 @@
-import { readFileSync, existsSync } from "node:fs";
-import { unitSchema } from "../packages/content-schema/index";
-const u = unitSchema.parse(
-  JSON.parse(readFileSync("apps/web/src/content/pilot.json", "utf8")),
-);
-console.log(
-  `${u.id}: ${u.source.status}; fuente disponible: ${u.source.file}; localizador: ${u.source.locator}`,
-);
+import { units } from "../apps/web/src/data/content";
+import { existsSync, readFileSync } from "node:fs";
+for (const u of units)
+  console.log(
+    `${u.id}: ${u.source.status}; ${u.source.file}; ${u.source.locator}`,
+  );
 if (existsSync("docs/fuentes/manifest.json"))
   console.log(readFileSync("docs/fuentes/manifest.json", "utf8"));
-else console.log("No se han importado mallas ni planeaciones originales.");
+else console.log("No se han importado originales.");
 console.log(
-  "Solo un piloto didáctico. No hay catálogo institucional validado; no se contabilizan temas como OVA.",
+  "Alcance solicitado: transición a quinto, cuarto período, Matemáticas, Lengua Castellana y Ciencias Sociales. Solo las unidades ejecutables se cuentan como OVA.",
 );

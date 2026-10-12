@@ -149,6 +149,9 @@ test("accesibilidad: teclado, tamaño, contraste y ausencia de infracciones seri
   page,
 }) => {
   await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "¡Hola! ¿Quién aprende hoy?" }),
+  ).toBeVisible();
   await page.keyboard.press("Tab");
   await expect(page.getByText("Saltar al contenido")).toBeFocused();
   await page.keyboard.press("Enter");

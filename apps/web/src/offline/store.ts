@@ -7,6 +7,7 @@ export type Profile = {
   group: string;
   support: "visual" | "guiado" | "autonomo";
   assigned: boolean;
+  assignedUnits?: string[];
 };
 export type Attempt = {
   value: string | number;

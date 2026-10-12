@@ -13,7 +13,7 @@ import { Player } from "../features/lessons/Player";
 import { Dashboard } from "../features/teacher/Dashboard";
 import { Settings } from "../features/accessibility/Settings";
 import { Readiness } from "../offline/Readiness";
-import { pilot } from "../data/content";
+import { findUnit, type Unit } from "../data/content";
 export function App() {
   const [hasUpdate, setHasUpdate] = useState(false);
   const [items, setItems] = useState<Profile[]>([]);
@@ -50,16 +50,16 @@ export function App() {
     document.documentElement.classList.toggle("large-text", large);
     document.documentElement.classList.toggle("high-contrast", contrast);
   }, [large, contrast]);
-  async function start() {
+  async function start(unit: Unit) {
     try {
-      const p = await loadProgress(selected!.id, pilot.id);
-      if (p && p.version !== pilot.version) {
+      const p = await loadProgress(selected!.id, unit.id);
+      if (p && p.version !== unit.version) {
         setError(
           "Tu avance corresponde a otra versión. Exporta el reporte docente antes de migrar; no se sobrescribió.",
         );
         return;
       }
-      setPlaying(p ?? newProgress(selected!.id, pilot.id, pilot.version));
+      setPlaying(p ?? newProgress(selected!.id, unit.id, unit.version));
     } catch {
       setError("No se pudo recuperar el avance. Revisa el almacenamiento.");
     }
@@ -146,10 +146,11 @@ export function App() {
           <p role="status">Abriendo tu escuela…</p>
         ) : teacher ? (
           <Dashboard profiles={items} progress={records} refresh={refresh} />
-        ) : playing && selected ? (
+        ) : playing && selected && findUnit(playing.unitId) ? (
           <Player
-            key={selected.id}
+            key={selected.id + playing.unitId}
             profile={selected}
+            unit={findUnit(playing.unitId)!}
             initial={playing}
             onExit={() => {
               setPlaying(undefined);
@@ -161,8 +162,8 @@ export function App() {
         ) : selected ? (
           <Route
             profile={selected}
-            progress={records.find((r) => r.profileId === selected.id)}
-            onStart={() => void start()}
+            progress={records.filter((r) => r.profileId === selected.id)}
+            onStart={(unit) => void start(unit)}
             onChange={() => setSelected(undefined)}
           />
         ) : (
