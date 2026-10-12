@@ -1,0 +1,401 @@
+{
+  "id": "g3-matematicas-p4-fracciones",
+  "version": 1,
+  "title": "Compartimos en partes iguales",
+  "grade": 3,
+  "subject": "Matemáticas",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "locator": "Tabla 3, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": [
+      {
+        "file": "docs/fuentes/plan-matematicas-3-p4.docx",
+        "locator": "Encabezado de cuarto período; ejes temáticos y desarrollo de los temas correspondientes"
+      }
+    ]
+  },
+  "curriculum": {
+    "competence": "Comunicación\n\nRazonamiento\n\nResolución",
+    "learning": [
+      "Usar fracciones comunes para describir situaciones continuas y discretas",
+      "Resolver y formular problemas multiplicativos rutinarios de adición repetida",
+      "Usar operaciones y propiedades de los números naturales para establecer relaciones entre ellos en situaciones específicas"
+    ],
+    "evidence": [
+      "Representar gráfica y simbólicamente fracciones comunes en contextos continuos y discretos",
+      "Solucionar problemas rutinarios multiplicativos de adición repetida",
+      "Establecer que un número es un múltiplo de otro en situaciones de reparto o medición"
+    ],
+    "dba": "DBA 3: Establece comparaciones entre cantidades y utiliza fracciones para expresar la relación de “el todo” con algunas de sus “partes”\nDBA 2: Propone, desarrolla y justifica estrategias para hacer estimaciones y cálculos con operaciones básicas en la solución de problemas",
+    "themes": [
+      "Fracciones y sus características",
+      "Lectura de fracciones",
+      "La mitad, la tercera y la cuarta parte.",
+      "Seguimiento tablas de multiplicar"
+    ],
+    "objectives": [
+      "fraccion",
+      "lectura",
+      "partes",
+      "multiplicacion"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g3-matematicas-p4-fracciones-01",
+      "phase": "Hoy aprenderé",
+      "title": "Compartimos en partes iguales",
+      "instruction": "Busca tu cuaderno de Matemáticas, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Una familia comparte una arepa sin que nadie reciba más. ¿Cómo dibujarías cuatro partes iguales?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🫓",
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 1
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-03",
+      "phase": "Aprendo",
+      "title": "Partes iguales de un entero",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una fracción representa partes iguales de un entero. El denominador indica en cuántas partes se divide; el numerador indica cuántas se toman.",
+        "1/4 se lee un cuarto: una parte de cuatro partes iguales. En 3/4 se toman tres partes de cuatro."
+      ],
+      "hint": "El número de arriba es el numerador.",
+      "symbol": "🫓",
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 1
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-04",
+      "phase": "Aprendo",
+      "title": "Mitad, tercera y cuarta parte",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "La mitad es 1/2; la tercera parte es 1/3; la cuarta parte es 1/4. En cada caso todas las partes deben ser iguales.",
+        "La mitad de 12 semillas es 6: repartimos 12 en 2 grupos iguales. La tercera parte de 12 es 4. La cuarta parte de 12 es 3."
+      ],
+      "hint": "Dibuja cuatro grupos y reparte las doce semillas.",
+      "symbol": "🌰",
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 1
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-05",
+      "phase": "Aprendo",
+      "title": "Seguimos las tablas de multiplicar",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una multiplicación permite contar grupos iguales. Revisa los productos usando suma repetida o filas.",
+        "6 × 4 = 24 porque 4 + 4 + 4 + 4 + 4 + 4 = 24. 7 × 3 = 21. 8 × 5 = 40."
+      ],
+      "hint": "Suma tres siete veces o usa la tabla del tres.",
+      "symbol": "🌰"
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-06",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Compartimos en partes iguales"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-07",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Partes iguales de un entero",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Partes iguales de un entero",
+        "Una fracción representa partes iguales de un entero. El denominador indica en cuántas partes se divide; el numerador indica cuántas se toman.",
+        "1/4 se lee un cuarto: una parte de cuatro partes iguales. En 3/4 se toman tres partes de cuatro."
+      ],
+      "hint": "El número de arriba es el numerador."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-08",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Mitad, tercera y cuarta parte",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Mitad, tercera y cuarta parte",
+        "La mitad es 1/2; la tercera parte es 1/3; la cuarta parte es 1/4. En cada caso todas las partes deben ser iguales.",
+        "La mitad de 12 semillas es 6: repartimos 12 en 2 grupos iguales. La tercera parte de 12 es 4. La cuarta parte de 12 es 3."
+      ],
+      "hint": "Dibuja cuatro grupos y reparte las doce semillas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Seguimos las tablas de multiplicar",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Seguimos las tablas de multiplicar",
+        "Una multiplicación permite contar grupos iguales. Revisa los productos usando suma repetida o filas.",
+        "6 × 4 = 24 porque 4 + 4 + 4 + 4 + 4 + 4 = 24. 7 × 3 = 21. 8 × 5 = 40."
+      ],
+      "hint": "Suma tres siete veces o usa la tabla del tres."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-10",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Dibuja un rectángulo dividido en 4 partes iguales y colorea 3. Escribe la fracción y cómo se lee."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-11",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Dibuja 12 semillas. Calcula su mitad, su tercera parte y su cuarta parte. Explica los grupos."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-12",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Hay 6 surcos con 5 plantas cada uno. Escribe una suma repetida y una multiplicación."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-13",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Dibuja un rectángulo dividido en 4 partes iguales y colorea 3. Escribe la fracción y cómo se lee.",
+        "3/4: tres cuartos. Numerador 3; denominador 4."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-14",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Dibuja 12 semillas. Calcula su mitad, su tercera parte y su cuarta parte. Explica los grupos.",
+        "Mitad: 6. Tercera parte: 4. Cuarta parte: 3; los repartos son en 2, 3 y 4 grupos iguales."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-15",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Hay 6 surcos con 5 plantas cada uno. Escribe una suma repetida y una multiplicación.",
+        "5 + 5 + 5 + 5 + 5 + 5 = 30. 6 × 5 = 30 plantas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-16",
+      "phase": "Practico",
+      "title": "Practica: Partes iguales de un entero",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "El número de arriba es el numerador.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "En 3/4, ¿qué número dice cuántas partes se toman?",
+        "answer": "3",
+        "explanation": "El numerador 3 indica las partes tomadas.",
+        "objective": "fraccion",
+        "choices": [
+          "3",
+          "4",
+          "7"
+        ]
+      },
+      "symbol": "🫓",
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 1
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-17",
+      "phase": "Practico",
+      "title": "Practica: Mitad, tercera y cuarta parte",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Dibuja cuatro grupos y reparte las doce semillas.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuál es la cuarta parte de 12 semillas?",
+        "answer": 3,
+        "explanation": "12 repartidas en cuatro grupos dan tres semillas por grupo.",
+        "objective": "partes"
+      },
+      "symbol": "🌰",
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 1
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-18",
+      "phase": "Practico",
+      "title": "Practica: Seguimos las tablas de multiplicar",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Suma tres siete veces o usa la tabla del tres.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas semillas hay en siete bolsas de tres?",
+        "answer": 21,
+        "explanation": "7 × 3 = 21 semillas.",
+        "objective": "multiplicacion"
+      },
+      "symbol": "🌰"
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-19",
+      "phase": "Mi misión",
+      "title": "Comparte la cosecha",
+      "instruction": "Dibuja 16 mangos y repártelos en cuatro grupos iguales. Escribe la cuarta parte y compruébala.",
+      "text": [],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuál es la cuarta parte de 16 mangos?",
+        "answer": 4,
+        "explanation": "16 repartidos en cuatro grupos dan cuatro por grupo.",
+        "objective": "partes"
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-20",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: representación",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Toca tres partes y deja una sin seleccionar.",
+      "activity": {
+        "kind": "fraction",
+        "prompt": "Selecciona tres de las cuatro partes iguales.",
+        "answer": 3,
+        "explanation": "Tomaste tres partes de cuatro: 3/4.",
+        "objective": "fraccion"
+      },
+      "visual": {
+        "kind": "fraction",
+        "parts": 4,
+        "selected": 0
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-21",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: lectura",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "El denominador es tres.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Cómo se lee 1/3?",
+        "answer": "Un tercio",
+        "explanation": "Una de tres partes iguales es un tercio.",
+        "objective": "lectura",
+        "choices": [
+          "Un medio",
+          "Un tercio",
+          "Un cuarto"
+        ]
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-22",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: reparto",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Forma dos grupos iguales.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuál es la mitad de 18 semillas?",
+        "answer": 9,
+        "explanation": "18 repartidas en dos grupos dan nueve.",
+        "objective": "partes"
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-23",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: tabla",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Cuenta de cuatro en cuatro ocho veces.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuánto es 8 × 4?",
+        "answer": 32,
+        "explanation": "Ocho grupos de cuatro son 32.",
+        "objective": "multiplicacion"
+      }
+    },
+    {
+      "id": "g3-matematicas-p4-fracciones-24",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

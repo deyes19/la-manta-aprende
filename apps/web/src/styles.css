@@ -661,3 +661,119 @@ footer span {
 .order-activity button {
   margin: 0.2rem;
 }
+.shape-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 1rem;
+}
+.shape-grid figure {
+  margin: 0;
+  text-align: center;
+}
+.shape-grid svg {
+  width: 100%;
+  max-width: 160px;
+}
+.colombia-flag {
+  max-width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+}
+.colombia-flag svg {
+  width: 100%;
+  border: 1px solid #405542;
+}
+.fraction-grid {
+  display: grid;
+  gap: 0.4rem;
+  max-width: 500px;
+  margin: 1rem 0;
+}
+.fraction-grid button {
+  min-height: 70px;
+  border: 2px solid #174b39;
+}
+.bar-chart {
+  width: 100%;
+  border-collapse: collapse;
+}
+.bar-chart th,
+.bar-chart td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.bar-chart td:last-child {
+  font-size: 1.1rem;
+  color: #174b39;
+  overflow-wrap: anywhere;
+}
+.bar-chart td span {
+  letter-spacing: 0.12rem;
+}
+.free-play > div[role="group"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.free-play button {
+  font-size: 1.2rem;
+}
+.composition {
+  background: #eef1df;
+  border: 2px dashed #7c947b;
+  border-radius: 16px;
+  min-height: 160px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 2.3rem;
+  overflow-wrap: anywhere;
+}
+.area-grid {
+  display: grid;
+  gap: 2px;
+  max-width: 360px;
+  margin: 1rem auto;
+  background: #174b39;
+  border: 2px solid #174b39;
+}
+.area-grid span {
+  display: block;
+  aspect-ratio: 1;
+  background: #d5e3b5;
+}
+textarea {
+  font: inherit;
+  color: #233f33;
+  border: 1.5px solid #809581;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 100%;
+}
+textarea:focus-visible {
+  outline: 4px solid #aa4c00;
+  outline-offset: 4px;
+}
+.spatial-composition {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+  max-width: 520px;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+}
+.spatial-composition button {
+  min-height: 65px;
+  font-size: 1.8rem;
+  padding: 0.2rem;
+  line-height: 1.2;
+  background: #fffdf6;
+  color: #174b39;
+}
+.spatial-composition button[aria-pressed="true"] {
+  background: #174b39;
+  color: white;
+}
+.spatial-composition button:disabled {
+  opacity: 0.8;
+}

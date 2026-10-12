@@ -1,9 +1,17 @@
 import { z } from "zod";
 export const activitySchema = z
   .object({
-    kind: z.enum(["number", "choice", "groups", "text", "order"]),
+    kind: z.enum([
+      "number",
+      "choice",
+      "groups",
+      "text",
+      "order",
+      "decimal",
+      "fraction",
+    ]),
     prompt: z.string().min(1),
-    answer: z.union([z.number().int().nonnegative(), z.string().min(1)]),
+    answer: z.union([z.number().finite().nonnegative(), z.string().min(1)]),
     explanation: z.string().min(1),
     choices: z.array(z.string()).optional(),
     objective: z.string().regex(/^[a-z][a-z0-9_]*$/),
@@ -15,7 +23,10 @@ export const activitySchema = z
         code: "custom",
         message: "La respuesta debe estar entre las opciones",
       });
-    if (["number", "groups"].includes(a.kind) && typeof a.answer !== "number")
+    if (
+      ["number", "groups", "decimal", "fraction"].includes(a.kind) &&
+      typeof a.answer !== "number"
+    )
       c.addIssue({ code: "custom", message: "Respuesta numérica requerida" });
     if (["text", "order"].includes(a.kind) && typeof a.answer !== "string")
       c.addIssue({ code: "custom", message: "Respuesta textual requerida" });
@@ -54,6 +65,43 @@ export const stepSchema = z
     text: z.array(z.string()).default([]),
     showDate: z.boolean().optional(),
     symbol: z.string().optional(),
+    dictation: z.string().optional(),
+    freePlay: z
+      .object({ symbols: z.array(z.string()).min(1).max(10) })
+      .optional(),
+    visual: z
+      .discriminatedUnion("kind", [
+        z.object({
+          kind: z.literal("fraction"),
+          parts: z.number().int().min(2).max(12),
+          selected: z.number().int().min(0).max(12),
+        }),
+        z.object({
+          kind: z.literal("bars"),
+          labels: z.array(z.string()).min(1),
+          values: z.array(z.number().int().min(0).max(20)).min(1),
+        }),
+        z.object({
+          kind: z.literal("shapes"),
+          names: z.array(
+            z.enum([
+              "cubo",
+              "prisma",
+              "pirámide",
+              "cono",
+              "cilindro",
+              "esfera",
+            ]),
+          ),
+        }),
+        z.object({ kind: z.literal("flag") }),
+        z.object({
+          kind: z.literal("grid"),
+          rows: z.number().int().min(1).max(10),
+          columns: z.number().int().min(1).max(10),
+        }),
+      ])
+      .optional(),
     adjustableGroups: z.boolean().optional(),
     hint: z.string().min(1),
     groups: z
@@ -71,6 +119,19 @@ export const stepSchema = z
         code: "custom",
         message: "Falta texto literal del cuaderno",
       });
+    if (s.activity?.kind === "fraction" && s.visual?.kind !== "fraction")
+      c.addIssue({
+        code: "custom",
+        message: "Faltan las partes iguales de la fracción",
+      });
+    if (
+      s.visual?.kind === "bars" &&
+      s.visual.labels.length !== s.visual.values.length
+    )
+      c.addIssue({
+        code: "custom",
+        message: "Datos y etiquetas del diagrama no coinciden",
+      });
     if (s.activity?.kind === "groups" && !s.groups)
       c.addIssue({ code: "custom", message: "Falta representación de grupos" });
   });
@@ -86,17 +147,30 @@ export const unitSchema = z
     source: z.object({
       file: z.string(),
       locator: z.string(),
+      complementary: z
+        .array(z.object({ file: z.string(), locator: z.string() }))
+        .optional(),
       status: z.enum(["PENDIENTE_FUENTE", "FUENTE_CONSULTADA", "VALIDADO"]),
     }),
     curriculum: z.object({
       competence: z.string(),
       evidence: z.array(z.string()).min(1),
       dba: z.string().nullable(),
+      learning: z.array(z.string()).optional(),
+      themes: z.array(z.string()).optional(),
       objectives: z
         .array(z.string().regex(/^[a-z][a-z0-9_]*$/))
         .min(1)
         .optional(),
     }),
+    metadata: z
+      .object({
+        materials: z.array(z.string()).optional(),
+        pedagogicalStatus: z.enum(["PENDIENTE_REVISION", "APROBADO"]),
+        note: z.string().optional(),
+        pendingValidation: z.array(z.string()).optional(),
+      })
+      .optional(),
     steps: z.array(stepSchema).min(8),
   })
   .superRefine((u, c) => {

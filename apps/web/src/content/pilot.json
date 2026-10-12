@@ -6,18 +6,23 @@
   "subject": "Matemáticas",
   "period": 4,
   "source": {
-    "file": "docs/kit/02_EJEMPLO_UNIDAD_MAT2_P4.json",
-    "locator": "Ejemplo completo; malla original no disponible",
-    "status": "PENDIENTE_FUENTE"
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "locator": "Tabla 2, fila 7, período 4; eje temático: La multiplicación y tablas 2, 3, 4, 5",
+    "status": "FUENTE_CONSULTADA"
   },
   "curriculum": {
-    "competence": "Propuesta: resolver problemas de grupos iguales mediante suma repetida y multiplicación",
+    "competence": "Resolución\nComunicación",
     "evidence": [
-      "Representa grupos iguales",
-      "Relaciona suma repetida con multiplicación",
-      "Resuelve problemas contextualizados"
+      "Solucionar problemas rutinarios multiplicativos de adición repetida"
     ],
-    "dba": null
+    "dba": "DBA 1: Interpreta, propone y resuelve problemas aditivos y problemas multiplicativos sencillos. DBA 2: Utiliza diferentes estrategias para calcular o estimar suma, resta o multiplicación.",
+    "learning": [
+      "Resolver y formular problemas multiplicativos rutinarios de adición repetida"
+    ],
+    "themes": [
+      "La multiplicación",
+      "Tablas de Multiplicación por 2,3,4,5"
+    ]
   },
   "steps": [
     {
@@ -553,5 +558,14 @@
       ],
       "hint": "Puedes escuchar otra vez. Haz una sola acción a la vez y usa tapas o semillas si te ayuda."
     }
-  ]
+  ],
+  "metadata": {
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "materials": [
+      "Cuaderno de Matemáticas",
+      "Lápiz",
+      "Tapas o semillas opcionales"
+    ],
+    "note": "Fuente original ahora consultada; no se cambia el recorrido ya guardado."
+  }
 }

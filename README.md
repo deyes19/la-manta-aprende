@@ -1,16 +1,14 @@
 # La Manta Aprende
 
-Primera entrega ejecutable para I. E. La Manta, sede Villanueva, Montería, Córdoba. Un piloto de **segundo · Matemáticas · período IV · multiplicación y tablas del 2 al 5**. React, TypeScript y Vite; perfiles por alias, IndexedDB, audio español empaquetado y PWA.
+Plataforma local para I. E. La Manta, sede Villanueva, Montería, Córdoba. **Cuarto período, transición a quinto, Matemáticas, Lengua Castellana y Ciencias Sociales.** React/TypeScript/Vite, IndexedDB, audio local y PWA.
 
-**Estado pedagógico: PENDIENTE_FUENTE.** El kit inicial no contiene las mallas originales. El ejemplo orienta la propuesta; no demuestra aprobación institucional. No se han desarrollado otras unidades ni auditado las cifras curriculares citadas en el kit.
+Actualmente hay **19 rutas ejecutables y 509 pantallas**: 16 unidades de primaria y tres experiencias integradas de transición. Segundo tiene dos rutas de Matemáticas (multiplicación y área/datos). No se confunde un catálogo con unidades completas.
 
-## Ampliación a las tres áreas
-
-Alcance confirmado: transición a quinto, cuarto período, Matemáticas, Lengua Castellana y Ciencias Sociales. El motor, catálogo y reportes ahora admiten múltiples unidades y objetivos por área; únicamente el piloto de Matemáticas de segundo está disponible. Las mallas se identificaron en Drive, pero su descarga necesita habilitar `drive.usercontent.google.com` o aportar los originales. Consulta [cobertura y bloqueo actual](docs/ALCANCE_CUARTO_PERIODO.md).
+**Estado curricular: FUENTE_CONSULTADA.** Se descargaron y leyeron las cuatro mallas originales y siete planeaciones complementarias. Cada unidad referencia archivo, tabla/fila y aprendizajes/evidencias. Las actividades son una propuesta didáctica; **requieren revisión y aprobación docente**, prueba en aula y revisión de la voz sintética. No se declaran aprobadas por la institución.
 
 ## Ejecutar
 
-Requisitos: Node.js 24 LTS y npm. Desde la raíz del proyecto:
+Node.js 24 LTS y npm. Desde la raíz:
 
 ```bash
 npm ci
@@ -18,27 +16,44 @@ npm run validate:content
 npm run dev
 ```
 
-Para la versión de aula y el modo sin internet:
+Versión de aula con preparación sin conexión:
 
 ```bash
 npm run build
 npm start
 ```
 
-Abre `http://localhost:4173` en Edge o Chrome, espera **«Unidad y audios preparados para usar sin internet»** y usa la opción de instalar aplicación del navegador. Mantén siempre el mismo navegador y origen; no cambies localhost por 127.0.0.1 ni el puerto. `npm run dev` sirve para desarrollo; su modo offline no está habilitado. No abras `index.html` con doble clic: `file://` no soporta este flujo.
+Abre `http://localhost:4173` en Edge/Chrome. Espera **«Unidad y audios preparados para usar sin internet»** y usa instalar aplicación desde el menú del navegador. La preparación precarga todas las rutas (aproximadamente 69 MiB); no desconectes hasta verificar. Mantén navegador/origen/puerto. `npm run dev` no habilita el modo offline. `file://` no funciona.
 
-En Windows, después de preparar la compilación, abre `scripts/iniciar-windows.cmd`. El lanzador requiere Node y sirve archivos locales; no es todavía un instalador autónomo. Consulta [instalación Windows](docs/INSTALACION_WINDOWS.md).
+Windows: después de preparar la compilación, abre `scripts/iniciar-windows.cmd`. El ZIP de aula incluye la compilación y solo necesita Node instalado: no requiere npm ni descargas durante la clase. [Guía Windows](docs/INSTALACION_WINDOWS.md). El instalador autónomo de escritorio queda para otra fase.
 
-## Qué incluye
+## Qué puede hacer el estudiante
 
-- 33 pantallas en ocho momentos, audio local por consigna, contenido literal, ayuda y devolución (92 MP3).
-- Grupos manipulables, tablas 2–5, copia gradual, tres problemas escritos completos con revisión posterior, práctica, misión y evaluación de cuatro objetivos.
-- Perfil local, reanudación, registro de primer intento/reintentos/ayudas y declaración de cuaderno separada de competencia.
-- Panel docente, grupos, asignación del piloto a segundo, apoyos de acceso y exportación JSON/CSV filtrada.
-- Texto grande, alto contraste, teclado, foco al cambiar de pantalla y ausencia de movimiento obligatorio.
-- Módulo de transición reservado con su enfoque pedagógico; CapER y EATI visibles sin temas inventados.
+Seleccionar alias/grado/período/área/unidad; escuchar y repetir; avanzar una tarea a la vez; copiar textos y ejercicios íntegros; revisar soluciones; practicar; realizar una misión; comprobar aprendizajes y compartir evidencias. Guarda avances separados por perfil/unidad y reanuda.
 
-## Validación
+Primaria tiene ocho momentos. Hay respuestas numéricas, decimales con coma o punto, escritura, elección, secuencias, reparto y fracciones manipulables. Se conservan el primer intento, ayudas y reintentos. El dictado tiene la palabra en audio, sin mostrarla como respuesta en la pregunta.
+
+Transición usa juego, arte, literatura y exploración, oralidad, composición de figuras y acompañamiento. Las áreas son etiquetas de navegación de experiencias integradas del propósito #4, no divisiones curriculares inventadas. No exige copias ni exámenes de primaria; sus producciones no se califican automáticamente.
+
+## Panel docente y privacidad
+
+Filtros por estudiante/grupo/unidad, asignaciones por grado, apoyos de acceso, observaciones manuales y exportación CSV/JSON. Las confirmaciones del niño no verifican el cuaderno, dibujos, actuaciones ni competencia oral. Se separan observaciones docentes y comprobaciones digitales.
+
+Sin cuentas en nube, analítica remota, fotos o grabaciones. Datos en IndexedDB del navegador y del origen. El modo docente **no tiene autenticación segura**; supervisar equipos compartidos. Exporta periódicamente. Borrar datos o cambiar origen/navegador puede perder acceso a avances. Los reportes se pueden consultar externamente; aún no hay restauración/importación de respaldos. No se generan notas oficiales.
+
+## Fuentes y autoría
+
+[Mapa de cuarto período](docs/ALCANCE_CUARTO_PERIODO.md), [trazabilidad](docs/MATRIZ_TRAZABILIDAD.md), [fuentes originales](docs/fuentes/README.md), [manual](docs/MANUAL_DOCENTE.md) y [entrega actual](docs/ENTREGA_2.md). SHA-256 en docs/fuentes/manifest.json. Se conserva el kit como antecedente, no como sustituto de las mallas originales.
+
+Los JSON ejecutables están en apps/web/src/content/. scripts/content/build-fourth-period.py contiene los guiones didácticos y genera las unidades/catalog.ts; requiere Python 3 solo para autoría, no para uso o instalación de aula. Al editar el contenido generado, actualiza el guion fuente para no perder cambios en futuras generaciones. Las mallas y extractos originales no se sobrescriben.
+
+1. Modificar guiones y ejecutar `python scripts/content/build-fourth-period.py`.
+2. Regenerar narraciones con `npm run audio:generate` (requiere FFmpeg y eSpeak-NG de desarrollo).
+3. Ejecutar validación, compilación y pruebas; revisar pedagogía y audio antes de aprobar contenidos.
+
+Hay **1.338 locuciones**; el índice de audio reutiliza 721 archivos distintos, conservando los recursos históricos del piloto. Las transcripciones están en public/audio/transcripts.json. No se necesita sintetizador ni internet para escuchar. La herramienta eSpeak-NG es GPL-3.0, de desarrollo; su código no se incluye en el navegador.
+
+## Validación técnica
 
 ```bash
 npm run validate:content
@@ -48,20 +63,4 @@ npm run build
 npm run test:e2e
 ```
 
-Las pruebas e2e usan Chromium del sistema si está disponible. En otro equipo, instala el navegador de pruebas con `npx playwright install chromium`. Requiere red únicamente para obtener las dependencias/navegador, no durante la sesión de aprendizaje. Consulta [reporte de entrega](docs/ENTREGA_1.md).
-
-## Contenido y fuentes
-
-La unidad está en `apps/web/src/content/pilot.json`. El esquema Zod está en `packages/content-schema/index.ts`. Se conservan los tres documentos del kit en `docs/kit/`. Importación y trazabilidad: [fuentes](docs/fuentes/README.md), [matriz](docs/MATRIZ_TRAZABILIDAD.md), [estándares](docs/ESTANDARES_DE_CONTENIDO.md).
-
-Los MP3 ya están incluidos: no se necesita sintetizador ni internet para escucharlos. Para regenerarlos en desarrollo: `npm run audio:generate`, con FFmpeg instalado. Se usa eSpeak-NG (herramienta de desarrollo GPL-3.0); sus binarios no se incluyen en la aplicación. La voz sintética necesita revisión de inteligibilidad por docentes y niños antes de uso institucional. Transcripciones en `apps/web/public/audio/transcripts.json`.
-
-## Protección y límites
-
-No hay cuentas de menores, analítica remota, fotos ni grabación. Los datos solo existen en el navegador de este equipo. El modo docente es una separación de interfaz, **no autenticación segura**: todo usuario del mismo navegador puede abrirlo. El equipo compartido necesita supervisión y políticas locales de acceso.
-
-Exporta periódicamente desde el panel docente. El borrado de datos del navegador elimina los avances; JSON es una copia consultable, la restauración/importación de resultados queda para otra etapa. No se afirma que el programa haya inspeccionado el cuaderno. No hay notas oficiales automáticas.
-
-## Estructura
-
-`apps/web/src/features/` separa estudiante, lecciones/actividades, docente, inclusión, transición y reportes; `offline/` contiene persistencia y verificación de caché. `scripts/` conserva validación, auditoría, importación de documentos y servidor local. [Plan técnico](docs/PLAN_TECNICO.md), [visión pedagógica](docs/VISION_PEDAGOGICA.md) y [manual docente](docs/MANUAL_DOCENTE.md).
+Las pruebas e2e usan Chromium del sistema, o `npx playwright install chromium` en otro equipo. Ese navegador solo se descarga al preparar las pruebas. La suite recorre todas las unidades y prueba persistencia, observación docente, reportes, transición, accesibilidad y uso sin red. La validación automática no acredita autonomía real con niños.

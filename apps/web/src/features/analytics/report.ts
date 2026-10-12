@@ -12,6 +12,32 @@ export function rows(
         const r = progress.find(
           (r) => r.profileId === p.id && r.unitId === unit.id,
         );
+        if (unit.approach === "preschool")
+          return [
+            {
+              perfilId: p.id,
+              alias: p.alias,
+              grupo: p.group,
+              grado: p.grade,
+              unidad: unit.id,
+              asignatura: unit.subject,
+              periodo: unit.period,
+              version: r?.version ?? unit.version,
+              estadoCurricular: unit.source.status,
+              objetivo: "expresion_y_participacion_observada",
+              primerIntento: "no_aplica",
+              intentos: 0,
+              ayudas: Object.values(r?.hints ?? {}).reduce((a, b) => a + b, 0),
+              logro: r?.teacherReview?.note
+                ? "observacion_docente_registrada"
+                : "requiere_observacion_docente",
+              terminado: r?.finished ?? false,
+              cuaderno: "no_aplica_transicion",
+              autoevaluacion: r?.selfReport ?? "",
+              actualizado: r?.updatedAt ?? "",
+              observacionDocente: r?.teacherReview?.note ?? "",
+            },
+          ];
         return unit.steps
           .filter((s) => s.phase === "Demuestro lo aprendido" && s.activity)
           .map((s) => {
@@ -41,6 +67,7 @@ export function rows(
               cuaderno: "autodeclaracion_no_verificada",
               autoevaluacion: r?.selfReport ?? "",
               actualizado: r?.updatedAt ?? "",
+              observacionDocente: r?.teacherReview?.note ?? "",
             };
           });
       }),

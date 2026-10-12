@@ -1,0 +1,186 @@
+{
+  "id": "transicion-p4-mi-pais-y-comunidad",
+  "version": 1,
+  "title": "Mi país y las personas que nos cuidan",
+  "grade": 0,
+  "subject": "Ciencias Sociales",
+  "period": 4,
+  "approach": "preschool",
+  "source": {
+    "file": "docs/fuentes/transicion-2026.docx",
+    "locator": "Tabla 4, período IV, fila 3, propósito #4; columnas de DBA, aprendizajes y evidencias. El encabezado de la columna conserva un error: SEGUNDO PERIODO.",
+    "status": "FUENTE_CONSULTADA"
+  },
+  "curriculum": {
+    "competence": "PROPÓSITO # 4\nLas niñas y los niños son comunicadores activos de sus ideas, sentimientos y emociones; expresan, imaginan y representan su realidad",
+    "dba": "Expresa y representa lo que observa, siente, piensa e imagina, a través del juego, la música, el dibujo y la expresión corporal. DBA 7.\n\nEstablece relaciones e interpreta imágenes, letras, objetos, personajes que encuentra en distintos tipos de textos. DBA 9",
+    "learning": [
+      "Mi país",
+      "Símbolos y fiestas patrias",
+      "Mi departamento",
+      "Autoridades",
+      "Medios de transporte y de comunicación",
+      "Profesiones y Oficios",
+      "Arreglos navideños"
+    ],
+    "themes": [
+      "Mi país",
+      "Símbolos y fiestas patrias",
+      "Mi departamento",
+      "Autoridades",
+      "Medios de transporte y de comunicación",
+      "Profesiones y Oficios",
+      "Arreglos navideños"
+    ],
+    "evidence": [
+      "Reconocen su país, Colombia, como el lugar donde viven, identificándose a través de conversaciones, imágenes, canciones y relatos sencillos.",
+      "Identifican algunos símbolos patrios como la bandera, el escudo y el himno nacional, manifestando respeto y sentido de pertenencia durante las actividades relacionadas con las fiestas patrias.",
+      "Participan con entusiasmo en la conmemoración de fechas patrias, expresando sus aprendizajes mediante dibujos, coloreado, dramatizaciones y actos culturales.",
+      "Reconocen su departamento y municipio como parte de su entorno cercano, mencionando características básicas y elementos representativos de su región.",
+      "Identifican de manera sencilla a algunas autoridades (familiares, escolares y comunitarias), comprendiendo su función de orientar, cuidar y organizar la convivencia.}",
+      "Identifica los medios de transportes utilizados a nivel general y hace uso de actividades artísticas para la representación de estos en el aula de clases",
+      "Participan en la elaboración de arreglos navideños, trabajando de manera colaborativa, siguiendo instrucciones y demostrando interés por las tradiciones y el trabajo en equipo."
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Papel",
+      "Colores",
+      "Objetos o tarjetas; alternativa digital disponible"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Experiencia integrada: etiqueta de área para navegación. Requiere acompañamiento, especialmente recortes. La exploración y las confirmaciones no califican competencia automáticamente."
+  },
+  "steps": [
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-01",
+      "phase": "Hoy aprenderé",
+      "title": "Conocemos nuestro lugar",
+      "instruction": "Hoy vamos a jugar y conversar sobre Colombia y las personas de la comunidad. Un adulto puede acompañarte. Puedes responder señalando, hablando o con dibujos.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-02",
+      "phase": "Descubro",
+      "title": "Nuestra bandera",
+      "instruction": "Observa la bandera de Colombia. Señala amarillo, azul y rojo. Puedes decir sus nombres o mostrar el color que escuches.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🇨🇴",
+      "visual": {
+        "kind": "flag"
+      }
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-03",
+      "phase": "Juego",
+      "title": "Las personas que trabajan",
+      "instruction": "Representa con gestos una persona que cultiva, una que enseña o una que transporta. Tu acompañante puede adivinar. No necesitas salir ni usar herramientas reales.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🧑‍🌾",
+      "freePlay": {
+        "symbols": [
+          "🌱",
+          "📖",
+          "🚌"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-04",
+      "phase": "Literatura",
+      "title": "Un recorrido imaginario",
+      "instruction": "Escucha el relato y señala un dibujo de una persona que ayuda.",
+      "text": [
+        "Una niña salió en un recorrido imaginario con su familia. Vio a una persona cultivando, a otra enseñando y a otra conduciendo un bus. Cada trabajo ayudaba de una manera. Al llegar a la escuela, escuchó las orientaciones para cuidar a sus compañeros."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "📖",
+      "freePlay": {
+        "symbols": [
+          "🌱",
+          "📖",
+          "🚌",
+          "🏡"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-05",
+      "phase": "Exploro",
+      "title": "País, departamento y municipio",
+      "instruction": "Escucha y repite si quieres: vivimos en Colombia. Nuestra escuela está en Montería, Córdoba. Señala un dibujo que te recuerde nuestro lugar. No escribas tu dirección.",
+      "text": [
+        "Colombia: país. Córdoba: departamento. Montería: municipio."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-06",
+      "phase": "Exploro",
+      "title": "Orientar y cuidar",
+      "instruction": "Di o señala quién te ayuda a orientarte en la escuela. Docentes y autoridades tienen responsabilidades de cuidado y organización. Si algo te preocupa, busca un adulto de confianza; puedes expresar tus ideas.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🤝"
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-07",
+      "phase": "Arte",
+      "title": "Mi transporte imaginario",
+      "instruction": "Dibuja o arma con figuras un bus, una bicicleta o una canoa. Cuenta para qué sirve y quién puede ayudar a usarlo con cuidado. No salgas a probar vehículos: esta actividad es imaginaria.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎨",
+      "freePlay": {
+        "symbols": [
+          "🚌",
+          "🚲",
+          "🛶",
+          "🟦",
+          "⚪"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-08",
+      "phase": "Arte",
+      "title": "Una celebración respetuosa",
+      "instruction": "Haz una composición con los colores de la bandera para un acto cultural. Puedes usar papel preparado o los dibujos digitales. Si quieres, añade un adorno de una celebración familiar; respeta las familias que celebran de otra manera.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎨",
+      "freePlay": {
+        "symbols": [
+          "🟨",
+          "🟦",
+          "🟥",
+          "🌻",
+          "⭐"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-09",
+      "phase": "Demuestro lo aprendido",
+      "title": "Comparte tu recorrido",
+      "instruction": "Muestra tu dibujo. Señala una persona que ayuda, un medio de transporte y los colores de Colombia. Tu acompañante escucha tus ideas y observa tus gestos; el programa no aplica un examen.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "👐"
+    },
+    {
+      "id": "transicion-p4-mi-pais-y-comunidad-10",
+      "phase": "Terminé",
+      "title": "Compartimos con la comunidad",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu representación y cuenta qué persona o lugar recuerdas. No hay copia larga ni cuestionario de primaria.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🌻"
+    }
+  ]
+}

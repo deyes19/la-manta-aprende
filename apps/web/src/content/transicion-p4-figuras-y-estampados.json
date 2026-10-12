@@ -1,0 +1,176 @@
+{
+  "id": "transicion-p4-figuras-y-estampados",
+  "version": 1,
+  "title": "Jugamos con formas y estampados",
+  "grade": 0,
+  "subject": "Matemáticas",
+  "period": 4,
+  "approach": "preschool",
+  "source": {
+    "file": "docs/fuentes/transicion-2026.docx",
+    "locator": "Tabla 4, período IV, fila 3, propósito #4; columnas de DBA, aprendizajes y evidencias. El encabezado de la columna conserva un error: SEGUNDO PERIODO.",
+    "status": "FUENTE_CONSULTADA"
+  },
+  "curriculum": {
+    "competence": "PROPÓSITO # 4\nLas niñas y los niños son comunicadores activos de sus ideas, sentimientos y emociones; expresan, imaginan y representan su realidad",
+    "dba": "Expresa y representa lo que observa, siente, piensa e imagina, a través del juego, la música, el dibujo y la expresión corporal. DBA 7.\n\nEstablece relaciones e interpreta imágenes, letras, objetos, personajes que encuentra en distintos tipos de textos. DBA 9",
+    "learning": [
+      "Estampados",
+      "Armadas de figura",
+      "Calcado",
+      "Imitación de objetos",
+      "Imitación de dibujos",
+      "Collage con recortado y pegado"
+    ],
+    "themes": [
+      "Estampados",
+      "Armadas de figura",
+      "Calcado",
+      "Imitación de objetos",
+      "Imitación de dibujos",
+      "Collage con recortado y pegado"
+    ],
+    "evidence": [
+      "Realizan estampados utilizando diferentes materiales, demostrando creatividad, exploración de colores, texturas y formas, fortaleciendo la coordinación ojo-mano.",
+      "Participan en la armada de figuras, siguiendo instrucciones sencillas y reconociendo formas, tamaños y posiciones, lo que favorece el pensamiento lógico y la atención.",
+      "Desarrollan actividades de calcado, mejorando el control del trazo, la precisión y el fortalecimiento de la motricidad fina.",
+      "Imitan objetos del entorno, representándolos mediante modelado, dibujo o construcción, demostrando capacidad de observación y reproducción de formas.",
+      "Realizan imitación de dibujos, respetando líneas, formas básicas y detalles sencillos, evidenciando avances en la percepción visual y el seguimiento de modelos.",
+      "Elaboran collages con recortado y pegado, utilizando adecuadamente tijeras y pegante, fortaleciendo la autonomía, la creatividad y la organización espacial."
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Papel",
+      "Colores",
+      "Objetos o tarjetas; alternativa digital disponible"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Experiencia integrada: etiqueta de área para navegación. Requiere acompañamiento, especialmente recortes. La exploración y las confirmaciones no califican competencia automáticamente."
+  },
+  "steps": [
+    {
+      "id": "transicion-p4-figuras-y-estampados-01",
+      "phase": "Hoy aprenderé",
+      "title": "Manos listas para crear",
+      "instruction": "Busca papel y colores. Un adulto puede acompañarte. Si no tienes papel, usa las figuras de la pantalla. Hoy jugaremos, escucharemos un cuento y crearemos con formas.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "👐"
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-02",
+      "phase": "Descubro",
+      "title": "Mira las formas",
+      "instruction": "Observa el círculo, el cuadrado y el triángulo. Señala una forma que se parezca a un objeto cercano. Di cuál escogiste o muéstrala con tu mano.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "⚪ 🟦 🔺"
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-03",
+      "phase": "Juego",
+      "title": "Arma una figura",
+      "instruction": "Toca las figuras para formar una composición. Puedes hacer una casa, un árbol o una figura que imagines. También puedes ordenar objetos grandes sobre una mesa. No uses piezas pequeñas que puedas llevarte a la boca.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🏠",
+      "freePlay": {
+        "symbols": [
+          "⚪",
+          "🟦",
+          "🔺"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-04",
+      "phase": "Juego",
+      "title": "Cambia de lugar",
+      "instruction": "Mueve o vuelve a escoger tus figuras. Coloca una arriba y otra abajo. Explica con palabras, gestos o señalando qué cambió. En la pantalla puedes quitar la última figura y elegir otra.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "↕️",
+      "freePlay": {
+        "symbols": [
+          "🔺",
+          "🟦",
+          "⚪"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-05",
+      "phase": "Arte",
+      "title": "Estampados sin prisa",
+      "instruction": "En papel, rodea con color la base de un objeto grande y seguro, como una tapa grande. Repite la huella al lado. No uses sustancias desconocidas. En la pantalla, toca las formas para repetir un estampado.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎨",
+      "freePlay": {
+        "symbols": [
+          "⚪",
+          "🟦",
+          "🔺"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-06",
+      "phase": "Literatura",
+      "title": "La casa de las formas",
+      "instruction": "Escucha el cuento. Después muestra con tus manos la parte que más te gustó.",
+      "text": [
+        "Un cuadrado encontró un triángulo. El triángulo se puso arriba y juntos imaginaron una casa. Un círculo llegó al lado y dijo: yo seré una ventana. Cada forma tenía un lugar."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "📖"
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-07",
+      "phase": "Exploro",
+      "title": "Busca una forma cercana",
+      "instruction": "Sin salir del lugar seguro donde estás, mira objetos cercanos. Señala uno que te recuerde una de las formas. Cuenta o muestra a tu acompañante en qué se parece y en qué es diferente.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🔎"
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-08",
+      "phase": "Arte",
+      "title": "Traza o haz un collage",
+      "instruction": "Elige dibujar, trazar alrededor de un objeto grande o hacer un collage con papeles preparados por un adulto. Si se usan tijeras, el adulto acompaña. En la pantalla puedes crear tu collage con las figuras.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "✂️",
+      "freePlay": {
+        "symbols": [
+          "🟦",
+          "🔺",
+          "⚪",
+          "🌻"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-09",
+      "phase": "Demuestro lo aprendido",
+      "title": "Muestra tu creación",
+      "instruction": "Muestra tu figura o tu collage. Señala qué pusiste arriba y abajo. Di qué forma escogiste y qué te recuerda. Tu acompañante escuchará y observará; el programa no califica tu dibujo.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "👐"
+    },
+    {
+      "id": "transicion-p4-figuras-y-estampados-10",
+      "phase": "Terminé",
+      "title": "Compartimos nuestras formas",
+      "instruction": "Elige cómo te sentiste. Muestra tu composición al docente o acompañante. Señala una forma y explica qué hiciste; si prefieres, hazlo con gestos.",
+      "text": [
+        "Las formas de la pantalla se guardan como exploración, no como nota."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🌻"
+    }
+  ]
+}

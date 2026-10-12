@@ -1,9 +1,13 @@
-# Contrato del piloto
+# Contenido ejecutable y revisable
 
-Cada unidad JSON declara ID, versión, grado, asignatura, período, competencia propuesta, evidencias, fuente/localizador/estado y los ocho momentos. El esquema Zod exige identificadores únicos, consignas, pistas, texto literal en cuaderno, respuestas coherentes con opciones y evaluación de cuatro objetivos.
+Unidad versionada con grado, área, período, fuente/localizador/estado, competencias, aprendizajes, evidencias y temas procedentes del original. Las actividades son autoría didáctica y los identificadores de objetivos son técnicos; no se presentan como nuevos DBA institucionales.
 
-Cada pantalla lleva una sola tarea principal, escuchar/repetir, pista, atrás y continuación. Las actividades necesitan una respuesta comprobada para avanzar; los reintentos no son punitivos. Cuaderno registra autodeclaración, no calidad de la escritura. Cierre requiere autoevaluación y muestra exactamente qué entregar.
+Primaria: ocho momentos completos; literal de cuaderno, cada problema y revisión; una tarea por pantalla; escuchar/repetir/pista/atrás/continuar. Toda competencia digital declarada necesita una comprobación. Se guarda primer intento, apoyos y reintentos. Las producciones físicas requieren observación docente separada.
 
-Los audios precargados corresponden a instrucciones, contenido literal y opciones; las soluciones se narran en revisión/devolución. No se narran solo los títulos. Regenerar audio y validar su presencia al modificar textos. Revisar pronunciación y cantidades antes de aprobar una nueva versión.
+Transición: propósito y actividades rectoras, acompañamiento y modalidades oral/visual/manipulativa. El esquema rechaza el cuaderno de primaria. No se califican creatividad, gestos o habla a partir de un clic. Las áreas de navegación son experiencias integradas.
 
-Una futura unidad VALIDADO necesita la fuente institucional original y localizador verificable. La aplicación piloto no tiene editor ni botón de publicación; cambiar el estado JSON no sustituye revisión docente. No eliminar las comprobaciones, completar campos con competencias institucionales inventadas ni replicar este piloto automáticamente para otros grados.
+`validate:content` valida esquema, IDs globales, presencia de audio/transcripción y SHA-256 de fuentes originales. El mapa de audio permite reutilizar la misma locución; el navegador no usa un sintetizador remoto. El dictado incorpora la palabra en la locución local, no en el texto visible de su pregunta.
+
+`build-fourth-period.py` contiene los guiones. Actualizarlo al editar unidades generadas; aumentar versión si cambia el recorrido y definir migración para avances existentes. Se preservan IDs/versión del piloto original al corregir solo trazabilidad. `audio:generate` es incremental. La opción de poda de duplicados elimina solo archivos generados no rastreados por Git; nunca se necesita para una sesión de aula.
+
+FUENTE_CONSULTADA no significa APROBADO. La institución debe revisar currículo, ejemplos, audio y actividades antes de adoptar. Una lectura automatizada y una respuesta correcta de selección no prueban autonomía del estudiante ni calidad de escritura.

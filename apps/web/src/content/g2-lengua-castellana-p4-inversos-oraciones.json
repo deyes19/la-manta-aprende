@@ -1,0 +1,531 @@
+{
+  "id": "g2-lengua-castellana-p4-inversos-oraciones",
+  "version": 1,
+  "title": "Palabras y oraciones en la huerta",
+  "grade": 2,
+  "subject": "Lengua Castellana",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/lengua-castellana-2026.docx",
+    "locator": "Tabla 2, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Competencia comunicativa- lectora\n\nCompetencia comunicativa-escritora.",
+    "learning": [
+      "Ordena las secuencias presentadas en el texto, teniendo en cuenta las partes de la oración.",
+      "Analiza los textos, favoreciendo la comprensión oral y la expresión escrita."
+    ],
+    "evidence": [
+      "Sigue instrucciones orales y escritas con relación a las partes de la oración.",
+      "Responde preguntas en el nivel literal, con relación a las diferentes narraciones literarias existentes."
+    ],
+    "dba": "Ordena las secuencias presentadas en el texto.\n(DBA 6)\n\n\nProduce textos orales y escritos para atender a un propósito comunicativo particular.\n(DBA 8)",
+    "themes": [
+      "Los inversos",
+      "(az, ez, iz oz, uz)",
+      "(ax, ex, ix, ox, ux)",
+      "(ad, ed, id, od, ud)",
+      "La sílaba",
+      "La oración",
+      "(Partes de la oración, sujeto y predicado).",
+      "Comprensión lectora."
+    ],
+    "objectives": [
+      "inversos_z",
+      "inversos_x",
+      "inversos_d",
+      "silabas",
+      "oracion",
+      "secuencia"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-01",
+      "phase": "Hoy aprenderé",
+      "title": "Palabras y oraciones en la huerta",
+      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Ana quiere escribir cómo sembró. ¿Qué palabras y acciones necesita para que otra persona entienda?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "✏️"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-03",
+      "phase": "Aprendo",
+      "title": "Inversos con z",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "En estos grupos de lectura la vocal aparece antes de la consonante z: az, ez, iz, oz, uz.",
+        "Paz contiene az; pez contiene ez; lápiz contiene iz; arroz contiene oz; luz contiene uz."
+      ],
+      "hint": "Lee las dos últimas letras.",
+      "symbol": "✏️"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-04",
+      "phase": "Aprendo",
+      "title": "Inversos con x",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x.",
+        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
+      ],
+      "hint": "Escribe primero la vocal e.",
+      "symbol": "🔤"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-05",
+      "phase": "Aprendo",
+      "title": "Inversos con d",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras.",
+        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
+      ],
+      "hint": "Mira las dos últimas letras.",
+      "symbol": "🔤"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-06",
+      "phase": "Aprendo",
+      "title": "La sílaba",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz.",
+        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
+      ],
+      "hint": "Da una palmada por cada parte.",
+      "symbol": "👏"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-07",
+      "phase": "Aprendo",
+      "title": "Sujeto y predicado",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto.",
+        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
+      ],
+      "hint": "Pregunta de quién habla la oración.",
+      "symbol": "🌱"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-08",
+      "phase": "Aprendo",
+      "title": "Comprender y ordenar",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Para comprender una narración, identifica qué sucede primero, después y al final.",
+        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
+      ],
+      "hint": "Vuelve a escuchar el relato.",
+      "symbol": "📖"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-09",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Palabras y oraciones en la huerta"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Inversos con z",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Inversos con z",
+        "En estos grupos de lectura la vocal aparece antes de la consonante z: az, ez, iz, oz, uz.",
+        "Paz contiene az; pez contiene ez; lápiz contiene iz; arroz contiene oz; luz contiene uz."
+      ],
+      "hint": "Lee las dos últimas letras."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Inversos con x",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Inversos con x",
+        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x.",
+        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
+      ],
+      "hint": "Escribe primero la vocal e."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Inversos con d",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Inversos con d",
+        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras.",
+        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
+      ],
+      "hint": "Mira las dos últimas letras."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: La sílaba",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "La sílaba",
+        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz.",
+        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
+      ],
+      "hint": "Da una palmada por cada parte."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-14",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Sujeto y predicado",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Sujeto y predicado",
+        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto.",
+        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
+      ],
+      "hint": "Pregunta de quién habla la oración."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-15",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Comprender y ordenar",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Comprender y ordenar",
+        "Para comprender una narración, identifica qué sucede primero, después y al final.",
+        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
+      ],
+      "hint": "Vuelve a escuchar el relato."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Copia las tarjetas az, ez, iz, oz, uz; ax, ex, ix, ox, ux; ad, ed, id, od, ud. Encierra az en paz y ud en salud."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-17",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-18",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Copia Ana siembra semillas. Subraya Ana como sujeto y encierra siembra semillas como predicado. Escribe luego las cuatro acciones del relato en orden."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia las tarjetas az, ez, iz, oz, uz; ax, ex, ix, ox, ux; ad, ed, id, od, ud. Encierra az en paz y ud en salud.",
+        "En paz se encierra az. En salud se encierra ud. Las tarjetas no tienen que inventarse como palabras."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-20",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una.",
+        "Se-mi-lla: 3. Ca-sa: 2."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-21",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Copia Ana siembra semillas. Subraya Ana como sujeto y encierra siembra semillas como predicado. Escribe luego las cuatro acciones del relato en orden.",
+        "Sujeto: Ana. Predicado: siembra semillas. Orden: mira las semillas, prepara la tierra, siembra y riega."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-22",
+      "phase": "Practico",
+      "title": "Practica: Inversos con z",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Lee las dos últimas letras.",
+      "activity": {
+        "kind": "text",
+        "prompt": "¿Qué grupo aparece al final de luz?",
+        "answer": "uz",
+        "explanation": "En luz la u está antes de la z: uz.",
+        "objective": "inversos_z"
+      },
+      "symbol": "✏️"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-23",
+      "phase": "Practico",
+      "title": "Practica: Inversos con x",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Escribe primero la vocal e.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escribe la tarjeta formada por e seguida de x.",
+        "answer": "ex",
+        "explanation": "E antes de x forma ex.",
+        "objective": "inversos_x"
+      },
+      "symbol": "🔤"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-24",
+      "phase": "Practico",
+      "title": "Practica: Inversos con d",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Mira las dos últimas letras.",
+      "activity": {
+        "kind": "text",
+        "prompt": "¿Con qué grupo termina salud?",
+        "answer": "ud",
+        "explanation": "Las dos últimas letras de salud son u y d.",
+        "objective": "inversos_d"
+      },
+      "symbol": "🔤"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-25",
+      "phase": "Practico",
+      "title": "Practica: La sílaba",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Da una palmada por cada parte.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas sílabas tiene se-mi-lla?",
+        "answer": 3,
+        "explanation": "Se, mi y lla son tres sílabas.",
+        "objective": "silabas"
+      },
+      "symbol": "👏"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-26",
+      "phase": "Practico",
+      "title": "Practica: Sujeto y predicado",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Pregunta de quién habla la oración.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "En Ana siembra semillas, ¿cuál es el sujeto?",
+        "answer": "Ana",
+        "explanation": "Se habla de Ana.",
+        "objective": "oracion",
+        "choices": [
+          "Ana",
+          "Siembra semillas",
+          "Semillas"
+        ]
+      },
+      "symbol": "🌱"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-27",
+      "phase": "Practico",
+      "title": "Practica: Comprender y ordenar",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Vuelve a escuchar el relato.",
+      "activity": {
+        "kind": "order",
+        "prompt": "Ordena las acciones del relato.",
+        "answer": "Mirar semillas|Preparar tierra|Sembrar|Regar",
+        "explanation": "El orden del relato es mirar, preparar, sembrar y regar.",
+        "objective": "secuencia",
+        "choices": [
+          "Regar",
+          "Sembrar",
+          "Mirar semillas",
+          "Preparar tierra"
+        ]
+      },
+      "symbol": "📖"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-28",
+      "phase": "Mi misión",
+      "title": "Cuenta cómo cuidas una planta",
+      "instruction": "Escribe dos oraciones: Yo cuido una planta. Yo riego con cuidado. Subraya el sujeto Yo en cada una. Luego añade una oración propia contando otra acción y léela al docente.",
+      "text": [
+        "Yo cuido una planta.",
+        "Yo riego con cuidado.",
+        "Producto: tres oraciones; la última es tuya. El docente revisará si comunican una idea completa."
+      ],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-29",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: inverso con z",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Mira el final de lápiz.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escribe las dos últimas letras de lápiz.",
+        "answer": "iz",
+        "explanation": "Lápiz termina en iz.",
+        "objective": "inversos_z"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-30",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: inverso con x",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "La vocal va primero.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Forma la tarjeta con o seguida de x.",
+        "answer": "ox",
+        "explanation": "O antes de x forma ox.",
+        "objective": "inversos_x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-31",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: inverso con d",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Lee las dos últimas letras.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escribe las dos últimas letras de pared.",
+        "answer": "ed",
+        "explanation": "Pared termina en ed.",
+        "objective": "inversos_d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-32",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: sílabas",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Da una palmada por cada parte.",
+      "activity": {
+        "kind": "number",
+        "prompt": "La palabra ma-ri-po-sa tiene ¿cuántas sílabas?",
+        "answer": 4,
+        "explanation": "Ma, ri, po y sa: cuatro sílabas.",
+        "objective": "silabas"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-33",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 5: oración",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Pregunta qué hace el sujeto.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "En Luis recoge mangos, ¿cuál es el predicado?",
+        "answer": "Recoge mangos",
+        "explanation": "El predicado dice qué hace Luis.",
+        "objective": "oracion",
+        "choices": [
+          "Luis",
+          "Recoge mangos",
+          "Mangos"
+        ]
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-34",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 6: secuencia",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [
+        "Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado."
+      ],
+      "hint": "Escucha el relato completo.",
+      "activity": {
+        "kind": "order",
+        "prompt": "Ordena lo que hace Ana.",
+        "answer": "Mirar semillas|Preparar tierra|Sembrar|Regar",
+        "explanation": "Ana mira, prepara, siembra y riega.",
+        "objective": "secuencia",
+        "choices": [
+          "Sembrar",
+          "Regar",
+          "Preparar tierra",
+          "Mirar semillas"
+        ]
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-35",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

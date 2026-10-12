@@ -1,3 +1,4 @@
+import { audioFile } from "../data/audio";
 import { useEffect, useRef, useState } from "react";
 export function Audio({ id, auto = false }: { id: string; auto?: boolean }) {
   const ref = useRef<HTMLAudioElement>(null);
@@ -29,7 +30,7 @@ export function Audio({ id, auto = false }: { id: string; auto?: boolean }) {
     <div className="audio-controls">
       <audio
         ref={ref}
-        src={`/audio/${id}.mp3`}
+        src={audioFile(id)}
         onEnded={() => setPlaying(false)}
         onError={() =>
           setError(
@@ -68,7 +69,7 @@ export function Audio({ id, auto = false }: { id: string; auto?: boolean }) {
   );
 }
 export function playFeedback(id: string) {
-  const a = new window.Audio(`/audio/${id}.mp3`);
+  const a = new window.Audio(audioFile(id));
   a.play().catch(() => {});
   return () => a.pause();
 }

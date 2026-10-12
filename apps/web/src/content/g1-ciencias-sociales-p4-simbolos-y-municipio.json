@@ -1,0 +1,466 @@
+{
+  "id": "g1-ciencias-sociales-p4-simbolos-y-municipio",
+  "version": 1,
+  "title": "Colombia y nuestro municipio",
+  "grade": 1,
+  "subject": "Ciencias Sociales",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/ciencias-sociales-2026.docx",
+    "locator": "Tabla 1, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Reconoce los símbolos patrios y el sentido de las celebraciones nacionales como elementos que nos unen.",
+    "learning": [
+      "Identifica los símbolos y celebraciones que nos unen como colombianos.",
+      "Reconoce la historia de mi localidad y la importancia de sus tradiciones culturales."
+    ],
+    "evidence": [
+      "Reconoce la bandera y el escudo.",
+      "Narra por qué celebramos las fiestas patrias.",
+      "Menciona un baile típico de mi región.",
+      "Identifica el nombre de mi alcalde."
+    ],
+    "dba": "Reconoce que los lugares tienen una historia.\n\nReconoce la importancia del patrimonio.",
+    "themes": [
+      "Símbolos patrios.",
+      "Fiestas patrias.",
+      "Tradiciones locales.",
+      "Mi municipio (general)"
+    ],
+    "objectives": [
+      "simbolos",
+      "fiestas",
+      "tradiciones",
+      "municipio"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente.",
+    "pendingValidation": [
+      "Nombre actual del alcalde: confirmar con fuente oficial vigente",
+      "Reconocimiento visual del escudo oficial: observación docente; no se usa un escudo genérico como sustituto"
+    ]
+  },
+  "steps": [
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-01",
+      "phase": "Hoy aprenderé",
+      "title": "Colombia y nuestro municipio",
+      "instruction": "Busca tu cuaderno de Ciencias Sociales, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina que recibimos a alguien que no conoce nuestro lugar. ¿Qué podríamos mostrarle de Colombia y de nuestra comunidad?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🇨🇴",
+      "visual": {
+        "kind": "flag"
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-03",
+      "phase": "Aprendo",
+      "title": "Símbolos que nos unen",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "La bandera, el escudo y el himno son símbolos de Colombia. La bandera tiene amarillo arriba, azul en el centro y rojo abajo. El escudo lleva un cóndor en su parte superior.",
+        "En la bandera, el amarillo ocupa la mitad. Azul y rojo ocupan un cuarto cada uno. El himno es un símbolo que escuchamos con respeto."
+      ],
+      "hint": "Observa la franja superior.",
+      "symbol": "🇨🇴",
+      "visual": {
+        "kind": "flag"
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-04",
+      "phase": "Aprendo",
+      "title": "Fiestas patrias",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Las fiestas patrias recuerdan acontecimientos importantes de la historia del país. El 20 de julio recuerda el inicio del proceso de independencia en 1810. El 7 de agosto recuerda la batalla de Boyacá de 1819.",
+        "Podemos conmemorar con relatos, dibujos y actos culturales. Recordar la historia no significa que todas las familias celebren de la misma manera."
+      ],
+      "hint": "Busca la fecha que acompaña a Boyacá.",
+      "symbol": "📅"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-05",
+      "phase": "Aprendo",
+      "title": "Tradiciones de nuestra región",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Las tradiciones son prácticas y saberes que una comunidad comparte y transmite. Pueden incluir música, bailes, comidas y relatos.",
+        "El porro es una tradición musical y de baile de Córdoba. Las familias de una misma región pueden tener tradiciones diferentes; escucharlas con respeto nos ayuda a conocerlas."
+      ],
+      "hint": "Piensa en prácticas que se comparten y enseñan.",
+      "symbol": "🥁"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-06",
+      "phase": "Aprendo",
+      "title": "Nuestro municipio",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "La sede Villanueva de la I. E. La Manta está en el municipio de Montería, departamento de Córdoba, Colombia. El municipio es parte de nuestro entorno y tiene una historia.",
+        "El alcalde dirige la administración municipal. Su nombre puede cambiar; se debe confirmar en una fuente oficial actual o en la tarjeta preparada por el docente."
+      ],
+      "hint": "El departamento es Córdoba; el municipio es Montería.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-07",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Colombia y nuestro municipio"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-08",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Símbolos que nos unen",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Símbolos que nos unen",
+        "La bandera, el escudo y el himno son símbolos de Colombia. La bandera tiene amarillo arriba, azul en el centro y rojo abajo. El escudo lleva un cóndor en su parte superior.",
+        "En la bandera, el amarillo ocupa la mitad. Azul y rojo ocupan un cuarto cada uno. El himno es un símbolo que escuchamos con respeto."
+      ],
+      "hint": "Observa la franja superior."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Fiestas patrias",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Fiestas patrias",
+        "Las fiestas patrias recuerdan acontecimientos importantes de la historia del país. El 20 de julio recuerda el inicio del proceso de independencia en 1810. El 7 de agosto recuerda la batalla de Boyacá de 1819.",
+        "Podemos conmemorar con relatos, dibujos y actos culturales. Recordar la historia no significa que todas las familias celebren de la misma manera."
+      ],
+      "hint": "Busca la fecha que acompaña a Boyacá."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Tradiciones de nuestra región",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Tradiciones de nuestra región",
+        "Las tradiciones son prácticas y saberes que una comunidad comparte y transmite. Pueden incluir música, bailes, comidas y relatos.",
+        "El porro es una tradición musical y de baile de Córdoba. Las familias de una misma región pueden tener tradiciones diferentes; escucharlas con respeto nos ayuda a conocerlas."
+      ],
+      "hint": "Piensa en prácticas que se comparten y enseñan."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Nuestro municipio",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Nuestro municipio",
+        "La sede Villanueva de la I. E. La Manta está en el municipio de Montería, departamento de Córdoba, Colombia. El municipio es parte de nuestro entorno y tiene una historia.",
+        "El alcalde dirige la administración municipal. Su nombre puede cambiar; se debe confirmar en una fuente oficial actual o en la tarjeta preparada por el docente."
+      ],
+      "hint": "El departamento es Córdoba; el municipio es Montería."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-12",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Dibuja la bandera de Colombia y colorea amarillo, azul y rojo en el orden correcto. Escribe los nombres de sus colores."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-13",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia: 20 de julio, inicio del proceso de independencia. 7 de agosto, batalla de Boyacá. Dibuja una forma respetuosa de conmemorar."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Escribe Montería, Córdoba, Colombia. Dibuja una tradición que tu familia conozca y escribe o dicta su nombre."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-15",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Dibuja la bandera de Colombia y colorea amarillo, azul y rojo en el orden correcto. Escribe los nombres de sus colores.",
+        "Amarillo arriba, ocupando la mitad; azul en el centro y rojo abajo, con franjas iguales entre sí."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-16",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia: 20 de julio, inicio del proceso de independencia. 7 de agosto, batalla de Boyacá. Dibuja una forma respetuosa de conmemorar.",
+        "Las fechas y sus acontecimientos deben quedar relacionados. El docente revisará el dibujo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Escribe Montería, Córdoba, Colombia. Dibuja una tradición que tu familia conozca y escribe o dicta su nombre.",
+        "Municipio: Montería. Departamento: Córdoba. País: Colombia. Tu tradición no tiene una respuesta única; el docente escuchará tu explicación."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-18",
+      "phase": "Practico",
+      "title": "Practica: Símbolos que nos unen",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Observa la franja superior.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué color va arriba en la bandera de Colombia?",
+        "answer": "Amarillo",
+        "explanation": "El amarillo ocupa la mitad superior de la bandera.",
+        "objective": "simbolos",
+        "choices": [
+          "Azul",
+          "Amarillo",
+          "Rojo"
+        ]
+      },
+      "symbol": "🇨🇴",
+      "visual": {
+        "kind": "flag"
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-19",
+      "phase": "Practico",
+      "title": "Practica: Fiestas patrias",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Busca la fecha que acompaña a Boyacá.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué fecha recuerda la batalla de Boyacá?",
+        "answer": "7 de agosto",
+        "explanation": "El 7 de agosto se recuerda la batalla de Boyacá de 1819.",
+        "objective": "fiestas",
+        "choices": [
+          "7 de agosto",
+          "25 de diciembre",
+          "1 de enero"
+        ]
+      },
+      "symbol": "📅"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-20",
+      "phase": "Practico",
+      "title": "Practica: Tradiciones de nuestra región",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Piensa en prácticas que se comparten y enseñan.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué ejemplo es una tradición cultural?",
+        "answer": "Compartir un baile de la región",
+        "explanation": "La música y el baile pueden transmitirse entre generaciones.",
+        "objective": "tradiciones",
+        "choices": [
+          "Compartir un baile de la región",
+          "Romper un cuaderno",
+          "Una operación de resta"
+        ]
+      },
+      "symbol": "🥁"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-21",
+      "phase": "Practico",
+      "title": "Practica: Nuestro municipio",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "El departamento es Córdoba; el municipio es Montería.",
+      "activity": {
+        "kind": "text",
+        "prompt": "¿Cómo se llama el municipio de nuestra escuela?",
+        "answer": "Montería",
+        "explanation": "Según el contexto de la sede, el municipio es Montería.",
+        "objective": "municipio",
+        "acceptedAnswers": [
+          "Monteria"
+        ]
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-22",
+      "phase": "Mi misión",
+      "title": "Una tarjeta de nuestro lugar",
+      "instruction": "Haz una tarjeta con el título Mi municipio. Dibuja un lugar de tu entorno sin escribir tu dirección. Escribe Montería y una tradición familiar. Mira con tu docente, durante la revisión final, el escudo oficial de Colombia y confirma el nombre del alcalde en una fuente actual. Ese dato local no lo inventa el programa.",
+      "text": [
+        "Mi municipio: Montería.",
+        "Mi departamento: Córdoba.",
+        "Mi tradición: escribe o dicta su nombre.",
+        "Dato para revisión docente: nombre actual del alcalde y reconocimiento del escudo en imagen oficial."
+      ],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-23",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: bandera",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Mira la franja del centro.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué color va en el centro de la bandera?",
+        "answer": "Azul",
+        "explanation": "Azul va entre amarillo y rojo.",
+        "objective": "simbolos",
+        "choices": [
+          "Amarillo",
+          "Azul",
+          "Rojo"
+        ]
+      },
+      "visual": {
+        "kind": "flag"
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-24",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: símbolos",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Recuerda la descripción del escudo.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué símbolo nacional lleva un cóndor en la parte superior?",
+        "answer": "Escudo",
+        "explanation": "El cóndor se encuentra sobre el escudo de Colombia.",
+        "objective": "simbolos",
+        "choices": [
+          "Escudo",
+          "La tabla de sumar",
+          "Un reloj"
+        ]
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-25",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: fiestas",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Relaciona la fecha con la historia nacional.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué recuerda el 20 de julio?",
+        "answer": "El inicio del proceso de independencia",
+        "explanation": "En 1810 se inició el proceso de independencia que conmemoramos ese día.",
+        "objective": "fiestas",
+        "choices": [
+          "El inicio del proceso de independencia",
+          "Un cumpleaños de todas las familias",
+          "La siembra de todas las plantas"
+        ]
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: tradiciones",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Las tradiciones pueden ser diferentes.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "Un compañero tiene una tradición diferente. ¿Qué podemos hacer?",
+        "answer": "Escuchar con respeto",
+        "explanation": "Conocer diferentes tradiciones ayuda a comprender nuestra comunidad.",
+        "objective": "tradiciones",
+        "choices": [
+          "Escuchar con respeto",
+          "Burlarnos",
+          "Obligarlo a cambiar"
+        ]
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-27",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 5: municipio",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "El municipio es Montería; el departamento es Córdoba.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escribe el nombre de nuestro departamento.",
+        "answer": "Córdoba",
+        "explanation": "Montería está en el departamento de Córdoba.",
+        "objective": "municipio",
+        "acceptedAnswers": [
+          "Cordoba"
+        ]
+      }
+    },
+    {
+      "id": "g1-ciencias-sociales-p4-simbolos-y-municipio-28",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

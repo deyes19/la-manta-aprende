@@ -1,37 +1,31 @@
-# Ampliación solicitada: cuarto período
+# Cobertura del cuarto período
 
-El usuario confirmó **transición a quinto, cuarto período**, para Matemáticas, Lenguaje (Lengua Castellana) y Ciencias Sociales. Es el alcance de desarrollo, no una declaración de cobertura terminada.
+Las fuentes originales están descargadas, consultadas y conservadas. El alcance solicitado cubre transición a quinto, Matemáticas, Lengua Castellana y Ciencias Sociales. Se desarrollaron 19 rutas completas, 509 pantallas y 1.338 locuciones locales; aprobación pedagógica pendiente.
 
 | Grado | Matemáticas | Lengua Castellana | Ciencias Sociales |
 |---|---|---|---|
-| Transición | Pendiente de malla; integrar propósitos y actividades rectoras | Pendiente de malla; sin copias extensas | Pendiente de malla; juego y exploración |
-| Primero | Pendiente de lectura de original | Pendiente de lectura de original | Pendiente de lectura de original |
-| Segundo | Multiplicación/tablas 2–5: piloto ejecutable; validar original | Pendiente de lectura de original | Pendiente de lectura de original |
-| Tercero | Pendiente de lectura de original | Pendiente de lectura de original | Pendiente de lectura de original |
-| Cuarto | Pendiente de lectura de original | Pendiente de lectura de original | Pendiente de lectura de original |
-| Quinto | Pendiente de lectura de original | Pendiente de lectura de original | Pendiente de lectura de original |
+| Transición | Formas, estampados, trazos y collage | Cuento oral, mensajes, día/noche y tarjetas | Colombia, entorno, autoridades, oficios y transportes |
+| Primero | Centena/valor posicional, números hasta 999, suma/resta, cuerpos y barras horizontales | Que/qui, gue/gui, güe/güi, k/x/z/w, dictado y comprensión | Símbolos, fiestas patrias, tradiciones y municipio |
+| Segundo | Multiplicación/tablas 2–5; ruta adicional de área y datos/barras | Inversos z/x/d, sílabas, sujeto/predicado y comprensión/secuencias | Símbolos, fiestas patrias, memoria local y municipio |
+| Tercero | Fracciones, lectura, mitad/tercera/cuarta parte, seguimiento de tablas | Teatro: drama/comedia, guion, elementos y comprensión | Actividades económicas, servicios, ahorro y consumo responsable |
+| Cuarto | Decimales hasta centésimas, comparación, operaciones/problemas y sólidos | Drama/comedia, guion de dos escenas y representación | Sectores, comercio, problema ambiental y sostenibilidad |
+| Quinto | Decimales hasta milésimas, operaciones/problemas, dimensiones y volumen | Guion con conflicto, dos actos, interpretación y argumentación | Sectores, comercio, propuestas sostenibles con seguimiento |
 
-No crear 18 unidades vacías para llenar la tabla. Una selección pendiente no abre una lección supuesta. Para transición las tres áreas orientan experiencias integradas y no sustituyen propósitos/actividades rectoras institucionales. La organización concreta requiere consultar la malla de transición.
+Transición se organiza por propósito #4 y actividades rectoras. Las tres áreas son etiquetas para encontrar experiencias integradas; no se usan el cuaderno o la evaluación de primaria. Cuarto y quinto, y Sociales primero/segundo, comparten fuentes, pero sus tareas y productos escritos difieren.
 
-## Evidencia de acceso y bloqueo actual
+## Qué se puede verificar
 
-Las carpetas de Drive devolvieron HTTP 200 y permitieron identificar los archivos originales. El listado de identificadores y nombres está en `docs/fuentes/listado-drive.json`. El visor del documento muestra una página de carga, sin entregar el contenido en su HTML inicial.
+Las rutas incluyen explicación, ejemplos, texto literal y ejercicios escritos completos, revisión, práctica, misión y comprobaciones. Las producciones abiertas necesitan observación docente. En transición la participación, oralidad y composición no reciben aciertos automáticos.
 
-La descarga oficial `drive.google.com/uc?export=download&id=...` redirige a `drive.usercontent.google.com/download`. Ese destino devolvió CONNECT 403 en el proxy. Se guardó su incorporación junto a `drive.google.com` en el borrador de red; los presets existentes se conservaron. La configuración guardada no prueba su aplicación al entorno activo. No se ha descargado ni leído el currículo completo de esos archivos.
+Cada unidad tiene archivo y localizador de su malla. Las planeaciones de tercero a quinto complementan teatro, fracciones, decimales y sostenibilidad. No se atribuyen planeaciones de primero/segundo/transición que no estén disponibles.
 
-Para continuar con las unidades reales: guardar el cambio de red en configuración del entorno y volver a comprobar la descarga; o aportar los DOCX originales para importarlos en `docs/fuentes/`. Después leer por grado/período, registrar competencia/evidencia/tema/localizador y construir unidades completas por lotes. No asumir que un tema es de cuarto período por su nombre.
+## Validaciones pendientes
 
-## Trabajo técnico preparado
+- Aprobación docente de actividades, carga de copia, duración/pausas y audio sintético.
+- Nombre vigente del alcalde: dato local dinámico que se confirma en fuente oficial o tarjeta institucional preparada; no se inventa.
+- Reconocimiento visual del escudo oficial: revisión docente con imagen oficial o cartel escolar; no se presenta un escudo genérico como si fuera colombiano. No se empaquetó grabación del himno.
+- Matemáticas cuarto termina con un fragmento «Lo» en el eje temático: se conserva en el extracto, no se inventa un tema para completarlo.
+- Transición, tabla 4, tiene encabezado de columna «APRENDIZAJES SEGUNDO PERIODO», aunque la tabla dice IV. Se registra la discrepancia y se utiliza la tabla IV con revisión pendiente.
+- En la explicación del cielo se aclara que la Luna puede verse de día y refleja luz solar, para evitar interpretar la asociación día/noche como una exclusividad.
 
-- Registro de unidades ejecutables con selección por grado, área y período.
-- Motor recibe la unidad seleccionada; reanudación y avances se aíslan por perfil/unidad.
-- Respuestas numéricas, elección, reparto, escritura y orden de secuencias; objetivos de evaluación propios de cada área.
-- Esquema separado de transición, que exige juego/arte/literatura/exploración y rechaza cuaderno de primaria.
-- Asignación docente por unidad y grado; reportes con área, período, unidad y competencia observada.
-- Preparación sin internet recorre todos los audios del registro; generador incremental de narraciones.
-
-Esto prepara la expansión; no significa que Lenguaje, Sociales o los demás grados estén desarrollados.
-
-## Validación de esta adaptación
-
-Compilación TypeScript/Vite/PWA aprobada; 11 pruebas unitarias aprobadas (objetivos propios de área, escritura con tildes, secuencias, aislamiento de avances/reportes y rechazo de primaria en transición), y 4 pruebas de navegador aprobadas (recorrido original, reanudación/audio/guardado/exportación sin red, accesibilidad, fallo de almacenamiento y pantalla estrecha). Las nuevas mecánicas tienen pruebas de lógica; todavía no se ha comprobado una unidad curricular real de Lenguaje o Sociales porque faltan sus originales. No se declaran áreas o grados terminados.
+No se afirma haber cubierto todos los períodos ni haber auditado los 315 registros del kit. Inglés, Naturales, CapER y EATI no tienen OVA nuevos en esta etapa. Las fuentes compartidas conservan su identidad institucional.

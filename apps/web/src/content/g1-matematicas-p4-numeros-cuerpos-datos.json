@@ -1,0 +1,537 @@
+{
+  "id": "g1-matematicas-p4-numeros-cuerpos-datos",
+  "version": 1,
+  "title": "Números y formas de nuestra huerta",
+  "grade": 1,
+  "subject": "Matemáticas",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "locator": "Tabla 1, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Utilizo el sistema de numeración decimal para leer, escribir y comparar cantidades hasta el 999, resolviendo problemas de adición y sustracción, a la vez que identifico cuerpos geométricos en mi entorno y comunico información recolectada mediante diagramas de barras",
+    "learning": [
+      "Reconoce una centena y cómo se utiliza para formar números.",
+      "Realiza construcciones y diseños de cuerpos tridimensionales e identifica.",
+      "Reconoce el diagrama de barras que representa correctamente la información."
+    ],
+    "evidence": [
+      "Realiza composiciones y descomposiciones de números de dos dígitos en términos de la cantidad de “dieces” (decenas) y de “unos” (unidades) que los conforman.",
+      "Describe y resuelve situaciones variadas con las operaciones de suma y resta en problemas cuya estructura puede ser a+b=?, a+?=c, o ?+b=c",
+      "Establece y argumenta conjeturas de los posibles resultados en una secuencia numérica",
+      "Crea, compone y descompone formas bidimensionales y tridimensionales, para ello utiliza plastilina, papel, palitos, cajas, etc.",
+      "Agrupa objetos de su entorno de acuerdo con las semejanzas y las diferencias en la forma (si el objeto es redondo, si tiene puntas)",
+      "Comunica los resultados respondiendo preguntas tales como: ¿cuántos hay en total?, ¿cuántos hay de cada dato?, ¿cuál es el dato que más se repite?"
+    ],
+    "dba": "DBA 2: Utiliza diferentes estrategias para contar, realizar operaciones (suma y resta) y resolver problemas aditivos\nDBA 3: Utiliza las características posicionales del Sistema de Numeración Decimal (SND) para establecer relaciones entre cantidades y comparar números\nDBA 6: Compara objetos del entorno y establece semejanzas y diferencias empleando características geométricas de las formas bidimensionales y tridimensionales (curvo o recto, plano o sólido, número de caras, entre otros).\n\nDBA 10: Clasifica y organiza datos, los representa utilizando tablas de conteo y comunica los resultados obtenidos para responder preguntas sencillas",
+    "themes": [
+      "La centena y valor posicional.",
+      "Lectura, escritura y comparación de números hasta 999.",
+      "Adición, sustracción y resolución de problemas.",
+      "Cuerpos geométricos (Cilindro, cono y esfera, Prisma, cubo y pirámide)",
+      "Diagramas de barras horizontales."
+    ],
+    "objectives": [
+      "valor_posicional",
+      "comparacion",
+      "operaciones",
+      "cuerpos",
+      "datos"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-01",
+      "phase": "Hoy aprenderé",
+      "title": "Números y formas de nuestra huerta",
+      "instruction": "Busca tu cuaderno de Matemáticas, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina que contamos semillas y guardamos frutas en cajas. ¿Cómo podríamos organizar y contar todo?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🔢"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-03",
+      "phase": "Aprendo",
+      "title": "La centena y las posiciones",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Diez unidades forman una decena. Diez decenas forman una centena. En un número, la posición indica cuánto vale cada cifra.",
+        "En 243 hay 2 centenas, 4 decenas y 3 unidades: 200 + 40 + 3 = 243."
+      ],
+      "hint": "Mira la cifra que está antes de las decenas y las unidades.",
+      "symbol": "🔢"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-04",
+      "phase": "Aprendo",
+      "title": "Leer y comparar hasta 999",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Para comparar números de tres cifras, mira centenas, luego decenas y después unidades.",
+        "358 se lee trescientos cincuenta y ocho. 358 es mayor que 349: ambos tienen 3 centenas, pero 5 decenas es más que 4."
+      ],
+      "hint": "Compara una posición a la vez.",
+      "symbol": "🔢"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-05",
+      "phase": "Aprendo",
+      "title": "Sumar y restar en la huerta",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Sumar reúne cantidades. Restar permite saber lo que queda después de quitar.",
+        "Hay 125 semillas y llegan 24: 125 + 24 = 149. Si se usan 13: 149 − 13 = 136."
+      ],
+      "hint": "Puedes dibujar centenas, decenas y unidades.",
+      "symbol": "🌰"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-06",
+      "phase": "Aprendo",
+      "title": "Cuerpos que podemos tocar",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Un cuerpo geométrico ocupa espacio. Cubo y prisma tienen caras planas. Esfera, cono y cilindro tienen superficies curvas. Una pirámide tiene caras triangulares que llegan a una punta.",
+        "Una caja puede parecer un prisma; un dado, un cubo; una pelota, una esfera; una lata, un cilindro. Un cono tiene una base circular y una punta."
+      ],
+      "hint": "Observa los modelos y piensa cuál se parece a la pelota.",
+      "symbol": "📦",
+      "visual": {
+        "kind": "shapes",
+        "names": [
+          "cubo",
+          "prisma",
+          "pirámide",
+          "cono",
+          "cilindro",
+          "esfera"
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-07",
+      "phase": "Aprendo",
+      "title": "Leer barras horizontales",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Un diagrama de barras muestra cantidades. Lee la etiqueta y cuenta los cuadros de su barra.",
+        "En la tabla hay 5 mangos, 3 naranjas y 2 guayabas. La barra más larga corresponde a los mangos."
+      ],
+      "hint": "Busca la fila Naranjas y lee su cantidad.",
+      "symbol": "📊",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Mangos",
+          "Naranjas",
+          "Guayabas"
+        ],
+        "values": [
+          5,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-08",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Números y formas de nuestra huerta"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: La centena y las posiciones",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "La centena y las posiciones",
+        "Diez unidades forman una decena. Diez decenas forman una centena. En un número, la posición indica cuánto vale cada cifra.",
+        "En 243 hay 2 centenas, 4 decenas y 3 unidades: 200 + 40 + 3 = 243."
+      ],
+      "hint": "Mira la cifra que está antes de las decenas y las unidades."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Leer y comparar hasta 999",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Leer y comparar hasta 999",
+        "Para comparar números de tres cifras, mira centenas, luego decenas y después unidades.",
+        "358 se lee trescientos cincuenta y ocho. 358 es mayor que 349: ambos tienen 3 centenas, pero 5 decenas es más que 4."
+      ],
+      "hint": "Compara una posición a la vez."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Sumar y restar en la huerta",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Sumar y restar en la huerta",
+        "Sumar reúne cantidades. Restar permite saber lo que queda después de quitar.",
+        "Hay 125 semillas y llegan 24: 125 + 24 = 149. Si se usan 13: 149 − 13 = 136."
+      ],
+      "hint": "Puedes dibujar centenas, decenas y unidades."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Cuerpos que podemos tocar",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Cuerpos que podemos tocar",
+        "Un cuerpo geométrico ocupa espacio. Cubo y prisma tienen caras planas. Esfera, cono y cilindro tienen superficies curvas. Una pirámide tiene caras triangulares que llegan a una punta.",
+        "Una caja puede parecer un prisma; un dado, un cubo; una pelota, una esfera; una lata, un cilindro. Un cono tiene una base circular y una punta."
+      ],
+      "hint": "Observa los modelos y piensa cuál se parece a la pelota."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Leer barras horizontales",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Leer barras horizontales",
+        "Un diagrama de barras muestra cantidades. Lee la etiqueta y cuenta los cuadros de su barra.",
+        "En la tabla hay 5 mangos, 3 naranjas y 2 guayabas. La barra más larga corresponde a los mangos."
+      ],
+      "hint": "Busca la fila Naranjas y lee su cantidad."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Escribe 264 como centenas, decenas y unidades. Escribe cómo se lee."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-15",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Hay 135 semillas. Llegan 23 y después se usan 12. Escribe las dos operaciones y cuánto queda."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Dibuja una lata, una pelota y una caja. Escribe cilindro, esfera o prisma debajo. Dibuja las barras de 5 mangos, 3 naranjas y 2 guayabas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Escribe 264 como centenas, decenas y unidades. Escribe cómo se lee.",
+        "264 = 200 + 60 + 4: 2 centenas, 6 decenas y 4 unidades. Se lee doscientos sesenta y cuatro."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-18",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Hay 135 semillas. Llegan 23 y después se usan 12. Escribe las dos operaciones y cuánto queda.",
+        "135 + 23 = 158. 158 − 12 = 146 semillas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Dibuja una lata, una pelota y una caja. Escribe cilindro, esfera o prisma debajo. Dibuja las barras de 5 mangos, 3 naranjas y 2 guayabas.",
+        "Lata: cilindro. Pelota: esfera. Caja rectangular: prisma. Las barras deben tener 5, 3 y 2 cuadros."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-20",
+      "phase": "Practico",
+      "title": "Practica: La centena y las posiciones",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Mira la cifra que está antes de las decenas y las unidades.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas centenas tiene 352?",
+        "answer": 3,
+        "explanation": "En 352 el 3 ocupa la posición de centenas: vale 300.",
+        "objective": "valor_posicional"
+      },
+      "symbol": "🔢"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-21",
+      "phase": "Practico",
+      "title": "Practica: Leer y comparar hasta 999",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Compara una posición a la vez.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué número es mayor?",
+        "answer": "358",
+        "explanation": "Las centenas son iguales; cinco decenas es mayor que cuatro.",
+        "objective": "comparacion",
+        "choices": [
+          "349",
+          "358",
+          "Son iguales"
+        ]
+      },
+      "symbol": "🔢"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-22",
+      "phase": "Practico",
+      "title": "Practica: Sumar y restar en la huerta",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Puedes dibujar centenas, decenas y unidades.",
+      "activity": {
+        "kind": "number",
+        "prompt": "Hay 142 semillas y se usan 20. ¿Cuántas quedan?",
+        "answer": 122,
+        "explanation": "142 − 20 = 122; quitamos dos decenas.",
+        "objective": "operaciones"
+      },
+      "symbol": "🌰"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-23",
+      "phase": "Practico",
+      "title": "Practica: Cuerpos que podemos tocar",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Observa los modelos y piensa cuál se parece a la pelota.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿A qué cuerpo se parece una pelota?",
+        "answer": "Esfera",
+        "explanation": "La esfera es redonda y puede rodar en distintas direcciones.",
+        "objective": "cuerpos",
+        "choices": [
+          "Cubo",
+          "Esfera",
+          "Pirámide"
+        ]
+      },
+      "symbol": "📦",
+      "visual": {
+        "kind": "shapes",
+        "names": [
+          "cubo",
+          "prisma",
+          "pirámide",
+          "cono",
+          "cilindro",
+          "esfera"
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-24",
+      "phase": "Practico",
+      "title": "Practica: Leer barras horizontales",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Busca la fila Naranjas y lee su cantidad.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas naranjas registra el diagrama?",
+        "answer": 3,
+        "explanation": "La fila Naranjas tiene tres cuadros y la cantidad tres.",
+        "objective": "datos"
+      },
+      "symbol": "📊",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Mangos",
+          "Naranjas",
+          "Guayabas"
+        ],
+        "values": [
+          5,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-25",
+      "phase": "Mi misión",
+      "title": "Organiza la cosecha",
+      "instruction": "Dibuja una caja con 124 mangos y otra con 15. Escribe la suma y el total. Luego comprueba aquí el total.",
+      "text": [],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántos mangos hay entre las dos cajas?",
+        "answer": 139,
+        "explanation": "124 + 15 = 139 mangos.",
+        "objective": "operaciones"
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: centenas",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Separa 400, 70 y 8.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas decenas hay en 478?",
+        "answer": 7,
+        "explanation": "El 7 está en las decenas: vale 70.",
+        "objective": "valor_posicional"
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-27",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: comparación",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Compara las decenas.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Cuál es menor: 621 o 612?",
+        "answer": "612",
+        "explanation": "Tienen seis centenas; una decena es menor que dos.",
+        "objective": "comparacion",
+        "choices": [
+          "621",
+          "612",
+          "Son iguales"
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-28",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: resta",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Quita dos decenas y cinco unidades.",
+      "activity": {
+        "kind": "number",
+        "prompt": "De 158 plantas se trasladan 25. ¿Cuántas quedan?",
+        "answer": 133,
+        "explanation": "158 − 25 = 133.",
+        "objective": "operaciones"
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-29",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: cuerpo",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Mira los cuerpos del ejemplo.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué cuerpo tiene una base circular y una punta?",
+        "answer": "Cono",
+        "explanation": "El cono tiene una base circular y termina en una punta.",
+        "objective": "cuerpos",
+        "choices": [
+          "Cono",
+          "Cubo",
+          "Esfera"
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-30",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 5: diagrama",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Lee la fila Guayabas.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas guayabas muestra el diagrama?",
+        "answer": 2,
+        "explanation": "Guayabas: dos cuadros.",
+        "objective": "datos"
+      },
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Mangos",
+          "Naranjas",
+          "Guayabas"
+        ],
+        "values": [
+          5,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "g1-matematicas-p4-numeros-cuerpos-datos-31",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

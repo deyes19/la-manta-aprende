@@ -1,6 +1,8 @@
+import { Play } from "../preschool/Play";
 import { useEffect, useRef, useState } from "react";
 import { gradeLabel, type Unit } from "../../data/content";
 import { Audio, playFeedback } from "../../components/Audio";
+import { Visual } from "./Visual";
 import { Activity, Groups } from "./Activity";
 import { saveProgress, type Progress, type Profile } from "../../offline/store";
 const primaryPhases = [
@@ -98,6 +100,19 @@ export function Player({
         </h2>
         <p className="instruction">{s.instruction}</p>
         <Audio id={s.id} auto />
+        {s.visual && s.activity?.kind !== "fraction" && (
+          <Visual key={s.id + "-visual"} visual={s.visual} />
+        )}
+        {s.freePlay && (
+          <Play
+            symbols={s.freePlay.symbols}
+            value={p.products?.[s.id] ?? []}
+            disabled={saving}
+            onChange={(value) =>
+              void commit({ ...p, products: { ...p.products, [s.id]: value } })
+            }
+          />
+        )}
         {s.symbol && (
           <div className="lesson-symbol" aria-hidden="true">
             {s.symbol}
@@ -147,8 +162,10 @@ export function Player({
         )}
         {profile.support === "guiado" && (
           <p className="support-note">
-            👣 Primero escucha. Después realiza la acción. Comprueba tu
-            respuesta; si lo necesitas, pide una pista y vuelve a intentar.
+            👣{" "}
+            {unit.approach === "preschool"
+              ? "Primero escucha. Después juega, observa o crea. Puedes comunicarte con palabras o gestos y pedir acompañamiento."
+              : "Primero escucha. Después realiza la acción. Comprueba tu respuesta; si lo necesitas, pide una pista y vuelve a intentar."}
           </p>
         )}
         {profile.support === "visual" && (

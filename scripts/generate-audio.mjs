@@ -6,6 +6,7 @@ import {
   mkdirSync,
   readdirSync,
   existsSync,
+  unlinkSync,
 } from "node:fs";
 import { spawnSync } from "node:child_process";
 const engine = await create();
@@ -26,6 +27,12 @@ for (const s of units.flatMap((unit) => unit.steps)) {
   narrations[s.id] = [
     s.title,
     s.instruction,
+    s.dictation ?? "",
+    ...(s.freePlay
+      ? [
+          "Toca un dibujo para añadirlo. Toca una figura de tu composición para seleccionarla; después toca una casilla vacía para moverla.",
+        ]
+      : []),
     ...s.text,
     s.activity?.prompt ?? "",
     ...(s.activity?.choices ?? []),
@@ -50,10 +57,39 @@ Object.assign(narrations, {
     "Tu trabajo quedó guardado. Muestra al docente el trabajo que hiciste. Puedes volver a la ruta con el botón de la casa.",
 });
 mkdirSync("apps/web/public/audio", { recursive: true });
+const tracked = new Set(
+  spawnSync("git", ["ls-files", "apps/web/public/audio"], { encoding: "utf8" })
+    .stdout.split("\n")
+    .filter((p) => p.endsWith(".mp3"))
+    .map((p) => p.split("/").pop().replace(".mp3", "")),
+);
+const seen = new Map();
+const audioFiles = {};
+for (const id of tracked) {
+  if (previous[id] && existsSync(`apps/web/public/audio/${id}.mp3`))
+    seen.set(previous[id], id);
+}
 for (const [id, raw] of Object.entries(narrations)) {
+  const canonical = seen.get(raw) ?? id;
+  seen.set(raw, canonical);
+  audioFiles[id] = canonical;
+  if (canonical !== id) {
+    if (
+      process.argv.includes("--prune-duplicates") &&
+      !tracked.has(id) &&
+      existsSync(`apps/web/public/audio/${id}.mp3`)
+    )
+      unlinkSync(`apps/web/public/audio/${id}.mp3`);
+    continue;
+  }
   if (previous[id] === raw && existsSync(`apps/web/public/audio/${id}.mp3`))
     continue;
   const text = raw
+    .replace(
+      /(\d+),(\d+)/g,
+      (_, whole, fraction) => `${whole} coma ${fraction.split("").join(" ")}`,
+    )
+    .replace(/(\d+)\/(\d+)/g, "$1 de $2 partes")
     .replaceAll("×", " por ")
     .replaceAll("+", " más ")
     .replaceAll("=", " igual a ")
@@ -96,4 +132,10 @@ writeFileSync(
   "apps/web/public/audio/transcripts.json",
   JSON.stringify(narrations, null, 2),
 );
-console.log(Object.keys(narrations).length + " audios españoles generados");
+writeFileSync(
+  "apps/web/src/data/audio-files.json",
+  JSON.stringify(audioFiles, null, 2) + "\n",
+);
+console.log(
+  `${Object.keys(narrations).length} narraciones; ${new Set(Object.values(audioFiles)).size} archivos de audio distintos.`,
+);

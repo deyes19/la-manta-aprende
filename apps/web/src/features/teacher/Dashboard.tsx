@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { units, gradeLabel } from "../../data/content";
 import {
+  saveProgress,
+  newProgress,
   deleteProfile,
   putProfile,
   type Profile,
@@ -20,6 +22,7 @@ export function Dashboard({
   const [student, setStudent] = useState("");
   const [unitId, setUnitId] = useState("");
   const [error, setError] = useState("");
+  const [savingReview, setSavingReview] = useState(false);
   const [remove, setRemove] = useState("");
   const filtered = profiles.filter(
     (p) => (!group || p.group === group) && (!student || p.id === student),
@@ -94,7 +97,7 @@ export function Dashboard({
       </div>
       <div className="toolbar">
         <button
-          disabled={!data.length}
+          disabled={savingReview || !data.length}
           onClick={() =>
             download(
               "manta-resultados.csv",
@@ -106,7 +109,7 @@ export function Dashboard({
           ↓ Exportar CSV
         </button>
         <button
-          disabled={!filtered.length}
+          disabled={savingReview || !filtered.length}
           onClick={() =>
             download(
               "manta-evidencias.json",
@@ -163,6 +166,7 @@ export function Dashboard({
           📌 Asignar unidad seleccionada
         </button>
       </div>
+      {savingReview && <p role="status">Guardando observación docente…</p>}
       {error && <p role="alert">{error}</p>}
       <div className="teacher-grid">
         {filtered.map((p) => {
@@ -187,6 +191,47 @@ export function Dashboard({
                         {r?.completed.length ?? 0} / {u.steps.length} pantallas
                         · {r?.finished ? "Terminó" : "En proceso"}
                       </p>
+                      {r?.products && (
+                        <p>
+                          Composiciones digitales:{" "}
+                          {Object.values(r.products).flat().join(" ") ||
+                            "Sin figuras guardadas"}
+                          . No calificadas automáticamente.
+                        </p>
+                      )}
+                      <label htmlFor={`review-${p.id}-${u.id}`}>
+                        Observación docente de {u.title}
+                      </label>
+                      <textarea
+                        id={`review-${p.id}-${u.id}`}
+                        key={p.id + u.id + (r?.teacherReview?.at ?? "")}
+                        defaultValue={r?.teacherReview?.note ?? ""}
+                        maxLength={2000}
+                        rows={2}
+                        onBlur={async (e) => {
+                          const note = e.target.value.trim();
+                          if (note === (r?.teacherReview?.note ?? "")) return;
+                          setSavingReview(true);
+                          try {
+                            const record =
+                              r ?? newProgress(p.id, u.id, u.version);
+                            await saveProgress({
+                              ...record,
+                              teacherReview: {
+                                note,
+                                at: new Date().toISOString(),
+                              },
+                            });
+                            await refresh();
+                          } catch {
+                            setError(
+                              "No se pudo guardar la observación docente.",
+                            );
+                          } finally {
+                            setSavingReview(false);
+                          }
+                        }}
+                      />
                     </div>
                   );
                 })}

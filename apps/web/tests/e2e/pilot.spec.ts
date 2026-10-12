@@ -5,7 +5,13 @@ async function create(page: Page) {
   await page.goto("/");
   await page.getByLabel("Mi alias").fill("Semilla");
   await page.getByRole("button", { name: "Crear perfil" }).click();
-  await page.getByRole("button", { name: "Abrir unidad" }).click();
+  await page
+    .locator("article")
+    .filter({
+      has: page.getByRole("heading", { name: unit.title, exact: true }),
+    })
+    .getByRole("button", { name: "Abrir unidad" })
+    .click();
 }
 async function next(page: Page) {
   await page
@@ -107,7 +113,9 @@ test("recorrido completo, intentos, reanudación, reportes y uso sin internet", 
     } else await next(page);
   }
   await expect
-    .poll(() => page.locator(".offline-status").textContent())
+    .poll(() => page.locator(".offline-status").textContent(), {
+      timeout: 120000,
+    })
     .toContain("preparados");
   await context.setOffline(true);
   await page.reload();

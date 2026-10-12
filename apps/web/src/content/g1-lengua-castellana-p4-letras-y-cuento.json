@@ -1,0 +1,412 @@
+{
+  "id": "g1-lengua-castellana-p4-letras-y-cuento",
+  "version": 1,
+  "title": "Leemos palabras y compartimos un cuento",
+  "grade": 1,
+  "subject": "Lengua Castellana",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/lengua-castellana-2026.docx",
+    "locator": "Tabla 1, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Competencia comunicativa- lectora\n\nCompetencia comunicativa-escritora.",
+    "learning": [
+      "Identifica las consonantes trabajadas y escribe sílabas y palabras con ellas.",
+      "Identifica la idea principal de un texto y los elementos que lo componen."
+    ],
+    "evidence": [
+      "Identifica en un escrito las combinaciones consonánticas y los fonemas estudiados.",
+      "Expresa en forma clara sus ideas y sentimientos."
+    ],
+    "dba": "Identifica la letra o grupo de letras que corresponden con un sonido al momento de pronunciar las palabras escritas. \n(DBA 6)\n\n\nInterpreta textos literarios como parte de su iniciación en la comprensión de textos.\n(DBA 4)",
+    "themes": [
+      "Consonantes (que, qui, gue, gui, güe, güi, k, x, z, w)",
+      "Dictado de palabras y frases sencillas.",
+      "Comprensión lectora."
+    ],
+    "objectives": [
+      "consonantes",
+      "dieresis",
+      "letras",
+      "comprension"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-01",
+      "phase": "Hoy aprenderé",
+      "title": "Leemos palabras y compartimos un cuento",
+      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina a Quique llegando a la escuela con queso. ¿Qué letras reconoces cuando escuchas su nombre?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🧀"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-03",
+      "phase": "Aprendo",
+      "title": "Que y qui",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "En que y qui la u no se pronuncia. Observa cómo se escriben las palabras y escucha su sonido.",
+        "Queso empieza con que. Quince empieza con qui. Frase: Quique come queso."
+      ],
+      "hint": "Escucha la palabra queso y mira la tarjeta que.",
+      "symbol": "🧀"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-04",
+      "phase": "Aprendo",
+      "title": "Gue, gui, güe y güi",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "En gue y gui la u no suena. Los dos puntos de la diéresis permiten que la u suene en güe y güi.",
+        "Guerra y guitarra tienen u que no suena. Cigüeña y pingüino tienen u que sí suena."
+      ],
+      "hint": "Busca los dos puntos sobre la u.",
+      "symbol": "🐧"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-05",
+      "phase": "Aprendo",
+      "title": "K, x, z y w",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Reconoce estas letras al leer y escribir. Algunas palabras que vienen de otras lenguas usan k y w.",
+        "Kiwi empieza con k. Taxi lleva x. Zapato empieza con z. Wifi empieza con w."
+      ],
+      "hint": "Pronuncia despacio zapato.",
+      "symbol": "👟"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-06",
+      "phase": "Aprendo",
+      "title": "Comprender lo que leemos",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Comprender es saber de quién se habla y qué sucede. Podemos escuchar el cuento y responder con sus palabras.",
+        "Cuento: Quique lleva queso a la escuela. En el camino ve una cigüeña. Al llegar comparte el queso con Zulema. ¿Qué comparte Quique? Comparte queso."
+      ],
+      "hint": "Escucha la última oración del cuento.",
+      "symbol": "📖"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-07",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Leemos palabras y compartimos un cuento"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-08",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Que y qui",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Que y qui",
+        "En que y qui la u no se pronuncia. Observa cómo se escriben las palabras y escucha su sonido.",
+        "Queso empieza con que. Quince empieza con qui. Frase: Quique come queso."
+      ],
+      "hint": "Escucha la palabra queso y mira la tarjeta que."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Gue, gui, güe y güi",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Gue, gui, güe y güi",
+        "En gue y gui la u no suena. Los dos puntos de la diéresis permiten que la u suene en güe y güi.",
+        "Guerra y guitarra tienen u que no suena. Cigüeña y pingüino tienen u que sí suena."
+      ],
+      "hint": "Busca los dos puntos sobre la u."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: K, x, z y w",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "K, x, z y w",
+        "Reconoce estas letras al leer y escribir. Algunas palabras que vienen de otras lenguas usan k y w.",
+        "Kiwi empieza con k. Taxi lleva x. Zapato empieza con z. Wifi empieza con w."
+      ],
+      "hint": "Pronuncia despacio zapato."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Comprender lo que leemos",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Comprender lo que leemos",
+        "Comprender es saber de quién se habla y qué sucede. Podemos escuchar el cuento y responder con sus palabras.",
+        "Cuento: Quique lleva queso a la escuela. En el camino ve una cigüeña. Al llegar comparte el queso con Zulema. ¿Qué comparte Quique? Comparte queso."
+      ],
+      "hint": "Escucha la última oración del cuento."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-12",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Copia queso, quince, guerra, guitarra, cigüeña y pingüino. Encierra que, qui, gue, gui, güe y güi en las palabras."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-13",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia kiwi, taxi, zapato y wifi. Dibuja un zapato y escribe su nombre debajo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Copia: ¿Qué comparte Quique? Escribe la respuesta y dibuja a Quique compartiendo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-15",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia queso, quince, guerra, guitarra, cigüeña y pingüino. Encierra que, qui, gue, gui, güe y güi en las palabras.",
+        "Queso: que; quince: qui; guerra: gue; guitarra: gui; cigüeña: güe; pingüino: güi."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-16",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia kiwi, taxi, zapato y wifi. Dibuja un zapato y escribe su nombre debajo.",
+        "Las letras trabajadas son k, x, z y w. El dibujo del zapato debe tener la palabra zapato."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Copia: ¿Qué comparte Quique? Escribe la respuesta y dibuja a Quique compartiendo.",
+        "Quique comparte queso. Tu docente revisará el dibujo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-18",
+      "phase": "Practico",
+      "title": "Practica: Que y qui",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Escucha la palabra queso y mira la tarjeta que.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Completa con que o qui: ___so.",
+        "answer": "que",
+        "explanation": "Queso empieza con que.",
+        "objective": "consonantes"
+      },
+      "symbol": "🧀"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-19",
+      "phase": "Practico",
+      "title": "Practica: Gue, gui, güe y güi",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Busca los dos puntos sobre la u.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué palabra tiene u que sí se pronuncia?",
+        "answer": "Pingüino",
+        "explanation": "La diéresis de pingüino indica que suena la u.",
+        "objective": "dieresis",
+        "choices": [
+          "Guitarra",
+          "Guerra",
+          "Pingüino"
+        ]
+      },
+      "symbol": "🐧"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-20",
+      "phase": "Practico",
+      "title": "Practica: K, x, z y w",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Pronuncia despacio zapato.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escribe la primera letra de zapato.",
+        "answer": "z",
+        "explanation": "Zapato empieza con z.",
+        "objective": "letras"
+      },
+      "symbol": "👟"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-21",
+      "phase": "Practico",
+      "title": "Practica: Comprender lo que leemos",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Escucha la última oración del cuento.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Con quién comparte Quique el queso?",
+        "answer": "Zulema",
+        "explanation": "El cuento dice que comparte el queso con Zulema.",
+        "objective": "comprension",
+        "choices": [
+          "Zulema",
+          "La cigüeña",
+          "El taxista"
+        ]
+      },
+      "symbol": "📖"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-22",
+      "phase": "Mi misión",
+      "title": "Un mensaje para compartir",
+      "instruction": "Escribe en tu cuaderno: Quique comparte queso. Debajo dibuja un alimento que tú compartirías. Lee tu frase en voz baja; puedes repetir el audio.",
+      "text": [
+        "Frase: Quique comparte queso.",
+        "Producto: una frase y un dibujo para mostrar al docente."
+      ],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-23",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: que y qui",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Escucha quince.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Completa la palabra: ___nce. Escribe que o qui.",
+        "answer": "qui",
+        "explanation": "Quince se escribe con qui.",
+        "objective": "consonantes"
+      }
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-24",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: diéresis",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Busca la letra con dos puntos.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué palabra tiene diéresis?",
+        "answer": "Cigüeña",
+        "explanation": "Cigüeña lleva los dos puntos que hacen sonar la u.",
+        "objective": "dieresis",
+        "choices": [
+          "Guitarra",
+          "Cigüeña",
+          "Queso"
+        ]
+      }
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-25",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: dictado",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "La palabra tiene cuatro letras.",
+      "activity": {
+        "kind": "text",
+        "prompt": "Escucha la palabra del audio. Escríbela aquí sin mirar los ejemplos.",
+        "answer": "taxi",
+        "explanation": "Taxi se escribe t, a, x, i.",
+        "objective": "letras"
+      },
+      "dictation": "La palabra para el dictado es: taxi. Repito: taxi."
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: cuento",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [
+        "Quique lleva queso a la escuela. En el camino ve una cigüeña. Al llegar comparte el queso con Zulema."
+      ],
+      "hint": "Recuerda a dónde iba Quique.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Dónde comparte Quique el queso?",
+        "answer": "En la escuela",
+        "explanation": "El cuento cuenta que lo comparte al llegar a la escuela.",
+        "objective": "comprension",
+        "choices": [
+          "En la escuela",
+          "En un río",
+          "En el mar"
+        ]
+      }
+    },
+    {
+      "id": "g1-lengua-castellana-p4-letras-y-cuento-27",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

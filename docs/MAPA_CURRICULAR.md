@@ -1,5 +1,3 @@
-# Cobertura actual
+# Mapa curricular
 
-Segundo → Matemáticas → período cuarto → La multiplicación en nuestra huerta (tablas 2–5): piloto funcional, fuente original y aprobación pedagógica pendientes.
-
-Otros grados/períodos/áreas: sin OVA en esta etapa. La selección curricular muestra ausencia explícita. Transición tendrá una ruta independiente basada en juego, arte, literatura y exploración del medio; CapER y EATI conservarán su organización integrada cuando se reciban las fuentes.
+La cobertura vigente se describe en [ALCANCE_CUARTO_PERIODO.md](ALCANCE_CUARTO_PERIODO.md): 19 rutas de transición a quinto en las tres áreas del cuarto período. Fuente consultada y aprobación pedagógica pendiente. No se contabilizan unidades de otros períodos/áreas ni registros preliminares del kit como OVA.

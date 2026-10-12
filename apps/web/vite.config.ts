@@ -2,6 +2,18 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules")) return "vendor";
+          if (id.includes("/src/content/") && id.endsWith(".json"))
+            return "lessons";
+          if (id.endsWith("audio-files.json")) return "audio-index";
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

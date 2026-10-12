@@ -1,0 +1,433 @@
+{
+  "id": "g2-matematicas-p4-area-y-datos",
+  "version": 1,
+  "title": "Medimos la huerta y contamos sus plantas",
+  "grade": 2,
+  "subject": "Matemáticas",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "locator": "Tabla 2, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Resolución\nComunicación",
+    "learning": [
+      "Resolver y formular problemas multiplicativos rutinarios de adición repetida",
+      "Identificar atributos de objetos y eventos que son susceptibles de ser medidos",
+      "Representar un conjunto de datos a partir de un diagrama de barras e interpretar lo que un diagrama de barras determinado representa"
+    ],
+    "evidence": [
+      "Solucionar problemas rutinarios multiplicativos de adición repetida",
+      "Reconocer que en una figura plana se puede medir la longitud y la superficie",
+      "Interpretar lo que un diagrama de barras representa"
+    ],
+    "dba": "DBA 1: Interpreta, propone y resuelve problemas aditivos y problemas multiplicativos sencillos\nDBA 2: Utiliza diferentes estrategias para calcular (agrupar, representar elementos en colecciones, etc.) o estimar el resultado de una suma, resta o multiplicación\nDBA 4: Compara y explica características que se pueden medir en el proceso de resolución de problemas relativos a longitud y superficie\nDBA 5:Utiliza patrones y unidades no convencionales en procesos de medición, cálculo y estimación de magnitudes como superficie\nDBA 10: Clasifica y organiza datos, los representa utilizando tablas de conteo y gráficos de puntos, comunica los resultados obtenidos para responder preguntas sencillas",
+    "themes": [
+      "La multiplicación",
+      "Tablas de Multiplicación por 2,3,4,5",
+      "Área de figuras geométricas.",
+      "Tabla de datos y Diagrama de barras"
+    ],
+    "objectives": [
+      "area",
+      "lectura_datos",
+      "comparacion_datos"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g2-matematicas-p4-area-y-datos-01",
+      "phase": "Hoy aprenderé",
+      "title": "Medimos la huerta y contamos sus plantas",
+      "instruction": "Busca tu cuaderno de Matemáticas, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina una huerta pequeña. ¿Cómo sabemos cuánto espacio ocupa y cuántas plantas hay?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🟩",
+      "visual": {
+        "kind": "grid",
+        "rows": 2,
+        "columns": 3
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-03",
+      "phase": "Aprendo",
+      "title": "La superficie y el área",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El área indica cuánto espacio cubre una superficie. Podemos medirla contando cuadrados iguales que la cubren sin dejar huecos ni superponerlos.",
+        "Un rectángulo de 2 filas con 3 cuadrados en cada fila tiene 6 cuadrados de área: 3 + 3 = 6."
+      ],
+      "hint": "Dibuja y cuenta una fila a la vez.",
+      "symbol": "🟩",
+      "visual": {
+        "kind": "grid",
+        "rows": 2,
+        "columns": 3
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-04",
+      "phase": "Aprendo",
+      "title": "De la tabla al diagrama",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una tabla organiza datos en filas. El diagrama usa barras de la misma escala para mostrar esas cantidades.",
+        "En la huerta contamos 6 plantas de maíz, 4 de frijol y 3 de tomate. Con un cuadro por planta, las barras miden 6, 4 y 3 cuadros."
+      ],
+      "hint": "Busca la fila Frijol.",
+      "symbol": "📊",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-05",
+      "phase": "Aprendo",
+      "title": "Comparar y reunir datos",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Para saber cuántos hay en total, suma las cantidades. Para saber cuántos más tiene una categoría, resta.",
+        "Total: 6 + 4 + 3 = 13 plantas. El maíz tiene 2 plantas más que el frijol: 6 − 4 = 2."
+      ],
+      "hint": "Suma las tres filas.",
+      "symbol": "🌱",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-06",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Medimos la huerta y contamos sus plantas"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-07",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: La superficie y el área",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "La superficie y el área",
+        "El área indica cuánto espacio cubre una superficie. Podemos medirla contando cuadrados iguales que la cubren sin dejar huecos ni superponerlos.",
+        "Un rectángulo de 2 filas con 3 cuadrados en cada fila tiene 6 cuadrados de área: 3 + 3 = 6."
+      ],
+      "hint": "Dibuja y cuenta una fila a la vez."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-08",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: De la tabla al diagrama",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "De la tabla al diagrama",
+        "Una tabla organiza datos en filas. El diagrama usa barras de la misma escala para mostrar esas cantidades.",
+        "En la huerta contamos 6 plantas de maíz, 4 de frijol y 3 de tomate. Con un cuadro por planta, las barras miden 6, 4 y 3 cuadros."
+      ],
+      "hint": "Busca la fila Frijol."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Comparar y reunir datos",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Comparar y reunir datos",
+        "Para saber cuántos hay en total, suma las cantidades. Para saber cuántos más tiene una categoría, resta.",
+        "Total: 6 + 4 + 3 = 13 plantas. El maíz tiene 2 plantas más que el frijol: 6 − 4 = 2."
+      ],
+      "hint": "Suma las tres filas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-10",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Dibuja 2 filas de 3 cuadrados iguales. Escribe cuántos cuadrados cubren el rectángulo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-11",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia la tabla Maíz: 6; Frijol: 4; Tomate: 3. Dibuja tres barras horizontales usando un cuadro por planta."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-12",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Escribe cuántas plantas hay en total y cuántas más tiene el maíz que el tomate."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-13",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Dibuja 2 filas de 3 cuadrados iguales. Escribe cuántos cuadrados cubren el rectángulo.",
+        "El rectángulo tiene 6 cuadrados de área."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-14",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia la tabla Maíz: 6; Frijol: 4; Tomate: 3. Dibuja tres barras horizontales usando un cuadro por planta.",
+        "Las barras tienen 6, 4 y 3 cuadros. Todas usan la misma escala."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-15",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Escribe cuántas plantas hay en total y cuántas más tiene el maíz que el tomate.",
+        "6 + 4 + 3 = 13 plantas. 6 − 3 = 3 plantas más de maíz."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-16",
+      "phase": "Practico",
+      "title": "Practica: La superficie y el área",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Dibuja y cuenta una fila a la vez.",
+      "activity": {
+        "kind": "number",
+        "prompt": "El dibujo tiene dos filas de tres cuadrados. ¿Cuántos cuadrados lo cubren?",
+        "answer": 6,
+        "explanation": "3 + 3 = 6 cuadrados de área.",
+        "objective": "area"
+      },
+      "symbol": "🟩",
+      "visual": {
+        "kind": "grid",
+        "rows": 2,
+        "columns": 3
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-17",
+      "phase": "Practico",
+      "title": "Practica: De la tabla al diagrama",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Busca la fila Frijol.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas plantas de frijol hay?",
+        "answer": 4,
+        "explanation": "La tabla y la barra de Frijol muestran cuatro.",
+        "objective": "lectura_datos"
+      },
+      "symbol": "📊",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-18",
+      "phase": "Practico",
+      "title": "Practica: Comparar y reunir datos",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Suma las tres filas.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas plantas hay en total?",
+        "answer": 13,
+        "explanation": "6 + 4 + 3 = 13.",
+        "objective": "comparacion_datos"
+      },
+      "symbol": "🌱",
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-19",
+      "phase": "Mi misión",
+      "title": "Diseña un semillero",
+      "instruction": "Dibuja un semillero de tres filas con cuatro cuadrados por fila. Escribe cuántos cuadrados cubren la superficie y comprueba el total.",
+      "text": [],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántos cuadrados cubren ese semillero?",
+        "answer": 12,
+        "explanation": "4 + 4 + 4 = 12 cuadrados.",
+        "objective": "area"
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-20",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: área",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Cuenta las tres filas.",
+      "activity": {
+        "kind": "number",
+        "prompt": "Tres filas de dos cuadrados cubren un dibujo. ¿Cuál es su área en cuadrados?",
+        "answer": 6,
+        "explanation": "2 + 2 + 2 = 6 cuadrados.",
+        "objective": "area"
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-21",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: tabla",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Busca Tomate.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas plantas de tomate hay en la tabla?",
+        "answer": 3,
+        "explanation": "La fila Tomate muestra tres.",
+        "objective": "lectura_datos"
+      },
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-22",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: comparación",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Compara seis con cuatro.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántas plantas más de maíz que de frijol hay?",
+        "answer": 2,
+        "explanation": "6 − 4 = 2.",
+        "objective": "comparacion_datos"
+      },
+      "visual": {
+        "kind": "bars",
+        "labels": [
+          "Maíz",
+          "Frijol",
+          "Tomate"
+        ],
+        "values": [
+          6,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "g2-matematicas-p4-area-y-datos-23",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "driveId": "1wYQrqh1XE3HoeYXfWIBvPggIbWt2efcj",
+    "url": "https://drive.google.com/uc?export=download&id=1wYQrqh1XE3HoeYXfWIBvPggIbWt2efcj",
+    "sha256": "f06ddf71640091d9c061b37ffe579ec5565b673d26451666d3e330654cd8b848",
+    "bytes": 581008,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "malla"
+  },
+  {
+    "file": "docs/fuentes/lengua-castellana-2026.docx",
+    "driveId": "1ibzNxnf6BH-3H03X0Ptogi4fso8gFlXv",
+    "url": "https://drive.google.com/uc?export=download&id=1ibzNxnf6BH-3H03X0Ptogi4fso8gFlXv",
+    "sha256": "18775d221bbace39bd523de7e635bbb3562d9a7a107c3cfbd2edbd356796d8c4",
+    "bytes": 433778,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "malla"
+  },
+  {
+    "file": "docs/fuentes/ciencias-sociales-2026.docx",
+    "driveId": "1mR_GTfP71B1yVGbLZP8aFfKgl0si-IIi",
+    "url": "https://drive.google.com/uc?export=download&id=1mR_GTfP71B1yVGbLZP8aFfKgl0si-IIi",
+    "sha256": "261ac8c49a4654415acc40837c599a307ecd36e6edacab364b37c88651b08bf1",
+    "bytes": 38906,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "malla"
+  },
+  {
+    "file": "docs/fuentes/transicion-2026.docx",
+    "driveId": "1IBivrfAYMvUGv0XPCLvDXKX1iHY5JNpL",
+    "url": "https://drive.google.com/uc?export=download&id=1IBivrfAYMvUGv0XPCLvDXKX1iHY5JNpL",
+    "sha256": "04d7f08cf363ed1118da2a3a92707583b577d026f2e078cb351817b2450bf8b4",
+    "bytes": 540375,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "malla"
+  },
+  {
+    "file": "docs/fuentes/plan-matematicas-3-p4.docx",
+    "driveId": "18pPyNr2iWr81mXiWIdxRgSNvuGqWUCet",
+    "url": "https://drive.google.com/uc?export=download&id=18pPyNr2iWr81mXiWIdxRgSNvuGqWUCet",
+    "sha256": "cceab34854a3ab6e01e5aa0ff0dce821449bcf1d8e594236f3bbe8a4daab41d1",
+    "bytes": 9446487,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-matematicas-4-p4.docx",
+    "driveId": "1HoGDJ7KBeW5VE59JCaK-A01l2kRLEU1j",
+    "url": "https://drive.google.com/uc?export=download&id=1HoGDJ7KBeW5VE59JCaK-A01l2kRLEU1j",
+    "sha256": "9e28dcbda44403baa405b1203fcd75e9fec78e38fff536b86ad22bfeb9766d22",
+    "bytes": 12407503,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-matematicas-5-p4.docx",
+    "driveId": "1TG9Vu6Y2dR9ltqlan-dQYhEgxmtahAHP",
+    "url": "https://drive.google.com/uc?export=download&id=1TG9Vu6Y2dR9ltqlan-dQYhEgxmtahAHP",
+    "sha256": "dd22d418006cc4a5293798adef81a66fb5f6468ad75dfd4c47ffad889b78303e",
+    "bytes": 12595193,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-lengua-3-p4.docx",
+    "driveId": "1gueur2XCPYTAOT4D7zMiQtpXsP3XyKI_",
+    "url": "https://drive.google.com/uc?export=download&id=1gueur2XCPYTAOT4D7zMiQtpXsP3XyKI_",
+    "sha256": "61e1d5a080e569b2a104d62691685d16b5c747ed9d2ed299f60f7e095ad9a588",
+    "bytes": 12531229,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-lengua-4-5-p4.docx",
+    "driveId": "1LAZkERkTuufggceJ5-XVdLwesSgSxKh8",
+    "url": "https://drive.google.com/uc?export=download&id=1LAZkERkTuufggceJ5-XVdLwesSgSxKh8",
+    "sha256": "a6e455b2ebae35a34855693f1534a7bdae4e92e4c1a850fc1f71a48eab0d9a75",
+    "bytes": 7498630,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-sociales-4-p4.docx",
+    "driveId": "1DM0092ejuH4A3wct1W7jDJJj-z2VYvPg",
+    "url": "https://drive.google.com/uc?export=download&id=1DM0092ejuH4A3wct1W7jDJJj-z2VYvPg",
+    "sha256": "9142c3d756bffbebde45b29aac06807bae62d4951a18246d68438b0566b29487",
+    "bytes": 4390704,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  },
+  {
+    "file": "docs/fuentes/plan-sociales-5-p4.docx",
+    "driveId": "1bRiGfygiFmeS93TGZXW1YqCl1rnWrdwA",
+    "url": "https://drive.google.com/uc?export=download&id=1bRiGfygiFmeS93TGZXW1YqCl1rnWrdwA",
+    "sha256": "def869393a5b0a30e96af2f571a7961e8574af1943d648fb018227489535fb25",
+    "bytes": 9595709,
+    "status": "FUENTE_CONSULTADA",
+    "consultedOn": "2026-10-12",
+    "kind": "planeacion"
+  }
+]

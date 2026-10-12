@@ -24,6 +24,8 @@ export type Progress = {
   attempts: Record<string, Attempt[]>;
   hints: Record<string, number>;
   selfReport?: string;
+  products?: Record<string, string[]>;
+  teacherReview?: { note: string; at: string };
   finished: boolean;
   updatedAt: string;
 };

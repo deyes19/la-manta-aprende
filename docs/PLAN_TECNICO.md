@@ -16,3 +16,7 @@ El kit aporta un ejemplo, no los documentos institucionales. La afirmación del 
 Contenido JSON → esquema Zod → motor de tarjetas → actividades reutilizables. IndexedDB guarda perfiles y recorrido versionado; el docente descarga reportes localmente. Workbox precarga código, contenido y audio local, sin peticiones externas de sesión. El equipo funciona en un origen fijo localhost/HTTPS; el almacenamiento pertenece a ese origen.
 
 Resultado: arquitectura y piloto técnico entregados. La verificación de mallas originales y la aceptación pedagógica permanecen pendientes; ver ENTREGA_1.md.
+
+## Ampliación de cuarto período
+
+Se consultaron los originales y se desarrollaron 19 rutas / 509 pantallas para transición a quinto en Matemáticas, Lengua Castellana y Ciencias Sociales. La trazabilidad pasa a FUENTE_CONSULTADA, la aprobación pedagógica sigue pendiente. Ver ENTREGA_2.md para el estado vigente y ALCANCE_CUARTO_PERIODO.md para límites.

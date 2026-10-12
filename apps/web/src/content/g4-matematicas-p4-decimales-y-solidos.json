@@ -1,0 +1,516 @@
+{
+  "id": "g4-matematicas-p4-decimales-y-solidos",
+  "version": 1,
+  "title": "Medidas decimales de la finca",
+  "grade": 4,
+  "subject": "Matemáticas",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/matematicas-2026.docx",
+    "locator": "Tabla 4, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": [
+      {
+        "file": "docs/fuentes/plan-matematicas-4-p4.docx",
+        "locator": "Encabezado de cuarto período; ejes temáticos y desarrollo de los temas correspondientes"
+      }
+    ]
+  },
+  "curriculum": {
+    "competence": "Resolución\nRazonamiento\nComunicación",
+    "learning": [
+      "Reconocer e interpretar números naturales y fracciones en diferentes contextos",
+      "Justificar y generar equivalencias entre expresiones numéricas",
+      "Resolver situaciones aditivas que tienen más de una solución",
+      "Resolver problemas aditivos rutinarios y no rutinarios de transformación, comparación, combinación e igualación",
+      "Diferenciar atributos y propiedades de objetos tridimensionales"
+    ],
+    "evidence": [
+      "Asignar un valor numérico a la medida de una magnitud",
+      "Establecer relaciones de orden (mayor, menor, igual) y representarlas simbólicamente",
+      "Resolver situaciones aditivas que tienen más de una solución",
+      "Reconocer similitudes y diferencias entre figuras y objetos tridimensionales"
+    ],
+    "dba": "DBA 2: \"Utiliza y justifica algoritmos estandarizados y no estandarizados para realizar operaciones aditivas con representaciones decimales provenientes de fraccionarios cuyas expresiones tengan denominador 10, 100, etc.\"\nEstablece relaciones mayor que, menor que, igual que y relaciones multiplicativas entre números racionales en sus formas de fracción o decimal\nDBA 6: \"Identifica, describe y representa figuras bidimensionales y tridimensionales, y establece relaciones entre ellas\"",
+    "themes": [
+      "Lectura, escritura y valor posicional de números decimales",
+      "Comparación de decimales",
+      "Operaciones básicas de números decímales",
+      "Resolución de problemas con números decimales",
+      "Cuerpos sólidos"
+    ],
+    "objectives": [
+      "posicion",
+      "comparacion",
+      "suma_resta",
+      "producto_cociente",
+      "cuerpos"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente.",
+    "pendingValidation": [
+      "Fragmento final Lo en el eje temático: no se inventa un tema para completarlo"
+    ]
+  },
+  "steps": [
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-01",
+      "phase": "Hoy aprenderé",
+      "title": "Medidas decimales de la finca",
+      "instruction": "Busca tu cuaderno de Matemáticas, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina que pesamos frutas y medimos agua. Una cantidad puede tener una parte entera y otra menor que una unidad.",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🔢"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-03",
+      "phase": "Aprendo",
+      "title": "Leer y escribir decimales",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "La coma separa la parte entera de las décimas, centésimas.",
+        "2,75 tiene 2 unidades, 7 décimas y 5 centésimas. 0,5 = 5/10 y 0,25 = 25/100."
+      ],
+      "hint": "Después de la coma: décimas, centésimas, y luego milésimas.",
+      "symbol": "🔢"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-04",
+      "phase": "Aprendo",
+      "title": "Comparar decimales",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Compara primero las partes enteras y luego las cifras decimales de izquierda a derecha. Agregar ceros al final de la parte decimal no cambia el valor.",
+        "2,5 = 2,50. 2,50 es mayor que 2,45."
+      ],
+      "hint": "Puedes completar con ceros para comparar.",
+      "symbol": "⚖️"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-05",
+      "phase": "Aprendo",
+      "title": "Sumar y restar con la coma alineada",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Para sumar o restar decimales, alinea las comas y las posiciones. Completa con ceros si hace falta.",
+        "2,50 + 1,25 = 3,75. 3,75 − 0,50 = 3,25."
+      ],
+      "hint": "Alinea la coma y suma por posiciones. Puedes escribir coma o punto en la pantalla.",
+      "symbol": "💧"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-06",
+      "phase": "Aprendo",
+      "title": "Multiplicar y dividir decimales",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Multiplicar por un número entero reúne grupos iguales. Dividir reparte la cantidad en grupos iguales.",
+        "0,25 × 4 = 1,00. 1,20 ÷ 3 = 0,40."
+      ],
+      "hint": "Suma tres veces el mismo peso.",
+      "symbol": "⚖️"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-07",
+      "phase": "Aprendo",
+      "title": "Cuerpos sólidos y dimensiones",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Los cuerpos ocupan espacio. Un prisma rectangular tiene largo, ancho y alto. Una esfera es curva; un cilindro tiene dos bases circulares; una pirámide tiene caras que llegan a un vértice.",
+        "Una caja rectangular tiene largo, ancho y alto. Sus caras son planas; una pelota tiene forma de esfera y superficie curva."
+      ],
+      "hint": "Imagina la caja apoyada sobre su base.",
+      "symbol": "📦",
+      "visual": {
+        "kind": "shapes",
+        "names": [
+          "prisma",
+          "cubo",
+          "cilindro",
+          "esfera",
+          "pirámide",
+          "cono"
+        ]
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-08",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Medidas decimales de la finca"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Leer y escribir decimales",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Leer y escribir decimales",
+        "La coma separa la parte entera de las décimas, centésimas.",
+        "2,75 tiene 2 unidades, 7 décimas y 5 centésimas. 0,5 = 5/10 y 0,25 = 25/100."
+      ],
+      "hint": "Después de la coma: décimas, centésimas, y luego milésimas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Comparar decimales",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Comparar decimales",
+        "Compara primero las partes enteras y luego las cifras decimales de izquierda a derecha. Agregar ceros al final de la parte decimal no cambia el valor.",
+        "2,5 = 2,50. 2,50 es mayor que 2,45."
+      ],
+      "hint": "Puedes completar con ceros para comparar."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Sumar y restar con la coma alineada",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Sumar y restar con la coma alineada",
+        "Para sumar o restar decimales, alinea las comas y las posiciones. Completa con ceros si hace falta.",
+        "2,50 + 1,25 = 3,75. 3,75 − 0,50 = 3,25."
+      ],
+      "hint": "Alinea la coma y suma por posiciones. Puedes escribir coma o punto en la pantalla."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Multiplicar y dividir decimales",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Multiplicar y dividir decimales",
+        "Multiplicar por un número entero reúne grupos iguales. Dividir reparte la cantidad en grupos iguales.",
+        "0,25 × 4 = 1,00. 1,20 ÷ 3 = 0,40."
+      ],
+      "hint": "Suma tres veces el mismo peso."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Cuerpos sólidos y dimensiones",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Cuerpos sólidos y dimensiones",
+        "Los cuerpos ocupan espacio. Un prisma rectangular tiene largo, ancho y alto. Una esfera es curva; un cilindro tiene dos bases circulares; una pirámide tiene caras que llegan a un vértice.",
+        "Una caja rectangular tiene largo, ancho y alto. Sus caras son planas; una pelota tiene forma de esfera y superficie curva."
+      ],
+      "hint": "Imagina la caja apoyada sobre su base."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Escribe 2,75 en palabras y descompón sus posiciones."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-15",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. En una jarra hay 2,50 L. Se agregan 0,75 L y se sirven 1,25 L. Escribe las dos operaciones y cuánto queda."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Dibuja una caja rectangular y señala largo, ancho y alto. Escribe dos diferencias entre la caja y una esfera."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Escribe 2,75 en palabras y descompón sus posiciones.",
+        "Dos enteros y setenta y cinco centésimas; 2 + 0,7 + 0,05."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-18",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. En una jarra hay 2,50 L. Se agregan 0,75 L y se sirven 1,25 L. Escribe las dos operaciones y cuánto queda.",
+        "2,50 + 0,75 = 3,25 L. 3,25 − 1,25 = 2,00 L."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Dibuja una caja rectangular y señala largo, ancho y alto. Escribe dos diferencias entre la caja y una esfera.",
+        "La caja tiene caras planas y aristas; la esfera tiene superficie curva y no tiene aristas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-20",
+      "phase": "Practico",
+      "title": "Practica: Leer y escribir decimales",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Después de la coma: décimas, centésimas, y luego milésimas.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "En 2,75, ¿qué cifra ocupa las centésimas?",
+        "answer": "5",
+        "explanation": "La cifra 5 ocupa las centésimas.",
+        "objective": "posicion",
+        "choices": [
+          "3",
+          "5",
+          "7"
+        ]
+      },
+      "symbol": "🔢"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-21",
+      "phase": "Practico",
+      "title": "Practica: Comparar decimales",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Puedes completar con ceros para comparar.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué cantidad es mayor: 1,5 o 1,45?",
+        "answer": "1,5",
+        "explanation": "1,5 = 1,50 y 50 centésimas es mayor que 45.",
+        "objective": "comparacion",
+        "choices": [
+          "1,45",
+          "1,5",
+          "Son iguales"
+        ]
+      },
+      "symbol": "⚖️"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-22",
+      "phase": "Practico",
+      "title": "Practica: Sumar y restar con la coma alineada",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Alinea la coma y suma por posiciones. Puedes escribir coma o punto en la pantalla.",
+      "activity": {
+        "kind": "decimal",
+        "prompt": "Una botella tiene 1,25 L y otra 0,50 L. ¿Cuántos litros suman?",
+        "answer": 1.75,
+        "explanation": "1,25 + 0,50 = 1,75 L.",
+        "objective": "suma_resta"
+      },
+      "symbol": "💧"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-23",
+      "phase": "Practico",
+      "title": "Practica: Multiplicar y dividir decimales",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Suma tres veces el mismo peso.",
+      "activity": {
+        "kind": "decimal",
+        "prompt": "Tres bolsas pesan 0,25 kg cada una. ¿Cuántos kilogramos pesan juntas?",
+        "answer": 0.75,
+        "explanation": "0,25 + 0,25 + 0,25 = 0,75 kg.",
+        "objective": "producto_cociente"
+      },
+      "symbol": "⚖️"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-24",
+      "phase": "Practico",
+      "title": "Practica: Cuerpos sólidos y dimensiones",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Imagina la caja apoyada sobre su base.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué dimensión sube desde la base hasta la parte superior de una caja?",
+        "answer": "Alto",
+        "explanation": "El alto mide la distancia vertical entre base y parte superior.",
+        "objective": "cuerpos",
+        "choices": [
+          "Largo",
+          "Alto",
+          "Ancho"
+        ]
+      },
+      "symbol": "📦",
+      "visual": {
+        "kind": "shapes",
+        "names": [
+          "prisma",
+          "cubo",
+          "cilindro",
+          "esfera",
+          "pirámide",
+          "cono"
+        ]
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-25",
+      "phase": "Mi misión",
+      "title": "Prepara las bolsas",
+      "instruction": "Tres bolsas contienen 0,75 kg cada una. Dibuja las bolsas, escribe la multiplicación y el peso total. Comprueba el resultado.",
+      "text": [],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "activity": {
+        "kind": "decimal",
+        "prompt": "¿Cuántos kilogramos pesan en total?",
+        "answer": 2.25,
+        "explanation": "0,75 × 3 = 2,25 kg.",
+        "objective": "producto_cociente"
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: posición",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Cuenta las posiciones después de la coma.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué posición ocupa el 5 en 2,75?",
+        "answer": "centésimas",
+        "explanation": "El 5 está en centésimas.",
+        "objective": "posicion",
+        "choices": [
+          "Unidades",
+          "Décimas",
+          "centésimas"
+        ]
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-27",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: comparación",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Escribe 0,80 para comparar.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Cuál es menor: 0,8 o 0,75?",
+        "answer": "0,75",
+        "explanation": "0,8 = 0,80. 75 centésimas es menor que 80.",
+        "objective": "comparacion",
+        "choices": [
+          "0,8",
+          "0,75",
+          "Son iguales"
+        ]
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-28",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: suma y resta",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Alinea la coma.",
+      "activity": {
+        "kind": "decimal",
+        "prompt": "Hay 3,50 L y se usan 1,25 L. ¿Cuántos litros quedan?",
+        "answer": 2.25,
+        "explanation": "3,50 − 1,25 = 2,25 L.",
+        "objective": "suma_resta"
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-29",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: reparto",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Busca una cantidad que repetida tres veces dé 1,50.",
+      "activity": {
+        "kind": "decimal",
+        "prompt": "Reparte 1,50 kg en tres bolsas iguales. ¿Cuántos kg van en cada bolsa?",
+        "answer": 0.5,
+        "explanation": "1,50 ÷ 3 = 0,50 kg.",
+        "objective": "producto_cociente"
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-30",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 5: sólidos",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Observa el modelo de la lata.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué cuerpo tiene dos bases circulares?",
+        "answer": "Cilindro",
+        "explanation": "Un cilindro tiene dos bases circulares y superficie lateral curva.",
+        "objective": "cuerpos",
+        "choices": [
+          "Esfera",
+          "Cilindro",
+          "Pirámide"
+        ]
+      }
+    },
+    {
+      "id": "g4-matematicas-p4-decimales-y-solidos-31",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

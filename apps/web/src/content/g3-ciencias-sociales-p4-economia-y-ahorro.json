@@ -1,0 +1,424 @@
+{
+  "id": "g3-ciencias-sociales-p4-economia-y-ahorro",
+  "version": 1,
+  "title": "La economía de nuestra comunidad",
+  "grade": 3,
+  "subject": "Ciencias Sociales",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/ciencias-sociales-2026.docx",
+    "locator": "Tabla 2, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": []
+  },
+  "curriculum": {
+    "competence": "Comprende la dinámica económica de su región y el funcionamiento de los servicios públicos, aplicando principios de ahorro y consumo consciente para tomar decisiones financieras responsables que impacten positivamente en su hogar y en la preservación de los recursos del entorno",
+    "learning": [
+      "Analiza las actividades económicas y la importancia de los servicios públicos.",
+      "Aplica principios de ahorro y consumo responsable en mi vida cotidiana"
+    ],
+    "evidence": [
+      "Explica la relación entre las actividades económicas de su comunidad y la prestación de servicios públicos, argumentando cómo el pago oportuno y el uso eficiente de estos recursos (agua, luz, gas) permiten el funcionamiento del hogar y el desarrollo del comercio local.",
+      "Diseña un presupuesto sencillo donde diferencia necesidades básicas de deseos, proponiendo metas de ahorro personal y acciones de consumo responsable (como el reciclaje o la reducción de desperdicios) para mejorar la economía familiar y proteger el medio ambiente."
+    ],
+    "dba": "Comprende las actividades económicas que se realizan.",
+    "themes": [
+      "Actividades económicas.",
+      "Servicios públicos.",
+      "El ahorro.",
+      "Consumo responsable."
+    ],
+    "objectives": [
+      "actividades",
+      "servicios",
+      "presupuesto",
+      "consumo"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-01",
+      "phase": "Hoy aprenderé",
+      "title": "La economía de nuestra comunidad",
+      "instruction": "Busca tu cuaderno de Ciencias Sociales, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina una familia que cultiva, vende y compra alimentos. ¿Qué necesita para cuidar sus recursos y su bienestar?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🌽"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-03",
+      "phase": "Aprendo",
+      "title": "Actividades económicas",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Las actividades económicas producen bienes o prestan servicios para atender necesidades.",
+        "Cultivar maíz produce un bien. Transportar la cosecha presta un servicio. Vender frutas ayuda a que los productos lleguen a otras personas."
+      ],
+      "hint": "Piensa de dónde viene el maíz.",
+      "symbol": "🌽"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-04",
+      "phase": "Aprendo",
+      "title": "Servicios públicos",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Agua, energía y otros servicios permiten realizar actividades del hogar y de la comunidad. Su disponibilidad puede variar. Usarlos con cuidado evita desperdicio.",
+        "Cerrar una llave que no se necesita reduce desperdicio de agua. Apagar una luz que no se usa ahorra energía. No todos los hogares tienen los mismos servicios."
+      ],
+      "hint": "Piensa en evitar desperdicio.",
+      "symbol": "💧"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-05",
+      "phase": "Aprendo",
+      "title": "Ahorrar y hacer un presupuesto",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Un presupuesto organiza el dinero disponible y los gastos. Ahorrar es reservar una parte para una meta. No todas las familias pueden ahorrar la misma cantidad.",
+        "Caso inventado: hay 10.000 pesos. Se destinan 6.000 para una necesidad y 2.000 para otra. Quedan 2.000: 10.000 − 6.000 − 2.000 = 2.000."
+      ],
+      "hint": "Resta un gasto a la vez.",
+      "symbol": "💰"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-06",
+      "phase": "Aprendo",
+      "title": "Necesidades y consumo responsable",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una necesidad básica contribuye al bienestar, como alimentación o agua segura. Un deseo puede ser algo que queremos sin necesitarlo en ese momento. Consumir responsablemente evita compras y desperdicios innecesarios.",
+        "Si ya tienes un recipiente útil, reutilizarlo puede evitar una compra. Antes de comprar, pregunta si lo necesitas y qué residuos generará."
+      ],
+      "hint": "Piensa en lo que protege la vida y la salud.",
+      "symbol": "♻️"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-07",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "La economía de nuestra comunidad"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-08",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Actividades económicas",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Actividades económicas",
+        "Las actividades económicas producen bienes o prestan servicios para atender necesidades.",
+        "Cultivar maíz produce un bien. Transportar la cosecha presta un servicio. Vender frutas ayuda a que los productos lleguen a otras personas."
+      ],
+      "hint": "Piensa de dónde viene el maíz."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Servicios públicos",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Servicios públicos",
+        "Agua, energía y otros servicios permiten realizar actividades del hogar y de la comunidad. Su disponibilidad puede variar. Usarlos con cuidado evita desperdicio.",
+        "Cerrar una llave que no se necesita reduce desperdicio de agua. Apagar una luz que no se usa ahorra energía. No todos los hogares tienen los mismos servicios."
+      ],
+      "hint": "Piensa en evitar desperdicio."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Ahorrar y hacer un presupuesto",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Ahorrar y hacer un presupuesto",
+        "Un presupuesto organiza el dinero disponible y los gastos. Ahorrar es reservar una parte para una meta. No todas las familias pueden ahorrar la misma cantidad.",
+        "Caso inventado: hay 10.000 pesos. Se destinan 6.000 para una necesidad y 2.000 para otra. Quedan 2.000: 10.000 − 6.000 − 2.000 = 2.000."
+      ],
+      "hint": "Resta un gasto a la vez."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Necesidades y consumo responsable",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Necesidades y consumo responsable",
+        "Una necesidad básica contribuye al bienestar, como alimentación o agua segura. Un deseo puede ser algo que queremos sin necesitarlo en ese momento. Consumir responsablemente evita compras y desperdicios innecesarios.",
+        "Si ya tienes un recipiente útil, reutilizarlo puede evitar una compra. Antes de comprar, pregunta si lo necesitas y qué residuos generará."
+      ],
+      "hint": "Piensa en lo que protege la vida y la salud."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-12",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Escribe una actividad que produzca un bien y otra que preste un servicio. Explica qué necesidad atienden."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-13",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia el presupuesto: dinero disponible 12.000 pesos; alimentos 7.000; transporte 3.000. Calcula cuánto queda y propone una meta para esa cantidad."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Dibuja dos acciones para usar responsablemente agua y energía. Escribe una frase explicativa debajo de cada dibujo."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-15",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Escribe una actividad que produzca un bien y otra que preste un servicio. Explica qué necesidad atienden.",
+        "Ejemplos: cultivar maíz produce alimento; transportar productos presta un servicio. Puede haber otras respuestas justificadas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-16",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia el presupuesto: dinero disponible 12.000 pesos; alimentos 7.000; transporte 3.000. Calcula cuánto queda y propone una meta para esa cantidad.",
+        "12.000 − 7.000 − 3.000 = 2.000 pesos. La meta es una propuesta, no un mandato de gasto."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Dibuja dos acciones para usar responsablemente agua y energía. Escribe una frase explicativa debajo de cada dibujo.",
+        "Ejemplos: cerrar la llave al terminar; apagar una luz que no se necesita. El docente revisará las explicaciones."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-18",
+      "phase": "Practico",
+      "title": "Practica: Actividades económicas",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Piensa de dónde viene el maíz.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué actividad produce alimentos?",
+        "answer": "Cultivar maíz",
+        "explanation": "La agricultura produce alimentos que podemos consumir o intercambiar.",
+        "objective": "actividades",
+        "choices": [
+          "Cultivar maíz",
+          "Desperdiciar agua",
+          "Romper una canasta"
+        ]
+      },
+      "symbol": "🌽"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-19",
+      "phase": "Practico",
+      "title": "Practica: Servicios públicos",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Piensa en evitar desperdicio.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué acción cuida el servicio de agua?",
+        "answer": "Cerrar la llave al terminar",
+        "explanation": "Cerrar la llave evita que siga saliendo agua sin necesidad.",
+        "objective": "servicios",
+        "choices": [
+          "Cerrar la llave al terminar",
+          "Dejarla abierta",
+          "Botar basura al agua"
+        ]
+      },
+      "symbol": "💧"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-20",
+      "phase": "Practico",
+      "title": "Practica: Ahorrar y hacer un presupuesto",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Resta un gasto a la vez.",
+      "activity": {
+        "kind": "number",
+        "prompt": "En el caso, ¿cuántos pesos quedan después de los dos gastos?",
+        "answer": 2000,
+        "explanation": "10.000 − 6.000 − 2.000 = 2.000 pesos.",
+        "objective": "presupuesto"
+      },
+      "symbol": "💰"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-21",
+      "phase": "Practico",
+      "title": "Practica: Necesidades y consumo responsable",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Piensa en lo que protege la vida y la salud.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Cuál es una necesidad básica?",
+        "answer": "Agua segura para beber",
+        "explanation": "El agua segura es necesaria para la salud.",
+        "objective": "consumo",
+        "choices": [
+          "Agua segura para beber",
+          "Un juguete repetido",
+          "Un adorno nuevo"
+        ]
+      },
+      "symbol": "♻️"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-22",
+      "phase": "Mi misión",
+      "title": "Un plan para cuidar los recursos",
+      "instruction": "Escribe un plan de tres acciones: cuidar un servicio, evitar un desperdicio y organizar un gasto ficticio. Usa el caso de 15.000 pesos, con gastos de 8.000 y 4.000. Calcula el dinero restante y compruébalo.",
+      "text": [],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "activity": {
+        "kind": "number",
+        "prompt": "¿Cuántos pesos quedan en el caso?",
+        "answer": 3000,
+        "explanation": "15.000 − 8.000 − 4.000 = 3.000 pesos.",
+        "objective": "presupuesto"
+      },
+      "symbol": "🏡"
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-23",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: actividad",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Piensa en qué hace quien transporta.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "Llevar productos de la finca al mercado es…",
+        "answer": "Un servicio de transporte",
+        "explanation": "Transportar ayuda a mover bienes entre lugares.",
+        "objective": "actividades",
+        "choices": [
+          "Un servicio de transporte",
+          "Una fiesta patria",
+          "Una fracción"
+        ]
+      }
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-24",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: servicios",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Cuidar no significa romper.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué uso de energía evita desperdicio?",
+        "answer": "Apagar una luz que no se usa",
+        "explanation": "Si no se necesita, apagarla evita consumir energía innecesaria.",
+        "objective": "servicios",
+        "choices": [
+          "Apagar una luz que no se usa",
+          "Dejar todo encendido",
+          "Romper un bombillo"
+        ]
+      }
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-25",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: presupuesto",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Resta cinco mil de nueve mil.",
+      "activity": {
+        "kind": "number",
+        "prompt": "Hay 9.000 pesos y se gastan 5.000. ¿Cuántos quedan?",
+        "answer": 4000,
+        "explanation": "9.000 − 5.000 = 4.000.",
+        "objective": "presupuesto"
+      }
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: consumo",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Piensa en reducir, no en botar.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "Ya tienes una botella reutilizable que sirve. ¿Qué opción reduce residuos?",
+        "answer": "Seguir usándola con higiene",
+        "explanation": "Reutilizar una botella útil puede evitar compras y residuos.",
+        "objective": "consumo",
+        "choices": [
+          "Seguir usándola con higiene",
+          "Comprar otra cada día",
+          "Botarla al río"
+        ]
+      }
+    },
+    {
+      "id": "g3-ciencias-sociales-p4-economia-y-ahorro-27",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

@@ -1,24 +1,33 @@
-# Antes de la sesión
+# Preparar la sesión
 
-Preparar el navegador/PWA, verificar todos los recursos offline, probar altavoces y escoger alias sin nombres completos. El estudiante de segundo entra a período 4, Matemáticas. El panel permite editar grupo, asignar el piloto a los perfiles de segundo y elegir apoyo manipulativo/visual, guiado o autónomo (mismo objetivo). Las ayudas permanecen disponibles para todos.
+Instalar/abrir la versión de aula y esperar a que la preparación offline termine para todas las rutas (aproximadamente 69 MiB). Probar volumen/altavoces y una consigna. Elegir alias sin nombres completos; crear grado 0 para transición o 1–5 para primaria.
 
-# Durante y después
+En la ruta seleccionar cuarto período, área y unidad. En segundo Matemáticas hay dos rutas complementarias. El panel docente puede filtrar grupo/estudiante/unidad y asignar la unidad seleccionada solo a perfiles del grado correspondiente. Los apoyos visual, guiado y autónomo conservan el objetivo; no penalizan el acceso a audio. Las solicitudes de pista quedan registradas.
 
-El recorrido exige prácticas comprobadas para avanzar; puede volver, repetir audios, usar una pista y reanudar desde la última pantalla guardada. Cuaderno requiere confirmación del niño. Observar físicamente: título/fecha, definición, ejemplo con tres canastas de cuatro mangos, tablas 2–5, dibujos y operaciones de los tres problemas, correcciones y misión de cinco bandejas de cuatro semillas.
+# Primaria
 
-La evaluación conserva cuatro objetivos por separado, valores de cada intento, hora, cantidad de ayudas acumuladas y si el primer intento fue correcto. Escuchar instrucciones es apoyo de acceso, no penalización: la cuenta de ayudas mide solicitudes de pista. Usar los registros para dialogar y planear refuerzo; no convertirlos automáticamente en nota. No deducir incapacidad de lectura o matemáticas por velocidad de copia.
+Cada unidad recorre ocho momentos con tareas breves, instrucciones, ejemplos, cuaderno literal, problemas completos, revisión, práctica, misión, evaluación y cierre. Puede pausar y reanudar. Las soluciones del cuaderno aparecen después de realizar los ejercicios. Escuchar una consigna no es un fallo ni se usa como puntaje; el registro de ayudas cuenta pistas.
 
-Panel docente → filtro de grupo/estudiante → Exportar CSV (resumen por objetivo) o JSON (perfil, avance, respuestas e historial). El alias no es identificador único: internamente cada perfil tiene UUID. No sube resultados. El programa no comprueba escritura, dibujos ni explicaciones orales; estas evidencias requieren registro docente externo en esta etapa.
+Los ejemplos de presupuestos, talleres, cosechas y personajes son casos didácticos, no hechos sobre familias concretas. No solicitar a niños datos reales de dinero, direcciones ni fotografías. Las misiones ambientales se resuelven con dibujo/plan, sin visitar lugares peligrosos ni manipular residuos.
 
-# Privacidad y respaldo
+Confirmar externamente la calidad del cuaderno, dibujos, cálculos escritos, explicación oral y actuaciones. Usar **Observación docente de [unidad]** para registrar una devolución manual. No deducir falta de comprensión por lentitud de escritura. Las actividades abiertas no tienen una respuesta única ni reciben evaluación automática.
 
-El modo docente no usa contraseña; supervise dispositivos compartidos. Los datos viven en IndexedDB del origen/navegador. Exportar periódicamente y conservar archivos en ubicación autorizada. Eliminar un perfil pide confirmación y borra únicamente sus datos. Borrar caché/almacenamiento, cambiar perfil de navegador o cambiar origen puede dejar avances inaccesibles. Aún no hay importación de respaldos.
+# Transición
 
-# Decisiones pedagógicas para aprobar el piloto
+Trabajar con acompañamiento, oralidad/gestos, juego, arte, literatura y exploración. Las etiquetas de área organizan tres experiencias integradas del propósito #4. No hay copias largas ni cuestionarios de primaria. Las figuras digitales son alternativa a materiales; pueden explorarse y guardarse sin juzgar creatividad o competencia. En recortes/tijeras se requiere adulto. Nunca mirar directamente al sol. Navidad admite una tarjeta/creación familiar o alternativa de agradecimiento respetuosa de diversas familias.
 
-1. Confirmar ubicación del tema, aprendizajes, competencias, evidencias y DBA en las mallas originales.
-2. Validar convención «cantidad de grupos × elementos por grupo» sin negar conmutatividad.
-3. Revisar longitud de la unidad, copiado de tablas y alternativa oral/manipulativa para niños con barreras de escritura.
-4. Escuchar voces sintéticas con estudiantes; decidir sustitución por grabaciones humanas locales.
-5. Observar si los niños identifican iconos y completan la ruta sin explicaciones rutinarias. Realizar sesiones de prueba supervisadas antes de uso institucional.
-6. Confirmar futuros propósitos de transición y contenidos integrados de CapER/EATI con sus fuentes. La expansión/editorial queda para otra etapa.
+El informe distingue participación/producción registrada de observación docente; no inventa aciertos o notas. Es válido que un niño señale, narre o represente en lugar de escribir.
+
+# Reportes y respaldo
+
+CSV: resumen por perfil/unidad/objetivo, primer intento, ayudas, logro digital u observación de transición. JSON: conserva historial, perfiles, composiciones y observaciones. Filtros de grupo/estudiante/unidad determinan qué se exporta. El guardado de una observación deshabilita exportación hasta terminar. Exportar periódicamente y conservar archivos en una ubicación autorizada; aún no hay restauración de respaldos en la app.
+
+El modo docente no exige contraseña y no es una barrera de seguridad. Supervisar equipos compartidos. El almacenamiento pertenece al navegador/origen: mantener localhost:4173. Borrar perfil pide confirmación y elimina solo ese perfil/avances. Borrar datos del navegador puede eliminar todo.
+
+# Revisión necesaria antes de uso institucional
+
+- Confirmar carga de escritura, duración/pausas, consignas y accesibilidad con los niños.
+- Escuchar la voz sintética; considerar grabaciones humanas locales. Pronunciación de inversos y cifras merece revisión específica.
+- Confirmar el nombre vigente del alcalde y aportar imagen/cartel oficial del escudo para la observación local. El programa no los falsifica ni confunde un escudo genérico con el colombiano.
+- Resolver fragmento «Lo» de Matemáticas 4 y encabezado de período inconsistente de transición. No se completan por suposición.
+- Probar autonomía en aula y funcionamiento en Windows real. La aprobación curricular/pedagógica no la otorga una suite de pruebas.

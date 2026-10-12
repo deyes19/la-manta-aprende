@@ -1,3 +1,4 @@
+import { audioFile } from "../data/audio";
 import { useEffect, useState } from "react";
 import { units } from "../data/content";
 export async function checkOffline() {
@@ -18,7 +19,9 @@ export async function checkOffline() {
       ]),
   ];
   const results = await Promise.all(
-    ids.map((id) => caches.match(`/audio/${id}.mp3`, { ignoreSearch: true })),
+    [...new Set(ids.map(audioFile))].map((url) =>
+      caches.match(url, { ignoreSearch: true }),
+    ),
   );
   return (
     results.every(Boolean) &&

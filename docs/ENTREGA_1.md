@@ -1,5 +1,7 @@
 # Entrega 1 · 12 de octubre de 2026
 
+Documento histórico del primer piloto. El estado actual y las fuentes consultadas se describen en ENTREGA_2.md.
+
 ## Implementado
 
 Arquitectura React/TypeScript/Vite con módulos separados; contenido JSON validado por Zod; perfiles por alias/grado/avatar; ruta curricular y reanudación; IndexedDB; unidad completa de segundo, Matemáticas, período IV, multiplicación y tablas 2–5. Son 33 pantallas en ocho momentos, no 33 unidades.

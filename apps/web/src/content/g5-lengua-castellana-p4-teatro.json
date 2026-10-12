@@ -1,0 +1,507 @@
+{
+  "id": "g5-lengua-castellana-p4-teatro",
+  "version": 1,
+  "title": "Creamos e interpretamos un guion teatral",
+  "grade": 5,
+  "subject": "Lengua Castellana",
+  "period": 4,
+  "approach": "primary",
+  "source": {
+    "file": "docs/fuentes/lengua-castellana-2026.docx",
+    "locator": "Tabla 4, fila 7, período 4; columnas de competencia, aprendizaje, evidencia y eje temático",
+    "status": "FUENTE_CONSULTADA",
+    "complementary": [
+      {
+        "file": "docs/fuentes/plan-lengua-4-5-p4.docx",
+        "locator": "Tabla 1 y párrafos Género dramático / El guion teatral"
+      }
+    ]
+  },
+  "curriculum": {
+    "competence": "Competencia comunicativa- lectora\n\nCompetencia comunicativa-escritora",
+    "learning": [
+      "Identifica el contexto en que se crea una obra dramática y lo relaciona con sus conocimientos previos.",
+      "Reconoce la estructura y los elementos constitutivos del guion teatral, diferenciándolo de otros tipos de texto, y los utiliza para crear o interpretar breves representaciones dramáticas."
+    ],
+    "evidence": [
+      "Representa obras teatrales del drama y la comedia.",
+      "Diferencia un guion teatral de otro tipo de texto narrativo."
+    ],
+    "dba": "Participa en espacios discursivos orales en los que socializa con otros los textos que crea, e incorpora efectos sonoros para acompañar la narración.\n(DBA 3)\n\n\nAplica estrategias de comprensión a distintos tipos de texto que lee para dar cuenta de las relaciones entre diversos segmentos del mismo.\n(DBA 6)",
+    "themes": [
+      "Género dramático.",
+      "El drama.",
+      "La comedia.",
+      "El guion teatral y sus elementos:",
+      "título, personajes, actos y escenas, diálogos, acotaciones y escenografía.",
+      "Comprensión lectora de textos dramáticos."
+    ],
+    "objectives": [
+      "genero",
+      "subgeneros",
+      "estructura",
+      "elementos",
+      "comprension"
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Cuaderno",
+      "Lápiz",
+      "Colores"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+  },
+  "steps": [
+    {
+      "id": "g5-lengua-castellana-p4-teatro-01",
+      "phase": "Hoy aprenderé",
+      "title": "Creamos e interpretamos un guion teatral",
+      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "text": [
+        "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
+        "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "👋"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-02",
+      "phase": "Descubro",
+      "title": "Una situación de nuestra vereda",
+      "instruction": "Imagina que una historia de la huerta se representa ante tus compañeros. ¿Cómo sabría cada personaje qué decir y qué hacer?",
+      "text": [
+        "Observa o imagina la situación. Cuenta tu idea en voz baja; todavía no necesitas escribir."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "symbol": "🎭"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-03",
+      "phase": "Aprendo",
+      "title": "Género dramático",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Un texto dramático se escribe para ser representado por personajes. La historia avanza mediante lo que dicen y hacen.",
+        "Una narración puede contar Sara buscó su sombrero. Un guion presenta Sara: ¿Dónde dejé mi sombrero? y las acciones de los personajes."
+      ],
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "symbol": "🎭"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-04",
+      "phase": "Aprendo",
+      "title": "Drama y comedia",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos.",
+        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
+      ],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "symbol": "🎭"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-05",
+      "phase": "Aprendo",
+      "title": "Título, personajes, actos y escenas",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos.",
+        "En Una canasta con dos ideas, lee la lista de personajes y las marcas de acto y escena. Estas marcas organizan la representación."
+      ],
+      "hint": "Mira la primera línea de un guion.",
+      "symbol": "📜"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-06",
+      "phase": "Aprendo",
+      "title": "Diálogo, acotación y escenografía",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia.",
+        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
+      ],
+      "hint": "Busca una indicación de acción.",
+      "symbol": "🎬"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-07",
+      "phase": "Aprendo",
+      "title": "Leemos nuestro guion",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender.",
+        "Guion de autoría didáctica: Una canasta con dos ideas\nPersonajes: Inés, Pedro y Luz.\nActo 1. Escena 1. Lugar: patio de la escuela.\n(Inés trae una canasta de cartón.)\nInés: Quiero usarla como escenario de nuestra obra.\nPedro: Yo la necesito para presentar las semillas.\nLuz: Escuchemos las dos propuestas antes de decidir.\nActo 2. Escena 1. Lugar: el mismo patio.\n(Luz señala un lado de la canasta.)\nLuz: Una cara puede ser la huerta y la otra, el lugar de las semillas.\nInés: Podemos cambiarla de lado entre escenas.\nPedro: ¡Nuestra canasta también actúa!\n(Los tres ríen y acuerdan turnarse.)"
+      ],
+      "hint": "Lee la lista de personajes.",
+      "symbol": "📖"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-08",
+      "phase": "Mi cuaderno",
+      "title": "Fecha y título",
+      "instruction": "Abre tu cuaderno. Copia la fecha visible y luego el título. Deja una línea antes de continuar.",
+      "text": [
+        "Creamos e interpretamos un guion teatral"
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "showDate": true
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-09",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Género dramático",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Género dramático",
+        "Un texto dramático se escribe para ser representado por personajes. La historia avanza mediante lo que dicen y hacen.",
+        "Una narración puede contar Sara buscó su sombrero. Un guion presenta Sara: ¿Dónde dejé mi sombrero? y las acciones de los personajes."
+      ],
+      "hint": "Piensa en los actores que dicen sus parlamentos."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Drama y comedia",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Drama y comedia",
+        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos.",
+        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
+      ],
+      "hint": "La comedia puede divertir sin maltratar."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Título, personajes, actos y escenas",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Título, personajes, actos y escenas",
+        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos.",
+        "En Una canasta con dos ideas, lee la lista de personajes y las marcas de acto y escena. Estas marcas organizan la representación."
+      ],
+      "hint": "Mira la primera línea de un guion."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Diálogo, acotación y escenografía",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Diálogo, acotación y escenografía",
+        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia.",
+        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
+      ],
+      "hint": "Busca una indicación de acción."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe: Leemos nuestro guion",
+      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "text": [
+        "Leemos nuestro guion",
+        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender.",
+        "Guion de autoría didáctica: Una canasta con dos ideas\nPersonajes: Inés, Pedro y Luz.\nActo 1. Escena 1. Lugar: patio de la escuela.\n(Inés trae una canasta de cartón.)\nInés: Quiero usarla como escenario de nuestra obra.\nPedro: Yo la necesito para presentar las semillas.\nLuz: Escuchemos las dos propuestas antes de decidir.\nActo 2. Escena 1. Lugar: el mismo patio.\n(Luz señala un lado de la canasta.)\nLuz: Una cara puede ser la huerta y la otra, el lugar de las semillas.\nInés: Podemos cambiarla de lado entre escenas.\nPedro: ¡Nuestra canasta también actúa!\n(Los tres ríen y acuerdan turnarse.)"
+      ],
+      "hint": "Lee la lista de personajes."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1",
+      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-15",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2",
+      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "2. Copia el título Una canasta con dos ideas y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 3",
+      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "text": [
+        "3. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion. Explica además por qué la resolución respeta las dos ideas y qué cambiaría si Luz no escuchara."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe.",
+        "Ejemplo: Ana: Vamos a cuidar las plantas. (Ana señala una planta.) El docente revisará tu propuesta."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-18",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Copia el título Una canasta con dos ideas y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra.",
+        "El lugar es el patio de la escuela."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 3",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "3. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion. Explica además por qué la resolución respeta las dos ideas y qué cambiaría si Luz no escuchara.",
+        "Inés y Pedro quieren la misma canasta; Luz propone escuchar y usar ambas caras. Sin escuchar, podrían perder el acuerdo. El docente revisará tu argumento."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-20",
+      "phase": "Practico",
+      "title": "Practica: Género dramático",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Para qué se escribe principalmente un guion teatral?",
+        "answer": "Para representar una historia",
+        "explanation": "El guion orienta la actuación y los diálogos ante un público.",
+        "objective": "genero",
+        "choices": [
+          "Para representar una historia",
+          "Para hacer una cuenta",
+          "Para listar compras"
+        ]
+      },
+      "symbol": "🎭"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-21",
+      "phase": "Practico",
+      "title": "Practica: Drama y comedia",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué situación muestra humor sin humillar a nadie?",
+        "answer": "Confundir un sombrero con una canasta",
+        "explanation": "Es una confusión divertida que no necesita burlarse de alguien.",
+        "objective": "subgeneros",
+        "choices": [
+          "Confundir un sombrero con una canasta",
+          "Insultar a un compañero",
+          "Una lista de precios"
+        ]
+      },
+      "symbol": "🎭"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-22",
+      "phase": "Practico",
+      "title": "Practica: Título, personajes, actos y escenas",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Mira la primera línea de un guion.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué elemento nombra la obra?",
+        "answer": "Título",
+        "explanation": "El título permite identificar cómo se llama la obra.",
+        "objective": "estructura",
+        "choices": [
+          "Título",
+          "Acotación",
+          "Predicado"
+        ]
+      },
+      "symbol": "📜"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-23",
+      "phase": "Practico",
+      "title": "Practica: Diálogo, acotación y escenografía",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Busca una indicación de acción.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Cuál es una acotación?",
+        "answer": "(Sara mira la canasta.)",
+        "explanation": "Los paréntesis indican la acción; no son palabras que Sara deba decir.",
+        "objective": "elementos",
+        "choices": [
+          "(Sara mira la canasta.)",
+          "Sara: Hola.",
+          "El sombrero de la huerta"
+        ]
+      },
+      "symbol": "🎬"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-24",
+      "phase": "Practico",
+      "title": "Practica: Leemos nuestro guion",
+      "instruction": "Realiza el reto de la pantalla y pulsa Comprobar. Si aparece Todavía no, corrige tu respuesta o pide una pista.",
+      "text": [],
+      "hint": "Lee la lista de personajes.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué personaje aparece en el guion? ",
+        "answer": "Inés",
+        "explanation": "Inés está en la lista de personajes y participa en los diálogos.",
+        "objective": "comprension",
+        "choices": [
+          "Inés",
+          "Un astronauta",
+          "Un dragón"
+        ]
+      },
+      "symbol": "📖"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-25",
+      "phase": "Mi misión",
+      "title": "Mi pequeña representación",
+      "instruction": "Escribe un guion propio de 8 líneas de diálogo sobre cuidar la huerta. Añade título, tres personajes, dos actos, dos escenas y tres acotaciones. Incluye un conflicto y una solución que puedas justificar. Ensaya leyendo en voz baja. Si un compañero está disponible, reparte los personajes; si no, representa distintas voces tú mismo. Muestra el guion y una breve actuación al docente.",
+      "text": [
+        "Modelo de inicio: La huerta nos reúne.",
+        "Personajes: escoge sus nombres. Lugar: la huerta.",
+        "Personaje 1: Tenemos que cuidar las plantas.",
+        "(El personaje 1 señala las plantas.)",
+        "Continúa con tus propias palabras hasta completar el número de líneas solicitado."
+      ],
+      "hint": "Usa las ideas y ejemplos que acabas de aprender.",
+      "symbol": "🏡"
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-26",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 1: género",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Piensa en el teatro.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "Un texto con personajes que hablan para ser representado pertenece al género…",
+        "answer": "Dramático",
+        "explanation": "El género dramático se representa mediante actuación y diálogos.",
+        "objective": "genero",
+        "choices": [
+          "Dramático",
+          "Una factura",
+          "Una tabla de datos"
+        ]
+      }
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-27",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 2: subgéneros",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Recuerda qué busca provocar humor.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "Una confusión divertida resuelta sin burlas es un recurso de…",
+        "answer": "Comedia",
+        "explanation": "La comedia puede emplear situaciones humorísticas.",
+        "objective": "subgeneros",
+        "choices": [
+          "Comedia",
+          "Un recibo",
+          "Una suma"
+        ]
+      }
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-28",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 3: estructura",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "Nombra la obra y quiénes actúan antes de comenzar.",
+      "activity": {
+        "kind": "order",
+        "prompt": "Ordena estas partes para presentar un guion.",
+        "answer": "Título|Personajes|Escena y diálogos",
+        "explanation": "Primero identificamos obra y personajes; luego presentamos la escena y sus diálogos.",
+        "objective": "estructura",
+        "choices": [
+          "Escena y diálogos",
+          "Título",
+          "Personajes"
+        ]
+      }
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-29",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 4: elementos",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [],
+      "hint": "No es un parlamento que se pronuncia.",
+      "activity": {
+        "kind": "text",
+        "prompt": "¿Cómo se llama una indicación de gestos escrita entre paréntesis?",
+        "answer": "acotación",
+        "explanation": "Una acotación orienta acciones y gestos.",
+        "objective": "elementos",
+        "acceptedAnswers": [
+          "acotacion"
+        ]
+      }
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-30",
+      "phase": "Demuestro lo aprendido",
+      "title": "Reto 5: comprensión",
+      "instruction": "Intenta resolver por tu cuenta. Puedes escuchar la consigna y usar una pista si la necesitas; quedará registrada para el docente.",
+      "text": [
+        "Una canasta con dos ideas",
+        "Personajes: Inés, Pedro y Luz.\nActo 1. Escena 1. Lugar: patio de la escuela.\n(Inés trae una canasta de cartón.)\nInés: Quiero usarla como escenario de nuestra obra.\nPedro: Yo la necesito para presentar las semillas.\nLuz: Escuchemos las dos propuestas antes de decidir.\nActo 2. Escena 1. Lugar: el mismo patio.\n(Luz señala un lado de la canasta.)\nLuz: Una cara puede ser la huerta y la otra, el lugar de las semillas.\nInés: Podemos cambiarla de lado entre escenas.\nPedro: ¡Nuestra canasta también actúa!\n(Los tres ríen y acuerdan turnarse.)"
+      ],
+      "hint": "Vuelve a escuchar el guion.",
+      "activity": {
+        "kind": "choice",
+        "prompt": "¿Qué propone Luz primero?",
+        "answer": "Escuchar ambas propuestas",
+        "explanation": "La respuesta aparece en los diálogos del guion.",
+        "objective": "comprension",
+        "choices": [
+          "Escuchar ambas propuestas",
+          "Ignorar a los demás",
+          "Abandonar la escuela"
+        ]
+      }
+    },
+    {
+      "id": "g5-lengua-castellana-p4-teatro-31",
+      "phase": "Terminé",
+      "title": "Terminé y comparto",
+      "instruction": "Elige cómo te sentiste. Muestra al docente tu cuaderno abierto en el título, las ideas, los ejemplos y los ejercicios corregidos. Presenta también el producto de la misión y explica qué hiciste.",
+      "text": [
+        "Revisa que cada ejercicio tenga una respuesta. Puedes pedir al docente una devolución sobre tus dibujos y explicaciones.",
+        "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ]
+}

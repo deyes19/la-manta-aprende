@@ -1,0 +1,168 @@
+{
+  "id": "transicion-p4-cuento-y-mensajes",
+  "version": 1,
+  "title": "Cuentos, mensajes y dibujos",
+  "grade": 0,
+  "subject": "Lengua Castellana",
+  "period": 4,
+  "approach": "preschool",
+  "source": {
+    "file": "docs/fuentes/transicion-2026.docx",
+    "locator": "Tabla 4, período IV, fila 3, propósito #4; columnas de DBA, aprendizajes y evidencias. El encabezado de la columna conserva un error: SEGUNDO PERIODO.",
+    "status": "FUENTE_CONSULTADA"
+  },
+  "curriculum": {
+    "competence": "PROPÓSITO # 4\nLas niñas y los niños son comunicadores activos de sus ideas, sentimientos y emociones; expresan, imaginan y representan su realidad",
+    "dba": "Expresa y representa lo que observa, siente, piensa e imagina, a través del juego, la música, el dibujo y la expresión corporal. DBA 7.\n\nEstablece relaciones e interpreta imágenes, letras, objetos, personajes que encuentra en distintos tipos de textos. DBA 9",
+    "learning": [
+      "Medios de comunicación",
+      "Nuestro planeta tierra",
+      "El sol y la Luna",
+      "El día y la noche",
+      "Tarjetas navideñas"
+    ],
+    "themes": [
+      "Medios de comunicación",
+      "Nuestro planeta tierra",
+      "El sol y la Luna",
+      "El día y la noche",
+      "Tarjetas navideñas"
+    ],
+    "evidence": [
+      "Identifican y diferencian el día y la noche mediante imágenes, cuentos, canciones y conversaciones guiadas, relacionándolos con actividades cotidianas como jugar, estudiar, dormir y descansar.",
+      "Reconocen el sol como el astro que aparece durante el día, asociándolo con la luz, el calor y la realización de actividades diurna y  la luna como el astro que se observa durante la noche, vinculándola con la oscuridad, el descanso y el momento de dormir.",
+      "Participan en la elaboración de arreglos navideños, trabajando de manera colaborativa, siguiendo instrucciones y demostrando interés por las tradiciones y el trabajo en equipo."
+    ]
+  },
+  "metadata": {
+    "materials": [
+      "Papel",
+      "Colores",
+      "Objetos o tarjetas; alternativa digital disponible"
+    ],
+    "pedagogicalStatus": "PENDIENTE_REVISION",
+    "note": "Experiencia integrada: etiqueta de área para navegación. Requiere acompañamiento, especialmente recortes. La exploración y las confirmaciones no califican competencia automáticamente."
+  },
+  "steps": [
+    {
+      "id": "transicion-p4-cuento-y-mensajes-01",
+      "phase": "Hoy aprenderé",
+      "title": "Hoy cuento con mi voz",
+      "instruction": "Busca papel y colores, o usa los dibujos de la pantalla. Un adulto puede acompañarte. Escucha, imagina y expresa lo que piensas sin copiar un texto largo.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🗣️"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-02",
+      "phase": "Descubro",
+      "title": "Mira el día y la noche",
+      "instruction": "Señala el sol, la luna o una estrella. Cuenta con palabras o gestos algo que haces durante el día y algo que haces cuando descansas.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "☀️ 🌙 ⭐"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-03",
+      "phase": "Literatura",
+      "title": "Un mensaje para Luna",
+      "instruction": "Escucha este cuento y elige un dibujo que te recuerde lo que pasó.",
+      "text": [
+        "Sol iba a jugar. Luna quería descansar. Sol envió un mensaje dibujado: te cuento lo que hice cuando despiertes. Luna respondió con una estrella. Ambos aprendieron a expresar lo que necesitaban. Este es un cuento imaginario."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "📖",
+      "freePlay": {
+        "symbols": [
+          "☀️",
+          "🌙",
+          "⭐",
+          "✉️"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-04",
+      "phase": "Juego",
+      "title": "Habla como un personaje",
+      "instruction": "Imita la voz de Sol cuando quiere jugar. Después imita la voz de Luna cuando quiere descansar. Puedes hacer gestos en lugar de hablar. No hay una única voz correcta.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎭"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-05",
+      "phase": "Arte",
+      "title": "Un mensaje dibujado",
+      "instruction": "Dibuja un mensaje para una persona que aprecias. Puede mostrar algo que disfrutas o cómo te sientes. En la pantalla elige dibujos para componer tu mensaje. No tienes que escribir palabras.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎨",
+      "freePlay": {
+        "symbols": [
+          "🌻",
+          "☀️",
+          "🌙",
+          "❤️",
+          "✉️"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-06",
+      "phase": "Exploro",
+      "title": "Cómo llegan los mensajes",
+      "instruction": "Mira una tarjeta, un teléfono apagado o un dibujo cercano. Señala cuál podría llevar un mensaje y explica cómo. No llames, no envíes mensajes y no compartas datos personales.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "✉️ 📞"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-07",
+      "phase": "Exploro",
+      "title": "El cielo que observamos",
+      "instruction": "Desde un lugar seguro, conversa sobre el día y la noche. Nunca mires directamente al sol. Recuerda: la luna también puede verse de día y no produce luz propia; refleja luz del sol.",
+      "text": [
+        "La luna no aparece solamente de noche. En el cuento podía hablar, pero en la realidad es un astro."
+      ],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "☀️ 🌙"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-08",
+      "phase": "Arte",
+      "title": "Una tarjeta para compartir",
+      "instruction": "Haz una tarjeta con un dibujo y un gesto de cariño. Si tu familia celebra Navidad, puede ser navideña; si no, puede ser una tarjeta de agradecimiento. Usa papel o los dibujos digitales. Un adulto prepara cualquier recorte.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🎨",
+      "freePlay": {
+        "symbols": [
+          "✉️",
+          "🌻",
+          "⭐",
+          "🎄",
+          "❤️"
+        ]
+      }
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-09",
+      "phase": "Demuestro lo aprendido",
+      "title": "Cuenta tu mensaje",
+      "instruction": "Muestra tu tarjeta o composición. Señala qué dibujos escogiste y cuenta a quién le mostrarías el mensaje. Puedes explicarlo con gestos. Tu acompañante observa tu comunicación; el programa no la califica.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🗣️"
+    },
+    {
+      "id": "transicion-p4-cuento-y-mensajes-10",
+      "phase": "Terminé",
+      "title": "Mi voz y mis dibujos",
+      "instruction": "Elige cómo te sentiste y comparte tu cuento o tarjeta con el docente. No necesitas copiar el cuento: tu evidencia es lo que narraste, representaste o dibujaste.",
+      "text": [],
+      "hint": "Escucha otra vez y hazlo con calma. Puedes señalar, hablar, representar o pedir acompañamiento.",
+      "symbol": "🌻"
+    }
+  ]
+}

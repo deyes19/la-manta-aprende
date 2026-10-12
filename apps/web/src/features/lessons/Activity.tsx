@@ -1,3 +1,4 @@
+import { Fraction } from "./Visual";
 import { useState } from "react";
 import type { Step } from "../../data/content";
 const normalize = (value: string | number) =>
@@ -16,6 +17,14 @@ export function isCorrect(
     return (
       counts.length === step.groups![0] &&
       counts.every((n) => n === step.groups![1])
+    );
+  if (a.kind === "fraction") return counts.length === a.answer;
+  if (a.kind === "decimal")
+    return (
+      /^\d+(?:[.,]\d+)?$/.test(String(value).trim()) &&
+      Math.abs(
+        Number(String(value).trim().replace(",", ".")) - Number(a.answer),
+      ) < 1e-9
     );
   if (a.kind === "number")
     return String(value).trim() !== "" && Number(value) === a.answer;
@@ -112,6 +121,7 @@ export function Activity({
   onAttempt: (value: string | number, correct: boolean) => Promise<boolean>;
   done: boolean;
 }) {
+  const [selectedParts, setSelectedParts] = useState<number[]>([]);
   const [ordered, setOrdered] = useState(step.activity!.choices ?? []);
   const [value, setValue] = useState<string>("");
   const [counts, setCounts] = useState(
@@ -123,7 +133,16 @@ export function Activity({
   return (
     <div className="activity">
       <h3>{a.prompt}</h3>
-      {a.kind === "groups" ? (
+      {a.kind === "fraction" && step.visual?.kind === "fraction" ? (
+        <Fraction
+          parts={step.visual.parts}
+          selected={selectedParts}
+          onChange={(parts) => {
+            setSelectedParts(parts);
+            setFeedback(null);
+          }}
+        />
+      ) : a.kind === "groups" ? (
         <Groups
           groups={step.groups!}
           interactive
@@ -187,8 +206,14 @@ export function Activity({
         <label>
           Tu respuesta
           <input
-            type={a.kind === "text" ? "text" : "number"}
-            inputMode={a.kind === "text" ? "text" : "numeric"}
+            type={["text", "decimal"].includes(a.kind) ? "text" : "number"}
+            inputMode={
+              a.kind === "text"
+                ? "text"
+                : a.kind === "decimal"
+                  ? "decimal"
+                  : "numeric"
+            }
             min="0"
             step="1"
             value={value}
@@ -201,15 +226,25 @@ export function Activity({
       )}
       <button
         className="primary"
-        disabled={busy || (!["groups", "order"].includes(a.kind) && !value)}
+        disabled={
+          busy || (!["groups", "order", "fraction"].includes(a.kind) && !value)
+        }
         onClick={async () => {
           const response = a.kind === "order" ? ordered.join("|") : value;
-          const correct = isCorrect(step, response, counts);
+          const correct = isCorrect(
+            step,
+            response,
+            a.kind === "fraction" ? selectedParts : counts,
+          );
           setBusy(true);
           try {
             if (
               await onAttempt(
-                a.kind === "groups" ? counts.join(",") : response,
+                a.kind === "groups"
+                  ? counts.join(",")
+                  : a.kind === "fraction"
+                    ? selectedParts.join(",")
+                    : response,
                 correct,
               )
             )

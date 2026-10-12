@@ -4,7 +4,7 @@
 2. Copia el proyecto a una carpeta propia. Abre una terminal en ella. Ejecuta `npm ci`, `npm run validate:content` y `npm run build`. La instalación descarga de registry.npmjs.org; no se utilizan CDN en clase.
 3. Ejecuta `npm start` o abre `scripts/iniciar-windows.cmd`. Si el navegador abre antes del servidor, recarga la página. Mantén la ventana del servidor abierta.
 4. Abre http://localhost:4173. Espera el mensaje de preparación de unidad y audios; pulsa Verificar si es necesario. Instala la PWA desde el menú del navegador. El primer acceso necesita el servidor local, que funciona sin internet.
-5. Crea un alias de segundo, selecciona Matemáticas, período 4, y abre el piloto. Reproduce una consigna y prueba los altavoces. Desconecta internet, recarga, comprueba el audio y reanuda. La aplicación instalada queda en caché, pero conserva el lanzador como respaldo.
+5. Crea un alias, selecciona su grado, un área y período 4, y abre una unidad disponible. Reproduce una consigna y prueba los altavoces. Desconecta internet, recarga, comprueba el audio y reanuda. La aplicación instalada queda en caché, pero conserva el lanzador como respaldo.
 6. Antes de borrar datos o actualizar el equipo, exporta CSV y JSON desde el panel docente. Mantén el mismo perfil de navegador, `localhost` y puerto 4173. Otro puerto, otro navegador o `127.0.0.1` son almacenamientos distintos.
 
 ## Paquete piloto preparado
@@ -22,3 +22,5 @@ El ZIP de demostración contiene la compilación, los audios y un servidor local
 ## Próxima distribución
 
 Evaluar Tauri/Electron o un paquete que incluya runtime y lanzador firmado, con política de actualizaciones, copia/restauración de datos y pruebas en equipos reales de la sede. Esta fase no incluye instalador autónomo ni validación física en Windows. Las pruebas actuales son en Linux/Chromium.
+
+La preparación actual contiene todas las rutas y audios del cuarto período (aproximadamente 69 MiB de recursos precargados). Espera a que termine antes de desconectar. La descarga de dependencias y fuentes se realiza solo al preparar/desarrollar, no durante la sesión educativa.
