@@ -27,6 +27,14 @@ Abre `http://localhost:4173` en Edge/Chrome. Espera **«Unidad y audios preparad
 
 Windows: después de preparar la compilación, abre `scripts/iniciar-windows.cmd`. El ZIP de aula incluye la compilación y solo necesita Node instalado: no requiere npm ni descargas durante la clase. [Guía Windows](docs/INSTALACION_WINDOWS.md). El instalador autónomo de escritorio queda para otra fase.
 
+## Publicar en Vercel
+
+Conectar el proyecto a `deyes19/la-manta-aprende`, usar `main` como rama de producción y dejar **Root Directory** en la raíz del repositorio. Seleccionar Node.js 24.x. `vercel.json` configura instalación con `npm ci`, compilación con `npm run build` y salida en `apps/web/dist`.
+
+Con la integración Git activa, cada push a `main` solicita un despliegue. Confirmar el commit y el estado **Ready** en Deployments antes de darlo por publicado. Usar el dominio de producción de Domains para el aula; los enlaces individuales de despliegue corresponden a versiones concretas. Si la PWA instalada muestra una actualización, terminar la actividad y exportar los resultados antes de aplicarla. Esperar la preparación sin conexión de los recursos nuevos.
+
+La opción **Elegir voz** permite probar las voces del navegador. Para el aula sin Internet, elegir una voz instalada o los audios guardados. Ver [guía de voz](docs/VOZ_COLOMBIANA.md).
+
 ## Qué puede hacer el estudiante
 
 Seleccionar alias/grado/período/área/unidad; escuchar y repetir; avanzar una tarea a la vez; copiar textos y ejercicios íntegros; revisar soluciones; practicar; realizar una misión; comprobar aprendizajes y compartir evidencias. Guarda avances separados por perfil/unidad y reanuda.
