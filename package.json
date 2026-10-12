@@ -15,7 +15,12 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "start": "node scripts/serve-dist.mjs",
     "audio:generate": "node scripts/generate-audio.mjs",
-    "audit:curriculum": "tsx scripts/audit-curriculum.ts"
+    "audit:curriculum": "tsx scripts/audit-curriculum.ts",
+    "audio:sample": "node scripts/audio/neural.mjs",
+    "audio:plan": "node scripts/audio/neural.mjs --all --plan",
+    "audio:generate:neural": "node scripts/audio/neural.mjs --all",
+    "audio:apply:neural": "node scripts/audio/apply.mjs",
+    "test:audio": "node --test tests/neural-audio.test.mjs"
   },
   "devDependencies": {
     "@echogarden/espeak-ng-emscripten": "^0.3.5",

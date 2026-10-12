@@ -52,7 +52,7 @@ export function Audio({ id, auto = false }: { id: string; auto?: boolean }) {
         </button>
       )}
       <label className="compact">
-        Voz
+        Velocidad
         <select
           value={rate}
           onChange={(e) => {
