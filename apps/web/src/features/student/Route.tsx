@@ -84,6 +84,20 @@ export function Route({
               </p>
               <h3>{unit.title}</h3>
               <p>{unit.curriculum.competence}</p>
+              {unit.topics && (
+                <details className="topic-route">
+                  <summary>{unit.topics.length} temas · uno a la vez</summary>
+                  <ol>
+                    {unit.topics.map((t) => (
+                      <li key={t.id}>{t.title}</li>
+                    ))}
+                  </ol>
+                  <p>
+                    En cada tema aprenderás, escribirás y practicarás antes de
+                    continuar.
+                  </p>
+                </details>
+              )}
               <p className="badge">
                 {unit.source.status === "PENDIENTE_FUENTE"
                   ? "Disponible como piloto · fuente pendiente"

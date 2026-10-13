@@ -18,24 +18,4 @@ import unit15 from "./g5-matematicas-p4-decimales-y-solidos.json";
 import unit16 from "./transicion-p4-cuento-y-mensajes.json";
 import unit17 from "./transicion-p4-figuras-y-estampados.json";
 import unit18 from "./transicion-p4-mi-pais-y-comunidad.json";
-export const rawUnits = [
-  unit0,
-  unit1,
-  unit2,
-  unit3,
-  unit4,
-  unit5,
-  unit6,
-  unit7,
-  unit8,
-  unit9,
-  unit10,
-  unit11,
-  unit12,
-  unit13,
-  unit14,
-  unit15,
-  unit16,
-  unit17,
-  unit18,
-];
+export const rawUnits = [unit0,unit1,unit2,unit3,unit4,unit5,unit6,unit7,unit8,unit9,unit10,unit11,unit12,unit13,unit14,unit15,unit16,unit17,unit18];

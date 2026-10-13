@@ -1,6 +1,6 @@
 {
   "id": "g4-lengua-castellana-p4-teatro",
-  "version": 1,
+  "version": 2,
   "title": "Drama y comedia: cuidamos el agua",
   "grade": 4,
   "subject": "Lengua Castellana",
@@ -51,14 +51,14 @@
       "Colores"
     ],
     "pedagogicalStatus": "PENDIENTE_REVISION",
-    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente. Secuencia de autoría por temas; revisión pedagógica pendiente."
   },
   "steps": [
     {
       "id": "g4-lengua-castellana-p4-teatro-01",
       "phase": "Hoy aprenderé",
       "title": "Drama y comedia: cuidamos el agua",
-      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Trabajaremos un tema a la vez: aprende, escribe, resuelve, revisa y practica. Después pasarás al siguiente. Puedes descansar y reanudar.",
       "text": [
         "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
         "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
@@ -78,66 +78,6 @@
       "symbol": "🎭"
     },
     {
-      "id": "g4-lengua-castellana-p4-teatro-03",
-      "phase": "Aprendo",
-      "title": "Género dramático",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Un texto dramático se escribe para ser representado por personajes. La historia avanza mediante lo que dicen y hacen.",
-        "Una narración puede contar Sara buscó su sombrero. Un guion presenta Sara: ¿Dónde dejé mi sombrero? y las acciones de los personajes."
-      ],
-      "hint": "Piensa en los actores que dicen sus parlamentos.",
-      "symbol": "🎭"
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-04",
-      "phase": "Aprendo",
-      "title": "Drama y comedia",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos.",
-        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
-      ],
-      "hint": "La comedia puede divertir sin maltratar.",
-      "symbol": "🎭"
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-05",
-      "phase": "Aprendo",
-      "title": "Título, personajes, actos y escenas",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos.",
-        "En El agua que compartimos, lee la lista de personajes y las marcas de acto y escena. Estas marcas organizan la representación."
-      ],
-      "hint": "Mira la primera línea de un guion.",
-      "symbol": "📜"
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-06",
-      "phase": "Aprendo",
-      "title": "Diálogo, acotación y escenografía",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia.",
-        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
-      ],
-      "hint": "Busca una indicación de acción.",
-      "symbol": "🎬"
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-07",
-      "phase": "Aprendo",
-      "title": "Leemos nuestro guion",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender.",
-        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta.\n(Elena mira un recipiente casi vacío.)\nElena: Nos queda poca agua para las plantas.\nTomás: Podemos llevar solo la que necesitamos.\nActo 1. Escena 2. Lugar: el mismo rincón.\n(Tomás acerca una regadera.)\nElena: Reguemos las raíces sin desperdiciar.\nTomás: Así cuidamos las plantas y el agua.\n(Los dos guardan la regadera.)"
-      ],
-      "hint": "Lee la lista de personajes.",
-      "symbol": "📖"
-    },
-    {
       "id": "g4-lengua-castellana-p4-teatro-08",
       "phase": "Mi cuaderno",
       "title": "Fecha y título",
@@ -149,127 +89,63 @@
       "showDate": true
     },
     {
-      "id": "g4-lengua-castellana-p4-teatro-09",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Género dramático",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "id": "g4-lengua-castellana-p4-teatro-03",
+      "phase": "Aprendo",
+      "title": "Género dramático",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
       "text": [
-        "Género dramático",
         "Un texto dramático se escribe para ser representado por personajes. La historia avanza mediante lo que dicen y hacen.",
         "Una narración puede contar Sara buscó su sombrero. Un guion presenta Sara: ¿Dónde dejé mi sombrero? y las acciones de los personajes."
       ],
-      "hint": "Piensa en los actores que dicen sus parlamentos."
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "symbol": "🎭",
+      "topic": {
+        "id": "tema-1",
+        "title": "Género dramático"
+      }
     },
     {
-      "id": "g4-lengua-castellana-p4-teatro-10",
+      "id": "g4-lengua-castellana-p4-teatro-09-titulo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Drama y comedia",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
       "text": [
-        "Drama y comedia",
-        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos.",
-        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
+        "Tema: Género dramático"
       ],
-      "hint": "La comedia puede divertir sin maltratar."
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Género dramático"
+      }
     },
     {
-      "id": "g4-lengua-castellana-p4-teatro-11",
+      "id": "g4-lengua-castellana-p4-teatro-09",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Título, personajes, actos y escenas",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
       "text": [
-        "Título, personajes, actos y escenas",
-        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos.",
-        "En El agua que compartimos, lee la lista de personajes y las marcas de acto y escena. Estas marcas organizan la representación."
+        "Un texto dramático se escribe para ser representado por personajes. La historia avanza mediante lo que dicen y hacen."
       ],
-      "hint": "Mira la primera línea de un guion."
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Género dramático"
+      }
     },
     {
-      "id": "g4-lengua-castellana-p4-teatro-12",
+      "id": "g4-lengua-castellana-p4-teatro-09-ejemplo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Diálogo, acotación y escenografía",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
       "text": [
-        "Diálogo, acotación y escenografía",
-        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia.",
-        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
+        "Una narración puede contar Sara buscó su sombrero. Un guion presenta Sara: ¿Dónde dejé mi sombrero? y las acciones de los personajes."
       ],
-      "hint": "Busca una indicación de acción."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-13",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Leemos nuestro guion",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
-      "text": [
-        "Leemos nuestro guion",
-        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender.",
-        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta.\n(Elena mira un recipiente casi vacío.)\nElena: Nos queda poca agua para las plantas.\nTomás: Podemos llevar solo la que necesitamos.\nActo 1. Escena 2. Lugar: el mismo rincón.\n(Tomás acerca una regadera.)\nElena: Reguemos las raíces sin desperdiciar.\nTomás: Así cuidamos las plantas y el agua.\n(Los dos guardan la regadera.)"
-      ],
-      "hint": "Lee la lista de personajes."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-14",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 1",
-      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-15",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 2",
-      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "2. Copia el título El agua que compartimos y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-16",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 3",
-      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "3. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-17",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 1",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe.",
-        "Ejemplo: Ana: Vamos a cuidar las plantas. (Ana señala una planta.) El docente revisará tu propuesta."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-18",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 2",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "2. Copia el título El agua que compartimos y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra.",
-        "El lugar es la huerta."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-lengua-castellana-p4-teatro-19",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 3",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "3. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion.",
-        "Tienen poca agua y acuerdan usar solo la necesaria, sin desperdiciar."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+      "hint": "Piensa en los actores que dicen sus parlamentos.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-1",
+        "title": "Género dramático"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-20",
@@ -290,7 +166,70 @@
           "Para listar compras"
         ]
       },
-      "symbol": "🎭"
+      "symbol": "🎭",
+      "topic": {
+        "id": "tema-1",
+        "title": "Género dramático"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-04",
+      "phase": "Aprendo",
+      "title": "Drama y comedia",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos.",
+        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
+      ],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "symbol": "🎭",
+      "topic": {
+        "id": "tema-2",
+        "title": "Drama y comedia"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-10-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Drama y comedia"
+      ],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Drama y comedia"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-10",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El drama presenta conflictos y emociones que pueden tratarse con seriedad. La comedia usa situaciones divertidas para provocar humor. Una obra puede combinar ambos."
+      ],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Drama y comedia"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-10-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Si dos personajes discuten por el agua y buscan un acuerdo, hay un conflicto. Si confunden un sombrero con una canasta y se ríen sin burlarse, hay humor."
+      ],
+      "hint": "La comedia puede divertir sin maltratar.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-2",
+        "title": "Drama y comedia"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-21",
@@ -311,7 +250,70 @@
           "Una lista de precios"
         ]
       },
-      "symbol": "🎭"
+      "symbol": "🎭",
+      "topic": {
+        "id": "tema-2",
+        "title": "Drama y comedia"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-05",
+      "phase": "Aprendo",
+      "title": "Título, personajes, actos y escenas",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos.",
+        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta."
+      ],
+      "hint": "Mira la primera línea de un guion.",
+      "symbol": "📜",
+      "topic": {
+        "id": "tema-3",
+        "title": "Título, personajes, actos y escenas"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-11-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Título, personajes, actos y escenas"
+      ],
+      "hint": "Mira la primera línea de un guion.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Título, personajes, actos y escenas"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El título nombra la obra. Los personajes participan en ella. Los actos organizan grandes partes; las escenas organizan momentos o cambios dentro de ellos."
+      ],
+      "hint": "Mira la primera línea de un guion.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Título, personajes, actos y escenas"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-11-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta."
+      ],
+      "hint": "Mira la primera línea de un guion.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-3",
+        "title": "Título, personajes, actos y escenas"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-22",
@@ -332,7 +334,99 @@
           "Predicado"
         ]
       },
-      "symbol": "📜"
+      "symbol": "📜",
+      "topic": {
+        "id": "tema-3",
+        "title": "Título, personajes, actos y escenas"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-06",
+      "phase": "Aprendo",
+      "title": "Diálogo, acotación y escenografía",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia.",
+        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
+      ],
+      "hint": "Busca una indicación de acción.",
+      "symbol": "🎬",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-12-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Diálogo, acotación y escenografía"
+      ],
+      "hint": "Busca una indicación de acción.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El diálogo es lo que dicen los personajes. Las acotaciones indican acciones o gestos. La escenografía representa el lugar donde sucede la historia."
+      ],
+      "hint": "Busca una indicación de acción.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-12-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Sara: ¿Dónde está mi sombrero? es un diálogo. (Sara mira la canasta.) es una acotación. Una mesa y una canasta pueden representar la huerta."
+      ],
+      "hint": "Busca una indicación de acción.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-14",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-17",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia la definición de diálogo y de acotación. Inventa un diálogo de una línea y una acotación que lo acompañe.",
+        "Ejemplo: Ana: Vamos a cuidar las plantas. (Ana señala una planta.) El docente revisará tu propuesta."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-23",
@@ -353,7 +447,128 @@
           "El sombrero de la huerta"
         ]
       },
-      "symbol": "🎬"
+      "symbol": "🎬",
+      "topic": {
+        "id": "tema-4",
+        "title": "Diálogo, acotación y escenografía"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-07",
+      "phase": "Aprendo",
+      "title": "Leemos nuestro guion",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender.",
+        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta.\n(Elena mira un recipiente casi vacío.)\nElena: Nos queda poca agua para las plantas.\nTomás: Podemos llevar solo la que necesitamos.\nActo 1. Escena 2. Lugar: el mismo rincón.\n(Tomás acerca una regadera.)\nElena: Reguemos las raíces sin desperdiciar.\nTomás: Así cuidamos las plantas y el agua.\n(Los dos guardan la regadera.)"
+      ],
+      "hint": "Lee la lista de personajes.",
+      "symbol": "📖",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-13-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Leemos nuestro guion"
+      ],
+      "hint": "Lee la lista de personajes.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Sigue los nombres para saber quién habla. Imagina el lugar, los gestos y el conflicto. No necesitas construir un escenario real para comprender."
+      ],
+      "hint": "Lee la lista de personajes.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-13-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Guion de autoría didáctica: El agua que compartimos\nPersonajes: Elena y Tomás.\nActo 1. Escena 1. Lugar: huerta.\n(Elena mira un recipiente casi vacío.)\nElena: Nos queda poca agua para las plantas.\nTomás: Podemos llevar solo la que necesitamos.\nActo 1. Escena 2. Lugar: el mismo rincón.\n(Tomás acerca una regadera.)\nElena: Reguemos las raíces sin desperdiciar.\nTomás: Así cuidamos las plantas y el agua.\n(Los dos guardan la regadera.)"
+      ],
+      "hint": "Lee la lista de personajes.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-15",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia el título El agua que compartimos y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-18",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia el título El agua que compartimos y la lista de personajes. Dibuja una escenografía sencilla y escribe dónde ocurre la obra.",
+        "El lugar es la huerta."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "2. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
+    },
+    {
+      "id": "g4-lengua-castellana-p4-teatro-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Escribe qué problema tienen los personajes, cómo lo resuelven y una acotación del guion.",
+        "Tienen poca agua y acuerdan usar solo la necesaria, sin desperdiciar."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-24",
@@ -374,7 +589,11 @@
           "Un dragón"
         ]
       },
-      "symbol": "📖"
+      "symbol": "📖",
+      "topic": {
+        "id": "tema-5",
+        "title": "Leemos nuestro guion"
+      }
     },
     {
       "id": "g4-lengua-castellana-p4-teatro-25",
@@ -502,6 +721,88 @@
         "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
       ],
       "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tema-1",
+      "title": "Género dramático"
+    },
+    {
+      "id": "tema-2",
+      "title": "Drama y comedia"
+    },
+    {
+      "id": "tema-3",
+      "title": "Título, personajes, actos y escenas"
+    },
+    {
+      "id": "tema-4",
+      "title": "Diálogo, acotación y escenografía"
+    },
+    {
+      "id": "tema-5",
+      "title": "Leemos nuestro guion"
+    }
+  ],
+  "migrations": [
+    {
+      "fromVersion": 1,
+      "stepOrder": [
+        "g4-lengua-castellana-p4-teatro-01",
+        "g4-lengua-castellana-p4-teatro-02",
+        "g4-lengua-castellana-p4-teatro-03",
+        "g4-lengua-castellana-p4-teatro-04",
+        "g4-lengua-castellana-p4-teatro-05",
+        "g4-lengua-castellana-p4-teatro-06",
+        "g4-lengua-castellana-p4-teatro-07",
+        "g4-lengua-castellana-p4-teatro-08",
+        "g4-lengua-castellana-p4-teatro-09",
+        "g4-lengua-castellana-p4-teatro-10",
+        "g4-lengua-castellana-p4-teatro-11",
+        "g4-lengua-castellana-p4-teatro-12",
+        "g4-lengua-castellana-p4-teatro-13",
+        "g4-lengua-castellana-p4-teatro-14",
+        "g4-lengua-castellana-p4-teatro-15",
+        "g4-lengua-castellana-p4-teatro-16",
+        "g4-lengua-castellana-p4-teatro-17",
+        "g4-lengua-castellana-p4-teatro-18",
+        "g4-lengua-castellana-p4-teatro-19",
+        "g4-lengua-castellana-p4-teatro-20",
+        "g4-lengua-castellana-p4-teatro-21",
+        "g4-lengua-castellana-p4-teatro-22",
+        "g4-lengua-castellana-p4-teatro-23",
+        "g4-lengua-castellana-p4-teatro-24",
+        "g4-lengua-castellana-p4-teatro-25",
+        "g4-lengua-castellana-p4-teatro-26",
+        "g4-lengua-castellana-p4-teatro-27",
+        "g4-lengua-castellana-p4-teatro-28",
+        "g4-lengua-castellana-p4-teatro-29",
+        "g4-lengua-castellana-p4-teatro-30",
+        "g4-lengua-castellana-p4-teatro-31"
+      ],
+      "completedFrom": {
+        "g4-lengua-castellana-p4-teatro-09": [
+          "g4-lengua-castellana-p4-teatro-09-titulo",
+          "g4-lengua-castellana-p4-teatro-09-ejemplo"
+        ],
+        "g4-lengua-castellana-p4-teatro-10": [
+          "g4-lengua-castellana-p4-teatro-10-titulo",
+          "g4-lengua-castellana-p4-teatro-10-ejemplo"
+        ],
+        "g4-lengua-castellana-p4-teatro-11": [
+          "g4-lengua-castellana-p4-teatro-11-titulo",
+          "g4-lengua-castellana-p4-teatro-11-ejemplo"
+        ],
+        "g4-lengua-castellana-p4-teatro-12": [
+          "g4-lengua-castellana-p4-teatro-12-titulo",
+          "g4-lengua-castellana-p4-teatro-12-ejemplo"
+        ],
+        "g4-lengua-castellana-p4-teatro-13": [
+          "g4-lengua-castellana-p4-teatro-13-titulo",
+          "g4-lengua-castellana-p4-teatro-13-ejemplo"
+        ]
+      }
     }
   ]
 }

@@ -37,10 +37,11 @@ describe("contenido y actividades", () => {
       "no existe";
     expect(() => unitSchema.parse(other)).toThrow();
   });
-  it("comprueba tablas 2–5 y no acepta respuesta vacía como cero", () => {
+  it("comprueba los grupos de las tablas 2–5 y rechaza un total sin reparto", () => {
     for (const n of [2, 3, 4, 5]) {
       const s = pilot.steps.find((s) => s.id === `practica-${n}`)!;
-      expect(isCorrect(s, String(s.activity!.answer), [])).toBe(true);
+      expect(isCorrect(s, "", Array(s.groups![0]).fill(n))).toBe(true);
+      expect(isCorrect(s, String(s.activity!.answer), [])).toBe(false);
       expect(isCorrect(s, "", [])).toBe(false);
       expect(isCorrect(s, "99", [])).toBe(false);
     }

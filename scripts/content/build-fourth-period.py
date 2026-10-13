@@ -3,7 +3,11 @@ Run from repository root. Does not approve institutional pedagogy or synthesize 
 """
 import json
 from pathlib import Path
+import importlib.util
+spec=importlib.util.spec_from_file_location("topic_sequence",Path(__file__).with_name("topic-sequence.py"))
+sequencing=importlib.util.module_from_spec(spec);spec.loader.exec_module(sequencing)
 BASE=Path('apps/web/src/content')
+previous_units={p.stem:json.loads(p.read_text()) for p in BASE.glob('*.json')}
 subjects={'matematicas':'Matemáticas','lengua-castellana':'Lengua Castellana','ciencias-sociales':'Ciencias Sociales'}
 def row(area,grade):
  table=grade if area=='matematicas' else min(grade,4) if area=='lengua-castellana' else 1 if grade<3 else 2 if grade==3 else 3
@@ -205,7 +209,7 @@ preschool('Ciencias Sociales','mi-pais-y-comunidad','Mi país y las personas que
  dict(phase='Demuestro lo aprendido',title='Comparte tu recorrido',instruction='Muestra tu dibujo. Señala una persona que ayuda, un medio de transporte y los colores de Colombia. Tu acompañante escucha tus ideas y observa tus gestos; el programa no aplica un examen.',symbol='👐'),
  dict(phase='Terminé',title='Compartimos con la comunidad',instruction='Elige cómo te sentiste. Muestra al docente tu representación y cuenta qué persona o lugar recuerdas. No hay copia larga ni cuestionario de primaria.',symbol='🌻')],['Mi país','Símbolos y fiestas patrias','Mi departamento','Autoridades','Medios de transporte y de comunicación','Profesiones y Oficios','Arreglos navideños'],[0,1,2,3,4,5,14])
 
-# Preserve the original pilot's IDs and version so existing progress remains usable.
+# Preserve pilot IDs; the topic sequencer adds a versioned migration for existing progress.
 pilot=json.loads((BASE/'pilot.json').read_text());table,r=row('matematicas',2)
 pilot['source']={'file':'docs/fuentes/matematicas-2026.docx','locator':'Tabla 2, fila 7, período 4; eje temático: La multiplicación y tablas 2, 3, 4, 5','status':'FUENTE_CONSULTADA'}
 pilot['curriculum']['competence']=r['cells'][3].strip()
@@ -213,13 +217,18 @@ pilot['curriculum']['learning']=['Resolver y formular problemas multiplicativos 
 pilot['curriculum']['evidence']=['Solucionar problemas rutinarios multiplicativos de adición repetida']
 pilot['curriculum']['dba']='DBA 1: Interpreta, propone y resuelve problemas aditivos y problemas multiplicativos sencillos. DBA 2: Utiliza diferentes estrategias para calcular o estimar suma, resta o multiplicación.'
 pilot['curriculum']['themes']=['La multiplicación','Tablas de Multiplicación por 2,3,4,5']
-pilot['metadata']={'pedagogicalStatus':'PENDIENTE_REVISION','materials':['Cuaderno de Matemáticas','Lápiz','Tapas o semillas opcionales'],'note':'Fuente original ahora consultada; no se cambia el recorrido ya guardado.'}
+pilot['metadata']={'pedagogicalStatus':'PENDIENTE_REVISION','materials':['Cuaderno de Matemáticas','Lápiz','Tapas o semillas opcionales'],'note':'Fuente original consultada; se conservan los identificadores y se migra el avance al reorganizar la secuencia.'}
 (BASE/'pilot.json').write_text(json.dumps(pilot,ensure_ascii=False,indent=2)+'\n')
 # Add local dictation only to its narration, not to the visible question.
 u=json.loads((BASE/'g1-lengua-castellana-p4-letras-y-cuento.json').read_text())
 for s in u['steps']:
  if s['phase']=='Demuestro lo aprendido' and s['activity']['objective']=='letras':s['dictation']='La palabra para el dictado es: taxi. Repito: taxi.'
 (BASE/'g1-lengua-castellana-p4-letras-y-cuento.json').write_text(json.dumps(u,ensure_ascii=False,indent=2)+'\n')
+# Reorganize each complete primary route without inventing curriculum entries.
+for path in BASE.glob('*.json'):
+ unit=json.loads(path.read_text())
+ unit=sequencing.apply_sequence(unit,previous_units.get(path.stem))
+ path.write_text(json.dumps(unit,ensure_ascii=False,indent=2)+'\n')
 print('Unidades completas:',len(list(BASE.glob('*.json'))))
 
 files=sorted(BASE.glob("*.json"),key=lambda p:(p.name!="pilot.json",p.name))

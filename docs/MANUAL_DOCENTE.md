@@ -1,6 +1,6 @@
 # Preparar la sesión
 
-Instalar/abrir la versión de aula y esperar a que la preparación offline termine para todas las rutas (aproximadamente 69 MiB). Probar volumen/altavoces y una consigna. Elegir alias sin nombres completos; crear grado 0 para transición o 1–5 para primaria.
+Instalar/abrir la versión de aula y esperar a que la preparación offline termine para todas las rutas (aproximadamente 79 MiB). Probar volumen/altavoces y una consigna. Elegir alias sin nombres completos; crear grado 0 para transición o 1–5 para primaria.
 
 En la ruta seleccionar cuarto período, área y unidad. En segundo Matemáticas hay dos rutas complementarias. El panel docente puede filtrar grupo/estudiante/unidad y asignar la unidad seleccionada solo a perfiles del grado correspondiente. Los apoyos visual, guiado y autónomo conservan el objetivo; no penalizan el acceso a audio. Las solicitudes de pista quedan registradas.
 
@@ -35,3 +35,11 @@ El modo docente no exige contraseña y no es una barrera de seguridad. Supervisa
 ## Elegir una voz para el aula
 
 Abrir **Elegir voz** → **Voz del navegador** → **Voz en español** y pulsar **Probar voz**. Escuchar en el equipo que usará el estudiante; la lista depende del navegador y del sistema. Elegir una opción marcada **instalada** y probarla sin Internet antes de la clase. Si no hay voz disponible o falla, se reproducen los audios locales. Para usar siempre esos archivos, elegir **Audios guardados**. La preferencia se guarda por navegador y equipo. Ver [detalles de narración](VOZ_COLOMBIANA.md).
+
+## Secuencia por temas y cuaderno
+
+La ruta de primaria presenta un tema a la vez. Después de la explicación, el estudiante escribe título, idea y ejemplo en tarjetas separadas; resuelve cada ejercicio y revisa su solución inmediatamente. La práctica del tema se realiza antes de pasar al siguiente. El encabezado muestra el tema actual. Abrir «temas · uno a la vez» en la tarjeta de unidad permite ver su orden.
+
+Los ejemplos ofrecen diagramas y modelos sencillos de dibujo, disponibles sin conexión. En las tablas del piloto de segundo, los grupos se construyen añadiendo y quitando objetos. En fracciones de tercero, el niño colorea partes iguales y reparte semillas o mangos; el programa verifica también que los grupos sean iguales. Los números de la pantalla no verifican el cuaderno físico.
+
+Las rutas de primaria pasan a versión 2. Al reanudar, la plataforma conserva respuestas, ayudas, observaciones y productos, y retoma el primer paso pendiente en el orden nuevo. Una copia anterior que contenía título, idea y ejemplo se conserva como declaración de esos tres pasos separados. Un recorrido terminado permanece terminado. Exportar un respaldo antes de actualizar es recomendable. Las versiones desconocidas no se sobrescriben. Transición mantiene experiencias de juego, arte, literatura y exploración, sin copias de primaria.

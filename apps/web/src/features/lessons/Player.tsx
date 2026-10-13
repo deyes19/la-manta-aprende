@@ -1,3 +1,4 @@
+import { DrawingModel } from "./DrawingModel";
 import { Play } from "../preschool/Play";
 import { useEffect, useRef, useState } from "react";
 import { gradeLabel, type Unit } from "../../data/content";
@@ -40,6 +41,10 @@ export function Player({
   const s = unit.steps[p.index];
   const done = !!p.attempts[s.id]?.some((a) => a.correct);
   const current = phases.indexOf(s.phase);
+  const topicIndex = unit.topics?.findIndex((t) => t.id === s.topic?.id) ?? -1;
+  const lastOfTopic =
+    !!s.topic && unit.steps[p.index + 1]?.topic?.id !== s.topic.id;
+
   useEffect(() => {
     setHint(false);
     setError("");
@@ -81,6 +86,17 @@ export function Player({
         max={unit.steps.length}
         aria-label="Pantallas completadas"
       />
+      {s.topic && (
+        <div className="topic-banner" role="status">
+          <strong>
+            Tema {topicIndex + 1} de {unit.topics!.length}: {s.topic.title}
+          </strong>
+          <p>
+            Trabaja este tema: aprende, escribe y practica. Luego podrás pasar
+            al siguiente.
+          </p>
+        </div>
+      )}
       <ol className="phase-list">
         {phases.map((phase, i) => (
           <li
@@ -100,6 +116,7 @@ export function Player({
         </h2>
         <p className="instruction">{s.instruction}</p>
         <Audio id={s.id} auto />
+        {s.drawingModel && <DrawingModel kind={s.drawingModel} />}
         {s.visual && s.activity?.kind !== "fraction" && (
           <Visual key={s.id + "-visual"} visual={s.visual} />
         )}
@@ -281,7 +298,9 @@ export function Player({
                 ? "✓ Guardar y terminar"
                 : s.phase === "Mi cuaderno"
                   ? "✓ Ya terminé · Continuar"
-                  : "Continuar →"}
+                  : lastOfTopic
+                    ? "Terminé este tema · Continuar →"
+                    : "Continuar →"}
           </button>
         </div>
         {s.activity && !done && (

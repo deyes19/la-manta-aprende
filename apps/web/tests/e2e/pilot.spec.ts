@@ -72,7 +72,7 @@ test("recorrido completo, intentos, reanudación, reportes y uso sin internet", 
     await expect(
       page.getByRole("heading", { name: s.title, exact: true }),
     ).toBeVisible();
-    if (i === 8) {
+    if (s.id === "cuaderno-titulo") {
       await expect(page.getByText(/^Fecha:/)).toBeVisible();
       await page.reload();
       await page.getByRole("button", { name: /Semilla/ }).click();

@@ -1,4 +1,5 @@
 import { Fraction } from "./Visual";
+import { ObjectDrawing } from "./DrawingModel";
 import { useState } from "react";
 import type { Step } from "../../data/content";
 const normalize = (value: string | number) =>
@@ -18,7 +19,18 @@ export function isCorrect(
       counts.length === step.groups![0] &&
       counts.every((n) => n === step.groups![1])
     );
-  if (a.kind === "fraction") return counts.length === a.answer;
+  if (a.kind === "fraction")
+    return (
+      counts.length === a.answer &&
+      new Set(counts).size === counts.length &&
+      step.visual?.kind === "fraction" &&
+      counts.every(
+        (n) =>
+          Number.isInteger(n) &&
+          n >= 0 &&
+          n < (step.visual as { parts: number }).parts,
+      )
+    );
   if (a.kind === "decimal")
     return (
       /^\d+(?:[.,]\d+)?$/.test(String(value).trim()) &&
@@ -56,34 +68,60 @@ export function Groups({
           const n = interactive ? counts![i] : groups[1];
           const shown = interactive || open.includes(i);
           return (
-            <button
-              key={i}
-              className="basket"
-              aria-label={`Grupo ${i + 1}: ${interactive ? n : shown ? n : "sin abrir"} elementos`}
-              onClick={() =>
-                interactive
-                  ? onChange!(
-                      counts!.map((v, j) =>
-                        j === i ? (v + 1) % (groups[1] + 2) : v,
-                      ),
-                    )
-                  : setOpen(
-                      open.includes(i)
-                        ? open.filter((v) => v !== i)
-                        : [...open, i],
-                    )
-              }
-            >
-              <span className="basket-name">
-                {interactive ? "＋" : "🧺"} Grupo {i + 1}
-              </span>
-              <span className="objects" aria-hidden="true">
-                {shown ? groups[2].repeat(n) || "Vacío" : "Toca para abrir"}
-              </span>
-            </button>
+            <div key={i} className="basket-unit">
+              <button
+                className="basket"
+                disabled={interactive && n >= 10}
+                aria-label={`Grupo ${i + 1}: ${interactive ? n : shown ? n : "sin abrir"} elementos`}
+                onClick={() =>
+                  interactive
+                    ? onChange!(
+                        counts!.map((v, j) =>
+                          j === i ? Math.min(10, v + 1) : v,
+                        ),
+                      )
+                    : setOpen(
+                        open.includes(i)
+                          ? open.filter((v) => v !== i)
+                          : [...open, i],
+                      )
+                }
+              >
+                <span className="basket-name">
+                  {interactive ? "＋" : "🧺"} Grupo {i + 1}
+                </span>
+                <span className="objects" aria-hidden="true">
+                  {shown
+                    ? n
+                      ? Array.from({ length: n }, (_, j) => (
+                          <ObjectDrawing key={j} symbol={groups[2]} />
+                        ))
+                      : "Vacío"
+                    : "Toca para abrir"}
+                </span>
+              </button>
+              {interactive && (
+                <button
+                  className="remove-object"
+                  aria-label={`Quitar un objeto del grupo ${i + 1}`}
+                  disabled={!n}
+                  onClick={() =>
+                    onChange!(counts!.map((v, j) => (j === i ? v - 1 : v)))
+                  }
+                >
+                  − Quitar un objeto
+                </button>
+              )}
+            </div>
           );
         })}
       </div>
+      {interactive && (
+        <p className="group-total" aria-live="polite">
+          Has colocado {counts!.reduce((total, n) => total + n, 0)} objetos en{" "}
+          {groups[0]} grupos.
+        </p>
+      )}
       {!interactive && adjustable && (
         <div className="group-tools">
           <button

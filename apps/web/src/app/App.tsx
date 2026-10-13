@@ -1,9 +1,11 @@
+import { migrateProgress } from "../offline/migrate";
 import { useEffect, useState } from "react";
 import {
   profiles,
   allProgress,
   loadProgress,
   newProgress,
+  saveProgress,
   type Profile,
   type Progress,
 } from "../offline/store";
@@ -54,9 +56,15 @@ export function App() {
     try {
       const p = await loadProgress(selected!.id, unit.id);
       if (p && p.version !== unit.version) {
-        setError(
-          "Tu avance corresponde a otra versión. Exporta el reporte docente antes de migrar; no se sobrescribió.",
-        );
+        const updated = migrateProgress(p, unit);
+        if (!updated) {
+          setError(
+            "Tu avance corresponde a otra versión sin una actualización compatible. Exporta el reporte docente; no se sobrescribió.",
+          );
+          return;
+        }
+        await saveProgress(updated);
+        setPlaying(updated);
         return;
       }
       setPlaying(p ?? newProgress(selected!.id, unit.id, unit.version));

@@ -1,6 +1,6 @@
 {
   "id": "g2-lengua-castellana-p4-inversos-oraciones",
-  "version": 1,
+  "version": 2,
   "title": "Palabras y oraciones en la huerta",
   "grade": 2,
   "subject": "Lengua Castellana",
@@ -49,14 +49,14 @@
       "Colores"
     ],
     "pedagogicalStatus": "PENDIENTE_REVISION",
-    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente. Secuencia de autoría por temas; revisión pedagógica pendiente."
   },
   "steps": [
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-01",
       "phase": "Hoy aprenderé",
       "title": "Palabras y oraciones en la huerta",
-      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "instruction": "Busca tu cuaderno de Lengua Castellana, lápiz y colores. Trabajaremos un tema a la vez: aprende, escribe, resuelve, revisa y practica. Después pasarás al siguiente. Puedes descansar y reanudar.",
       "text": [
         "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
         "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
@@ -76,78 +76,6 @@
       "symbol": "✏️"
     },
     {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-03",
-      "phase": "Aprendo",
-      "title": "Inversos con z",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "En estos grupos de lectura la vocal aparece antes de la consonante z: az, ez, iz, oz, uz.",
-        "Paz contiene az; pez contiene ez; lápiz contiene iz; arroz contiene oz; luz contiene uz."
-      ],
-      "hint": "Lee las dos últimas letras.",
-      "symbol": "✏️"
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-04",
-      "phase": "Aprendo",
-      "title": "Inversos con x",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x.",
-        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
-      ],
-      "hint": "Escribe primero la vocal e.",
-      "symbol": "🔤"
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-05",
-      "phase": "Aprendo",
-      "title": "Inversos con d",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras.",
-        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
-      ],
-      "hint": "Mira las dos últimas letras.",
-      "symbol": "🔤"
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-06",
-      "phase": "Aprendo",
-      "title": "La sílaba",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz.",
-        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
-      ],
-      "hint": "Da una palmada por cada parte.",
-      "symbol": "👏"
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-07",
-      "phase": "Aprendo",
-      "title": "Sujeto y predicado",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto.",
-        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
-      ],
-      "hint": "Pregunta de quién habla la oración.",
-      "symbol": "🌱"
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-08",
-      "phase": "Aprendo",
-      "title": "Comprender y ordenar",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Para comprender una narración, identifica qué sucede primero, después y al final.",
-        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
-      ],
-      "hint": "Vuelve a escuchar el relato.",
-      "symbol": "📖"
-    },
-    {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-09",
       "phase": "Mi cuaderno",
       "title": "Fecha y título",
@@ -159,139 +87,92 @@
       "showDate": true
     },
     {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-10",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Inversos con z",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-03",
+      "phase": "Aprendo",
+      "title": "Inversos con z",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
       "text": [
-        "Inversos con z",
         "En estos grupos de lectura la vocal aparece antes de la consonante z: az, ez, iz, oz, uz.",
         "Paz contiene az; pez contiene ez; lápiz contiene iz; arroz contiene oz; luz contiene uz."
       ],
-      "hint": "Lee las dos últimas letras."
+      "hint": "Lee las dos últimas letras.",
+      "symbol": "✏️",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-11",
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-10-titulo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Inversos con x",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
       "text": [
-        "Inversos con x",
-        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x.",
-        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
+        "Tema: Inversos con z"
       ],
-      "hint": "Escribe primero la vocal e."
+      "hint": "Lee las dos últimas letras.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-12",
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-10",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Inversos con d",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
       "text": [
-        "Inversos con d",
-        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras.",
-        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
+        "En estos grupos de lectura la vocal aparece antes de la consonante z: az, ez, iz, oz, uz."
       ],
-      "hint": "Mira las dos últimas letras."
+      "hint": "Lee las dos últimas letras.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-13",
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-10-ejemplo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: La sílaba",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
       "text": [
-        "La sílaba",
-        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz.",
-        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
+        "Paz contiene az; pez contiene ez; lápiz contiene iz; arroz contiene oz; luz contiene uz."
       ],
-      "hint": "Da una palmada por cada parte."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-14",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Sujeto y predicado",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
-      "text": [
-        "Sujeto y predicado",
-        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto.",
-        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
-      ],
-      "hint": "Pregunta de quién habla la oración."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-15",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Comprender y ordenar",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
-      "text": [
-        "Comprender y ordenar",
-        "Para comprender una narración, identifica qué sucede primero, después y al final.",
-        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
-      ],
-      "hint": "Vuelve a escuchar el relato."
+      "hint": "Lee las dos últimas letras.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-16",
       "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 1",
-      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
       "text": [
-        "1. Copia las tarjetas az, ez, iz, oz, uz; ax, ex, ix, ox, ux; ad, ed, id, od, ud. Encierra az en paz y ud en salud."
+        "1. Copia az, ez, iz, oz, uz. Escribe paz y encierra az."
       ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-17",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 2",
-      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "2. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-18",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 3",
-      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "3. Copia Ana siembra semillas. Subraya Ana como sujeto y encierra siembra semillas como predicado. Escribe luego las cuatro acciones del relato en orden."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-19",
       "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 1",
+      "title": "Revisa el ejercicio 1 de este tema",
       "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
       "text": [
-        "1. Copia las tarjetas az, ez, iz, oz, uz; ax, ex, ix, ox, ux; ad, ed, id, od, ud. Encierra az en paz y ud en salud.",
-        "En paz se encierra az. En salud se encierra ud. Las tarjetas no tienen que inventarse como palabras."
+        "1. Copia az, ez, iz, oz, uz. Escribe paz y encierra az.",
+        "En paz se encierra az."
       ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-20",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 2",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "2. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una.",
-        "Se-mi-lla: 3. Ca-sa: 2."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g2-lengua-castellana-p4-inversos-oraciones-21",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 3",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "3. Copia Ana siembra semillas. Subraya Ana como sujeto y encierra siembra semillas como predicado. Escribe luego las cuatro acciones del relato en orden.",
-        "Sujeto: Ana. Predicado: siembra semillas. Orden: mira las semillas, prepara la tierra, siembra y riega."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-22",
@@ -307,7 +188,99 @@
         "explanation": "En luz la u está antes de la z: uz.",
         "objective": "inversos_z"
       },
-      "symbol": "✏️"
+      "symbol": "✏️",
+      "topic": {
+        "id": "tema-1",
+        "title": "Inversos con z"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-04",
+      "phase": "Aprendo",
+      "title": "Inversos con x",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x.",
+        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
+      ],
+      "hint": "Escribe primero la vocal e.",
+      "symbol": "🔤",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-11-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Inversos con x"
+      ],
+      "hint": "Escribe primero la vocal e.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Practicamos las tarjetas ax, ex, ix, ox, ux: la vocal va antes de la x. Lee la vocal y luego el sonido de x."
+      ],
+      "hint": "Escribe primero la vocal e.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-11-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Tarjetas de lectura: ax — ex — ix — ox — ux. Son grupos de letras para practicar; no todos son palabras."
+      ],
+      "hint": "Escribe primero la vocal e.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-16-parte-2",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia ax, ex, ix, ox, ux. Lee las tarjetas en voz baja."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-19-parte-2",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia ax, ex, ix, ox, ux. Lee las tarjetas en voz baja.",
+        "La vocal va antes de x. Son tarjetas de lectura; no todas son palabras."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-23",
@@ -323,7 +296,99 @@
         "explanation": "E antes de x forma ex.",
         "objective": "inversos_x"
       },
-      "symbol": "🔤"
+      "symbol": "🔤",
+      "topic": {
+        "id": "tema-2",
+        "title": "Inversos con x"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-05",
+      "phase": "Aprendo",
+      "title": "Inversos con d",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras.",
+        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
+      ],
+      "hint": "Mira las dos últimas letras.",
+      "symbol": "🔤",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-12-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Inversos con d"
+      ],
+      "hint": "Mira las dos últimas letras.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Practicamos ad, ed, id, od, ud. La vocal va antes de la d. Algunos aparecen al final de palabras."
+      ],
+      "hint": "Mira las dos últimas letras.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-12-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Amistad termina en ad; pared, en ed; vid, en id; salud, en ud. Od se practica como tarjeta de lectura, no como una palabra inventada."
+      ],
+      "hint": "Mira las dos últimas letras.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-16-parte-3",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia ad, ed, id, od, ud. Escribe salud y encierra ud."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-19-parte-3",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia ad, ed, id, od, ud. Escribe salud y encierra ud.",
+        "En salud se encierra ud."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-24",
@@ -339,7 +404,99 @@
         "explanation": "Las dos últimas letras de salud son u y d.",
         "objective": "inversos_d"
       },
-      "symbol": "🔤"
+      "symbol": "🔤",
+      "topic": {
+        "id": "tema-3",
+        "title": "Inversos con d"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-06",
+      "phase": "Aprendo",
+      "title": "La sílaba",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz.",
+        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
+      ],
+      "hint": "Da una palmada por cada parte.",
+      "symbol": "👏",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-13-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: La sílaba"
+      ],
+      "hint": "Da una palmada por cada parte.",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Una sílaba es una parte de una palabra que pronunciamos en un golpe de voz."
+      ],
+      "hint": "Da una palmada por cada parte.",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-13-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Semilla se divide se-mi-lla: tres sílabas. Casa se divide ca-sa: dos sílabas."
+      ],
+      "hint": "Da una palmada por cada parte.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-17",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-20",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia semilla y casa. Sepáralas en sílabas y escribe cuántas tiene cada una.",
+        "Se-mi-lla: 3. Ca-sa: 2."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-25",
@@ -355,7 +512,99 @@
         "explanation": "Se, mi y lla son tres sílabas.",
         "objective": "silabas"
       },
-      "symbol": "👏"
+      "symbol": "👏",
+      "topic": {
+        "id": "tema-4",
+        "title": "La sílaba"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-07",
+      "phase": "Aprendo",
+      "title": "Sujeto y predicado",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto.",
+        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
+      ],
+      "hint": "Pregunta de quién habla la oración.",
+      "symbol": "🌱",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-14-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Sujeto y predicado"
+      ],
+      "hint": "Pregunta de quién habla la oración.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-14",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Una oración comunica una idea. El sujeto dice de quién se habla; el predicado dice qué se afirma del sujeto."
+      ],
+      "hint": "Pregunta de quién habla la oración.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-14-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "En Ana siembra semillas, Ana es el sujeto y siembra semillas es el predicado."
+      ],
+      "hint": "Pregunta de quién habla la oración.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-18",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia Ana siembra semillas. Subraya el sujeto y encierra el predicado."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-21",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia Ana siembra semillas. Subraya el sujeto y encierra el predicado.",
+        "Sujeto: Ana. Predicado: siembra semillas."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-26",
@@ -376,7 +625,99 @@
           "Semillas"
         ]
       },
-      "symbol": "🌱"
+      "symbol": "🌱",
+      "topic": {
+        "id": "tema-5",
+        "title": "Sujeto y predicado"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-08",
+      "phase": "Aprendo",
+      "title": "Comprender y ordenar",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Para comprender una narración, identifica qué sucede primero, después y al final.",
+        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
+      ],
+      "hint": "Vuelve a escuchar el relato.",
+      "symbol": "📖",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-15-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Comprender y ordenar"
+      ],
+      "hint": "Vuelve a escuchar el relato.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-15",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Para comprender una narración, identifica qué sucede primero, después y al final."
+      ],
+      "hint": "Vuelve a escuchar el relato.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-15-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Relato: Ana mira las semillas. Después prepara la tierra. Luego siembra. Al final riega con cuidado. Primero Ana mira las semillas; al final riega."
+      ],
+      "hint": "Vuelve a escuchar el relato.",
+      "drawingModel": "personajes",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-18-parte-2",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Escribe las cuatro acciones del relato de Ana en orden."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
+    },
+    {
+      "id": "g2-lengua-castellana-p4-inversos-oraciones-21-parte-2",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Escribe las cuatro acciones del relato de Ana en orden.",
+        "Ana mira las semillas, prepara la tierra, siembra y riega."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-27",
@@ -398,7 +739,11 @@
           "Preparar tierra"
         ]
       },
-      "symbol": "📖"
+      "symbol": "📖",
+      "topic": {
+        "id": "tema-6",
+        "title": "Comprender y ordenar"
+      }
     },
     {
       "id": "g2-lengua-castellana-p4-inversos-oraciones-28",
@@ -526,6 +871,114 @@
         "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
       ],
       "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tema-1",
+      "title": "Inversos con z"
+    },
+    {
+      "id": "tema-2",
+      "title": "Inversos con x"
+    },
+    {
+      "id": "tema-3",
+      "title": "Inversos con d"
+    },
+    {
+      "id": "tema-4",
+      "title": "La sílaba"
+    },
+    {
+      "id": "tema-5",
+      "title": "Sujeto y predicado"
+    },
+    {
+      "id": "tema-6",
+      "title": "Comprender y ordenar"
+    }
+  ],
+  "migrations": [
+    {
+      "fromVersion": 1,
+      "stepOrder": [
+        "g2-lengua-castellana-p4-inversos-oraciones-01",
+        "g2-lengua-castellana-p4-inversos-oraciones-02",
+        "g2-lengua-castellana-p4-inversos-oraciones-03",
+        "g2-lengua-castellana-p4-inversos-oraciones-04",
+        "g2-lengua-castellana-p4-inversos-oraciones-05",
+        "g2-lengua-castellana-p4-inversos-oraciones-06",
+        "g2-lengua-castellana-p4-inversos-oraciones-07",
+        "g2-lengua-castellana-p4-inversos-oraciones-08",
+        "g2-lengua-castellana-p4-inversos-oraciones-09",
+        "g2-lengua-castellana-p4-inversos-oraciones-10",
+        "g2-lengua-castellana-p4-inversos-oraciones-11",
+        "g2-lengua-castellana-p4-inversos-oraciones-12",
+        "g2-lengua-castellana-p4-inversos-oraciones-13",
+        "g2-lengua-castellana-p4-inversos-oraciones-14",
+        "g2-lengua-castellana-p4-inversos-oraciones-15",
+        "g2-lengua-castellana-p4-inversos-oraciones-16",
+        "g2-lengua-castellana-p4-inversos-oraciones-17",
+        "g2-lengua-castellana-p4-inversos-oraciones-18",
+        "g2-lengua-castellana-p4-inversos-oraciones-19",
+        "g2-lengua-castellana-p4-inversos-oraciones-20",
+        "g2-lengua-castellana-p4-inversos-oraciones-21",
+        "g2-lengua-castellana-p4-inversos-oraciones-22",
+        "g2-lengua-castellana-p4-inversos-oraciones-23",
+        "g2-lengua-castellana-p4-inversos-oraciones-24",
+        "g2-lengua-castellana-p4-inversos-oraciones-25",
+        "g2-lengua-castellana-p4-inversos-oraciones-26",
+        "g2-lengua-castellana-p4-inversos-oraciones-27",
+        "g2-lengua-castellana-p4-inversos-oraciones-28",
+        "g2-lengua-castellana-p4-inversos-oraciones-29",
+        "g2-lengua-castellana-p4-inversos-oraciones-30",
+        "g2-lengua-castellana-p4-inversos-oraciones-31",
+        "g2-lengua-castellana-p4-inversos-oraciones-32",
+        "g2-lengua-castellana-p4-inversos-oraciones-33",
+        "g2-lengua-castellana-p4-inversos-oraciones-34",
+        "g2-lengua-castellana-p4-inversos-oraciones-35"
+      ],
+      "completedFrom": {
+        "g2-lengua-castellana-p4-inversos-oraciones-10": [
+          "g2-lengua-castellana-p4-inversos-oraciones-10-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-10-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-11": [
+          "g2-lengua-castellana-p4-inversos-oraciones-11-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-11-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-16": [
+          "g2-lengua-castellana-p4-inversos-oraciones-16-parte-2",
+          "g2-lengua-castellana-p4-inversos-oraciones-16-parte-3"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-19": [
+          "g2-lengua-castellana-p4-inversos-oraciones-19-parte-2",
+          "g2-lengua-castellana-p4-inversos-oraciones-19-parte-3"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-12": [
+          "g2-lengua-castellana-p4-inversos-oraciones-12-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-12-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-13": [
+          "g2-lengua-castellana-p4-inversos-oraciones-13-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-13-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-14": [
+          "g2-lengua-castellana-p4-inversos-oraciones-14-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-14-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-15": [
+          "g2-lengua-castellana-p4-inversos-oraciones-15-titulo",
+          "g2-lengua-castellana-p4-inversos-oraciones-15-ejemplo"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-18": [
+          "g2-lengua-castellana-p4-inversos-oraciones-18-parte-2"
+        ],
+        "g2-lengua-castellana-p4-inversos-oraciones-21": [
+          "g2-lengua-castellana-p4-inversos-oraciones-21-parte-2"
+        ]
+      }
     }
   ]
 }

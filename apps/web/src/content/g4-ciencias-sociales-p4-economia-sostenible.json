@@ -1,6 +1,6 @@
 {
   "id": "g4-ciencias-sociales-p4-economia-sostenible",
-  "version": 1,
+  "version": 2,
   "title": "Del cultivo al mercado: economía y ambiente",
   "grade": 4,
   "subject": "Ciencias Sociales",
@@ -48,14 +48,14 @@
       "Colores"
     ],
     "pedagogicalStatus": "PENDIENTE_REVISION",
-    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente."
+    "note": "Actividades de autoría didáctica a partir de la malla consultada; las producciones abiertas requieren revisión docente. Secuencia de autoría por temas; revisión pedagógica pendiente."
   },
   "steps": [
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-01",
       "phase": "Hoy aprenderé",
       "title": "Del cultivo al mercado: economía y ambiente",
-      "instruction": "Busca tu cuaderno de Ciencias Sociales, lápiz y colores. Escucha cada consigna, realiza una tarea y pulsa Continuar. Puedes descansar y reanudar después. Hoy recorrerás ocho momentos.",
+      "instruction": "Busca tu cuaderno de Ciencias Sociales, lápiz y colores. Trabajaremos un tema a la vez: aprende, escribe, resuelve, revisa y practica. Después pasarás al siguiente. Puedes descansar y reanudar.",
       "text": [
         "Necesitas cuaderno, lápiz y colores. Los dibujos digitales son una alternativa a los objetos.",
         "Escuchar y pedir una pista no te quita puntos. Tu docente revisará el trabajo físico."
@@ -75,78 +75,6 @@
       "symbol": "🌽"
     },
     {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-03",
-      "phase": "Aprendo",
-      "title": "Sector primario",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El sector primario obtiene recursos directamente de la naturaleza mediante actividades como agricultura, pesca o ganadería.",
-        "Cultivar y cosechar maíz es una actividad del sector primario."
-      ],
-      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo.",
-      "symbol": "🌽"
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-04",
-      "phase": "Aprendo",
-      "title": "Sector secundario",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El sector secundario transforma materias primas en otros productos.",
-        "Convertir maíz en harina transforma una materia prima; por eso corresponde al sector secundario."
-      ],
-      "hint": "Piensa en transformación.",
-      "symbol": "🏭"
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-05",
-      "phase": "Aprendo",
-      "title": "Sectores terciario y cuaternario",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El sector terciario presta servicios como comercio y transporte. En la clasificación de esta malla, el cuaternario se relaciona con conocimiento, investigación e información especializada.",
-        "Transportar harina es un servicio terciario. Investigar técnicas de cultivo para producir nuevo conocimiento es una actividad cuaternaria."
-      ],
-      "hint": "No es cosechar: es investigar.",
-      "symbol": "🔬"
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-06",
-      "phase": "Aprendo",
-      "title": "Comercio y relaciones entre lugares",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El comercio permite intercambiar bienes. Exportar es vender a otro país; importar es comprar de otro país. Estas relaciones pueden ofrecer oportunidades y también generar retos.",
-        "Una región puede vender productos y adquirir herramientas. Antes de decidir, considera costos, empleo, transporte y efectos ambientales; no todo intercambio beneficia igual a todas las personas."
-      ],
-      "hint": "Pregunta desde dónde llega el producto.",
-      "symbol": "🌍"
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-07",
-      "phase": "Aprendo",
-      "title": "Actividad económica y ambiente",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "Una actividad económica puede afectar el agua, el suelo o los bosques. Identificar la causa permite proponer una acción que reduzca el daño.",
-        "Caso ficticio: un taller deja residuos junto a una quebrada. Los residuos pueden contaminar el agua. Separarlos y entregarlos a un manejo adecuado reduce ese riesgo."
-      ],
-      "hint": "Distingue causa y posible efecto.",
-      "symbol": "💧"
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-08",
-      "phase": "Aprendo",
-      "title": "Desarrollo sostenible",
-      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
-      "text": [
-        "El desarrollo sostenible busca atender necesidades actuales sin comprometer las posibilidades de las generaciones futuras. Debe considerar ambiente, bienestar social y economía.",
-        "Una propuesta puede mantener el trabajo del taller y mejorar el manejo de residuos. Debe ser posible, beneficiar a las personas y reducir el daño ambiental."
-      ],
-      "hint": "Busca una solución que cuide personas y naturaleza.",
-      "symbol": "♻️"
-    },
-    {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-09",
       "phase": "Mi cuaderno",
       "title": "Fecha y título",
@@ -158,139 +86,63 @@
       "showDate": true
     },
     {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-10",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Sector primario",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-03",
+      "phase": "Aprendo",
+      "title": "Sector primario",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
       "text": [
-        "Sector primario",
         "El sector primario obtiene recursos directamente de la naturaleza mediante actividades como agricultura, pesca o ganadería.",
         "Cultivar y cosechar maíz es una actividad del sector primario."
       ],
-      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo."
+      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo.",
+      "symbol": "🌽",
+      "topic": {
+        "id": "tema-1",
+        "title": "Sector primario"
+      }
     },
     {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-11",
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-10-titulo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Sector secundario",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
       "text": [
-        "Sector secundario",
-        "El sector secundario transforma materias primas en otros productos.",
-        "Convertir maíz en harina transforma una materia prima; por eso corresponde al sector secundario."
+        "Tema: Sector primario"
       ],
-      "hint": "Piensa en transformación."
+      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Sector primario"
+      }
     },
     {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-12",
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-10",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Sectores terciario y cuaternario",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
       "text": [
-        "Sectores terciario y cuaternario",
-        "El sector terciario presta servicios como comercio y transporte. En la clasificación de esta malla, el cuaternario se relaciona con conocimiento, investigación e información especializada.",
-        "Transportar harina es un servicio terciario. Investigar técnicas de cultivo para producir nuevo conocimiento es una actividad cuaternaria."
+        "El sector primario obtiene recursos directamente de la naturaleza mediante actividades como agricultura, pesca o ganadería."
       ],
-      "hint": "No es cosechar: es investigar."
+      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo.",
+      "topic": {
+        "id": "tema-1",
+        "title": "Sector primario"
+      }
     },
     {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-13",
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-10-ejemplo",
       "phase": "Mi cuaderno",
-      "title": "Escribe: Comercio y relaciones entre lugares",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
       "text": [
-        "Comercio y relaciones entre lugares",
-        "El comercio permite intercambiar bienes. Exportar es vender a otro país; importar es comprar de otro país. Estas relaciones pueden ofrecer oportunidades y también generar retos.",
-        "Una región puede vender productos y adquirir herramientas. Antes de decidir, considera costos, empleo, transporte y efectos ambientales; no todo intercambio beneficia igual a todas las personas."
+        "Cultivar y cosechar maíz es una actividad del sector primario."
       ],
-      "hint": "Pregunta desde dónde llega el producto."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-14",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Actividad económica y ambiente",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
-      "text": [
-        "Actividad económica y ambiente",
-        "Una actividad económica puede afectar el agua, el suelo o los bosques. Identificar la causa permite proponer una acción que reduzca el daño.",
-        "Caso ficticio: un taller deja residuos junto a una quebrada. Los residuos pueden contaminar el agua. Separarlos y entregarlos a un manejo adecuado reduce ese riesgo."
-      ],
-      "hint": "Distingue causa y posible efecto."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-15",
-      "phase": "Mi cuaderno",
-      "title": "Escribe: Desarrollo sostenible",
-      "instruction": "Copia la idea y el ejemplo que aparecen aquí. Puedes pausar el audio y escribir despacio.",
-      "text": [
-        "Desarrollo sostenible",
-        "El desarrollo sostenible busca atender necesidades actuales sin comprometer las posibilidades de las generaciones futuras. Debe considerar ambiente, bienestar social y economía.",
-        "Una propuesta puede mantener el trabajo del taller y mejorar el manejo de residuos. Debe ser posible, beneficiar a las personas y reducir el daño ambiental."
-      ],
-      "hint": "Busca una solución que cuide personas y naturaleza."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-16",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 1",
-      "instruction": "Copia completo el ejercicio 1. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "1. Dibuja una cadena del maíz: cultivo, fabricación de harina, transporte y venta. Escribe el sector correspondiente debajo de cada parte."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-17",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 2",
-      "instruction": "Copia completo el ejercicio 2. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "2. Escribe un ejemplo de investigación relacionado con la huerta y explica por qué corresponde al cuaternario."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-18",
-      "phase": "Mi cuaderno",
-      "title": "Resuelve el ejercicio 3",
-      "instruction": "Copia completo el ejercicio 3. Debajo escribe, dibuja o resuelve exactamente lo que pide. No mires la revisión hasta terminar.",
-      "text": [
-        "3. Copia el caso del taller y la quebrada. Escribe la causa, un posible efecto y dos acciones para reducir el daño."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-19",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 1",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "1. Dibuja una cadena del maíz: cultivo, fabricación de harina, transporte y venta. Escribe el sector correspondiente debajo de cada parte.",
-        "Cultivo: primario. Fabricación: secundario. Transporte y venta: terciario."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-20",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 2",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "2. Escribe un ejemplo de investigación relacionado con la huerta y explica por qué corresponde al cuaternario.",
-        "Investigar técnicas de cultivo para crear conocimiento; no basta usar una herramienta para afirmar que hay investigación."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
-    },
-    {
-      "id": "g4-ciencias-sociales-p4-economia-sostenible-21",
-      "phase": "Mi cuaderno",
-      "title": "Revisa el ejercicio 3",
-      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
-      "text": [
-        "3. Copia el caso del taller y la quebrada. Escribe la causa, un posible efecto y dos acciones para reducir el daño.",
-        "Causa: residuos mal dispuestos. Efecto posible: contaminación. Acciones: separar residuos y entregarlos a gestión adecuada. En quinto, justificar viabilidad y una forma de seguimiento."
-      ],
-      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+      "hint": "Busca la actividad que obtiene el recurso antes de transformarlo.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-1",
+        "title": "Sector primario"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-22",
@@ -311,7 +163,70 @@
           "Transportar harina"
         ]
       },
-      "symbol": "🌽"
+      "symbol": "🌽",
+      "topic": {
+        "id": "tema-1",
+        "title": "Sector primario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-04",
+      "phase": "Aprendo",
+      "title": "Sector secundario",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El sector secundario transforma materias primas en otros productos.",
+        "Convertir maíz en harina transforma una materia prima; por eso corresponde al sector secundario."
+      ],
+      "hint": "Piensa en transformación.",
+      "symbol": "🏭",
+      "topic": {
+        "id": "tema-2",
+        "title": "Sector secundario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-11-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Sector secundario"
+      ],
+      "hint": "Piensa en transformación.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Sector secundario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-11",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El sector secundario transforma materias primas en otros productos."
+      ],
+      "hint": "Piensa en transformación.",
+      "topic": {
+        "id": "tema-2",
+        "title": "Sector secundario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-11-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Convertir maíz en harina transforma una materia prima; por eso corresponde al sector secundario."
+      ],
+      "hint": "Piensa en transformación.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-2",
+        "title": "Sector secundario"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-23",
@@ -332,7 +247,128 @@
           "Terciario"
         ]
       },
-      "symbol": "🏭"
+      "symbol": "🏭",
+      "topic": {
+        "id": "tema-2",
+        "title": "Sector secundario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-05",
+      "phase": "Aprendo",
+      "title": "Sectores terciario y cuaternario",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El sector terciario presta servicios como comercio y transporte. En la clasificación de esta malla, el cuaternario se relaciona con conocimiento, investigación e información especializada.",
+        "Transportar harina es un servicio terciario. Investigar técnicas de cultivo para producir nuevo conocimiento es una actividad cuaternaria."
+      ],
+      "hint": "No es cosechar: es investigar.",
+      "symbol": "🔬",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-12-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Sectores terciario y cuaternario"
+      ],
+      "hint": "No es cosechar: es investigar.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-12",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El sector terciario presta servicios como comercio y transporte. En la clasificación de esta malla, el cuaternario se relaciona con conocimiento, investigación e información especializada."
+      ],
+      "hint": "No es cosechar: es investigar.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-12-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Transportar harina es un servicio terciario. Investigar técnicas de cultivo para producir nuevo conocimiento es una actividad cuaternaria."
+      ],
+      "hint": "No es cosechar: es investigar.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-16",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Dibuja una cadena del maíz: cultivo, fabricación de harina, transporte y venta. Escribe el sector correspondiente debajo de cada parte."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-19",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Dibuja una cadena del maíz: cultivo, fabricación de harina, transporte y venta. Escribe el sector correspondiente debajo de cada parte.",
+        "Cultivo: primario. Fabricación: secundario. Transporte y venta: terciario."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-17",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 2 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "2. Escribe un ejemplo de investigación relacionado con la huerta y explica por qué corresponde al cuaternario."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-20",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 2 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "2. Escribe un ejemplo de investigación relacionado con la huerta y explica por qué corresponde al cuaternario.",
+        "Investigar técnicas de cultivo para crear conocimiento; no basta usar una herramienta para afirmar que hay investigación."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-24",
@@ -353,7 +389,70 @@
           "Cuaternario"
         ]
       },
-      "symbol": "🔬"
+      "symbol": "🔬",
+      "topic": {
+        "id": "tema-3",
+        "title": "Sectores terciario y cuaternario"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-06",
+      "phase": "Aprendo",
+      "title": "Comercio y relaciones entre lugares",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El comercio permite intercambiar bienes. Exportar es vender a otro país; importar es comprar de otro país. Estas relaciones pueden ofrecer oportunidades y también generar retos.",
+        "Una región puede vender productos y adquirir herramientas. Antes de decidir, considera costos, empleo, transporte y efectos ambientales; no todo intercambio beneficia igual a todas las personas."
+      ],
+      "hint": "Pregunta desde dónde llega el producto.",
+      "symbol": "🌍",
+      "topic": {
+        "id": "tema-4",
+        "title": "Comercio y relaciones entre lugares"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-13-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Comercio y relaciones entre lugares"
+      ],
+      "hint": "Pregunta desde dónde llega el producto.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Comercio y relaciones entre lugares"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-13",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El comercio permite intercambiar bienes. Exportar es vender a otro país; importar es comprar de otro país. Estas relaciones pueden ofrecer oportunidades y también generar retos."
+      ],
+      "hint": "Pregunta desde dónde llega el producto.",
+      "topic": {
+        "id": "tema-4",
+        "title": "Comercio y relaciones entre lugares"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-13-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Una región puede vender productos y adquirir herramientas. Antes de decidir, considera costos, empleo, transporte y efectos ambientales; no todo intercambio beneficia igual a todas las personas."
+      ],
+      "hint": "Pregunta desde dónde llega el producto.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-4",
+        "title": "Comercio y relaciones entre lugares"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-25",
@@ -374,7 +473,70 @@
           "Sembrar"
         ]
       },
-      "symbol": "🌍"
+      "symbol": "🌍",
+      "topic": {
+        "id": "tema-4",
+        "title": "Comercio y relaciones entre lugares"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-07",
+      "phase": "Aprendo",
+      "title": "Actividad económica y ambiente",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "Una actividad económica puede afectar el agua, el suelo o los bosques. Identificar la causa permite proponer una acción que reduzca el daño.",
+        "Caso ficticio: un taller deja residuos junto a una quebrada. Los residuos pueden contaminar el agua. Separarlos y entregarlos a un manejo adecuado reduce ese riesgo."
+      ],
+      "hint": "Distingue causa y posible efecto.",
+      "symbol": "💧",
+      "topic": {
+        "id": "tema-5",
+        "title": "Actividad económica y ambiente"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-14-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Actividad económica y ambiente"
+      ],
+      "hint": "Distingue causa y posible efecto.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Actividad económica y ambiente"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-14",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "Una actividad económica puede afectar el agua, el suelo o los bosques. Identificar la causa permite proponer una acción que reduzca el daño."
+      ],
+      "hint": "Distingue causa y posible efecto.",
+      "topic": {
+        "id": "tema-5",
+        "title": "Actividad económica y ambiente"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-14-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Caso ficticio: un taller deja residuos junto a una quebrada. Los residuos pueden contaminar el agua. Separarlos y entregarlos a un manejo adecuado reduce ese riesgo."
+      ],
+      "hint": "Distingue causa y posible efecto.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-5",
+        "title": "Actividad económica y ambiente"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-26",
@@ -395,7 +557,99 @@
           "No hay ningún efecto"
         ]
       },
-      "symbol": "💧"
+      "symbol": "💧",
+      "topic": {
+        "id": "tema-5",
+        "title": "Actividad económica y ambiente"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-08",
+      "phase": "Aprendo",
+      "title": "Desarrollo sostenible",
+      "instruction": "Escucha la explicación y sigue el ejemplo resuelto. Señala los datos o las palabras que se mencionan.",
+      "text": [
+        "El desarrollo sostenible busca atender necesidades actuales sin comprometer las posibilidades de las generaciones futuras. Debe considerar ambiente, bienestar social y economía.",
+        "Una propuesta puede mantener el trabajo del taller y mejorar el manejo de residuos. Debe ser posible, beneficiar a las personas y reducir el daño ambiental."
+      ],
+      "hint": "Busca una solución que cuide personas y naturaleza.",
+      "symbol": "♻️",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-15-titulo",
+      "phase": "Mi cuaderno",
+      "title": "Escribe el título del tema",
+      "instruction": "Deja una línea en tu cuaderno. Escribe solo el título que aparece aquí. Trabajaremos este tema antes de pasar al siguiente.",
+      "text": [
+        "Tema: Desarrollo sostenible"
+      ],
+      "hint": "Busca una solución que cuide personas y naturaleza.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-15",
+      "phase": "Mi cuaderno",
+      "title": "Escribe la idea de este tema",
+      "instruction": "Debajo del título de este tema, copia únicamente esta idea. Hazlo despacio y escucha otra vez si lo necesitas.",
+      "text": [
+        "El desarrollo sostenible busca atender necesidades actuales sin comprometer las posibilidades de las generaciones futuras. Debe considerar ambiente, bienestar social y economía."
+      ],
+      "hint": "Busca una solución que cuide personas y naturaleza.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-15-ejemplo",
+      "phase": "Mi cuaderno",
+      "title": "Copia el ejemplo del tema",
+      "instruction": "Copia este ejemplo debajo de la idea. Observa el modelo de la pantalla: puedes usar sus formas sencillas en tu dibujo.",
+      "text": [
+        "Una propuesta puede mantener el trabajo del taller y mejorar el manejo de residuos. Debe ser posible, beneficiar a las personas y reducir el daño ambiental."
+      ],
+      "hint": "Busca una solución que cuide personas y naturaleza.",
+      "drawingModel": "comunidad",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-18",
+      "phase": "Mi cuaderno",
+      "title": "Resuelve el ejercicio 1 de este tema",
+      "instruction": "Copia este ejercicio debajo del ejemplo de este tema. Realiza lo que pide. Cuando termines, continuarás a su revisión.",
+      "text": [
+        "1. Copia el caso del taller y la quebrada. Escribe la causa, un posible efecto y dos acciones para reducir el daño."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
+    },
+    {
+      "id": "g4-ciencias-sociales-p4-economia-sostenible-21",
+      "phase": "Mi cuaderno",
+      "title": "Revisa el ejercicio 1 de este tema",
+      "instruction": "Compara con tu cuaderno. Si hay diferencias, revisa el ejemplo y corrige. El programa no ha visto tu escritura ni tu dibujo.",
+      "text": [
+        "1. Copia el caso del taller y la quebrada. Escribe la causa, un posible efecto y dos acciones para reducir el daño.",
+        "Causa: residuos mal dispuestos. Efecto posible: contaminación. Acciones: separar residuos y entregarlos a gestión adecuada. En quinto, justificar viabilidad y una forma de seguimiento."
+      ],
+      "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas.",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-27",
@@ -416,7 +670,11 @@
           "Ignorar a los trabajadores"
         ]
       },
-      "symbol": "♻️"
+      "symbol": "♻️",
+      "topic": {
+        "id": "tema-6",
+        "title": "Desarrollo sostenible"
+      }
     },
     {
       "id": "g4-ciencias-sociales-p4-economia-sostenible-28",
@@ -543,6 +801,99 @@
         "Las respuestas de la pantalla se guardan en este equipo. Tu confirmación de escritura no demuestra la calidad del cuaderno."
       ],
       "hint": "Escucha otra vez. Haz una acción a la vez y vuelve al ejemplo si lo necesitas."
+    }
+  ],
+  "topics": [
+    {
+      "id": "tema-1",
+      "title": "Sector primario"
+    },
+    {
+      "id": "tema-2",
+      "title": "Sector secundario"
+    },
+    {
+      "id": "tema-3",
+      "title": "Sectores terciario y cuaternario"
+    },
+    {
+      "id": "tema-4",
+      "title": "Comercio y relaciones entre lugares"
+    },
+    {
+      "id": "tema-5",
+      "title": "Actividad económica y ambiente"
+    },
+    {
+      "id": "tema-6",
+      "title": "Desarrollo sostenible"
+    }
+  ],
+  "migrations": [
+    {
+      "fromVersion": 1,
+      "stepOrder": [
+        "g4-ciencias-sociales-p4-economia-sostenible-01",
+        "g4-ciencias-sociales-p4-economia-sostenible-02",
+        "g4-ciencias-sociales-p4-economia-sostenible-03",
+        "g4-ciencias-sociales-p4-economia-sostenible-04",
+        "g4-ciencias-sociales-p4-economia-sostenible-05",
+        "g4-ciencias-sociales-p4-economia-sostenible-06",
+        "g4-ciencias-sociales-p4-economia-sostenible-07",
+        "g4-ciencias-sociales-p4-economia-sostenible-08",
+        "g4-ciencias-sociales-p4-economia-sostenible-09",
+        "g4-ciencias-sociales-p4-economia-sostenible-10",
+        "g4-ciencias-sociales-p4-economia-sostenible-11",
+        "g4-ciencias-sociales-p4-economia-sostenible-12",
+        "g4-ciencias-sociales-p4-economia-sostenible-13",
+        "g4-ciencias-sociales-p4-economia-sostenible-14",
+        "g4-ciencias-sociales-p4-economia-sostenible-15",
+        "g4-ciencias-sociales-p4-economia-sostenible-16",
+        "g4-ciencias-sociales-p4-economia-sostenible-17",
+        "g4-ciencias-sociales-p4-economia-sostenible-18",
+        "g4-ciencias-sociales-p4-economia-sostenible-19",
+        "g4-ciencias-sociales-p4-economia-sostenible-20",
+        "g4-ciencias-sociales-p4-economia-sostenible-21",
+        "g4-ciencias-sociales-p4-economia-sostenible-22",
+        "g4-ciencias-sociales-p4-economia-sostenible-23",
+        "g4-ciencias-sociales-p4-economia-sostenible-24",
+        "g4-ciencias-sociales-p4-economia-sostenible-25",
+        "g4-ciencias-sociales-p4-economia-sostenible-26",
+        "g4-ciencias-sociales-p4-economia-sostenible-27",
+        "g4-ciencias-sociales-p4-economia-sostenible-28",
+        "g4-ciencias-sociales-p4-economia-sostenible-29",
+        "g4-ciencias-sociales-p4-economia-sostenible-30",
+        "g4-ciencias-sociales-p4-economia-sostenible-31",
+        "g4-ciencias-sociales-p4-economia-sostenible-32",
+        "g4-ciencias-sociales-p4-economia-sostenible-33",
+        "g4-ciencias-sociales-p4-economia-sostenible-34"
+      ],
+      "completedFrom": {
+        "g4-ciencias-sociales-p4-economia-sostenible-10": [
+          "g4-ciencias-sociales-p4-economia-sostenible-10-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-10-ejemplo"
+        ],
+        "g4-ciencias-sociales-p4-economia-sostenible-11": [
+          "g4-ciencias-sociales-p4-economia-sostenible-11-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-11-ejemplo"
+        ],
+        "g4-ciencias-sociales-p4-economia-sostenible-12": [
+          "g4-ciencias-sociales-p4-economia-sostenible-12-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-12-ejemplo"
+        ],
+        "g4-ciencias-sociales-p4-economia-sostenible-13": [
+          "g4-ciencias-sociales-p4-economia-sostenible-13-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-13-ejemplo"
+        ],
+        "g4-ciencias-sociales-p4-economia-sostenible-14": [
+          "g4-ciencias-sociales-p4-economia-sostenible-14-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-14-ejemplo"
+        ],
+        "g4-ciencias-sociales-p4-economia-sostenible-15": [
+          "g4-ciencias-sociales-p4-economia-sostenible-15-titulo",
+          "g4-ciencias-sociales-p4-economia-sostenible-15-ejemplo"
+        ]
+      }
     }
   ]
 }

@@ -41,7 +41,7 @@ npm run build
 npm run test:e2e
 ```
 
-El lote se prepara fuera del repositorio. El aplicador verifica los 721 guiones y archivos antes de sustituirlos y conserva un respaldo fuera del repositorio. El aula conserva recursos locales y la misma navegación. Tras publicar, esperar que la PWA actualice y prepare todos sus recursos antes de desconectar Internet.
+El lote se prepara fuera del repositorio. El aplicador verifica los 826 guiones y archivos antes de sustituirlos y conserva un respaldo fuera del repositorio. El aula conserva recursos locales y la misma navegación. Tras publicar, esperar que la PWA actualice y prepare todos sus recursos antes de desconectar Internet.
 
 ## Bloqueo del entorno en la nube
 

@@ -13,7 +13,9 @@ export function Fraction({
     <div>
       <div
         className="fraction-grid"
-        style={{ gridTemplateColumns: `repeat(${Math.min(parts, 6)},1fr)` }}
+        style={{
+          gridTemplateColumns: `repeat(${[4, 3, 2].find((n) => parts % n === 0) ?? parts},1fr)`,
+        }}
         role="group"
         aria-label={`Un entero dividido en ${parts} partes iguales`}
       >
@@ -37,6 +39,7 @@ export function Fraction({
       <p aria-live="polite">
         {selected.length} de {parts} partes: {selected.length}/{parts}
       </p>
+      <button onClick={() => onChange([])}>↻ Reiniciar las partes</button>
     </div>
   );
 }

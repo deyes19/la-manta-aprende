@@ -31,8 +31,8 @@ test("solo construye destinos regionales de Azure válidos", () => {
   assert.throws(() => endpoint("eastus.evil.example"));
   assert.throws(() => endpoint("https://example.com"));
 });
-test("planifica las 721 locuciones únicas sin pedir credenciales ni red", () => {
-  assert.equal(jobs().length, 721);
+test("planifica las locuciones únicas sin pedir credenciales ni red", () => {
+  assert.equal(jobs().length, 826);
   assert.ok(jobs().every((job) => job.text.length));
 });
 test("rechaza respuestas de texto sin escribirlas como audio", async () => {

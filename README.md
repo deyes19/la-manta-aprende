@@ -2,7 +2,7 @@
 
 Plataforma local para I. E. La Manta, sede Villanueva, Montería, Córdoba. **Cuarto período, transición a quinto, Matemáticas, Lengua Castellana y Ciencias Sociales.** React/TypeScript/Vite, IndexedDB, audio local y PWA.
 
-Actualmente hay **19 rutas ejecutables y 509 pantallas**: 16 unidades de primaria y tres experiencias integradas de transición. Segundo tiene dos rutas de Matemáticas (multiplicación y área/datos). No se confunde un catálogo con unidades completas.
+Actualmente hay **19 rutas ejecutables y 665 pantallas**: 16 unidades de primaria y tres experiencias integradas de transición. Segundo tiene dos rutas de Matemáticas (multiplicación y área/datos). No se confunde un catálogo con unidades completas.
 
 **Estado curricular: FUENTE_CONSULTADA.** Se descargaron y leyeron las cuatro mallas originales y siete planeaciones complementarias. Cada unidad referencia archivo, tabla/fila y aprendizajes/evidencias. Las actividades son una propuesta didáctica; **requieren revisión y aprobación docente**, prueba en aula y revisión de la voz sintética. No se declaran aprobadas por la institución.
 
@@ -23,7 +23,7 @@ npm run build
 npm start
 ```
 
-Abre `http://localhost:4173` en Edge/Chrome. Espera **«Unidad y audios preparados para usar sin internet»** y usa instalar aplicación desde el menú del navegador. La preparación precarga todas las rutas (aproximadamente 69 MiB); no desconectes hasta verificar. Mantén navegador/origen/puerto. `npm run dev` no habilita el modo offline. `file://` no funciona.
+Abre `http://localhost:4173` en Edge/Chrome. Espera **«Unidad y audios preparados para usar sin internet»** y usa instalar aplicación desde el menú del navegador. La preparación precarga todas las rutas (aproximadamente 79 MiB); no desconectes hasta verificar. Mantén navegador/origen/puerto. `npm run dev` no habilita el modo offline. `file://` no funciona.
 
 Windows: después de preparar la compilación, abre `scripts/iniciar-windows.cmd`. El ZIP de aula incluye la compilación y solo necesita Node instalado: no requiere npm ni descargas durante la clase. [Guía Windows](docs/INSTALACION_WINDOWS.md). El instalador autónomo de escritorio queda para otra fase.
 
@@ -46,7 +46,7 @@ La opción **Elegir voz** permite probar las voces del navegador. Para el aula s
 
 Seleccionar alias/grado/período/área/unidad; escuchar y repetir; avanzar una tarea a la vez; copiar textos y ejercicios íntegros; revisar soluciones; practicar; realizar una misión; comprobar aprendizajes y compartir evidencias. Guarda avances separados por perfil/unidad y reanuda.
 
-Primaria tiene ocho momentos. Hay respuestas numéricas, decimales con coma o punto, escritura, elección, secuencias, reparto y fracciones manipulables. Se conservan el primer intento, ayudas y reintentos. El dictado tiene la palabra en audio, sin mostrarla como respuesta en la pregunta.
+Primaria organiza 75 temas en secuencias completas: explicación, tarjetas de cuaderno, ejercicio con revisión inmediata y práctica antes de abrir el siguiente tema. Título, idea y ejemplo se escriben en tarjetas separadas. La misión y evaluación integran lo trabajado. Los modelos locales de dibujo apoyan la copia y las tablas y fracciones incluyen construcción de grupos, coloreado y reparto. Primaria conserva los ocho momentos. Hay respuestas numéricas, decimales con coma o punto, escritura, elección, secuencias, reparto y fracciones manipulables. Se conservan el primer intento, ayudas y reintentos. El dictado tiene la palabra en audio, sin mostrarla como respuesta en la pregunta.
 
 Transición usa juego, arte, literatura y exploración, oralidad, composición de figuras y acompañamiento. Las áreas son etiquetas de navegación de experiencias integradas del propósito #4, no divisiones curriculares inventadas. No exige copias ni exámenes de primaria; sus producciones no se califican automáticamente.
 
@@ -58,7 +58,7 @@ Sin cuentas en nube, analítica remota, fotos o grabaciones. Datos en IndexedDB 
 
 ## Fuentes y autoría
 
-[Mapa de cuarto período](docs/ALCANCE_CUARTO_PERIODO.md), [trazabilidad](docs/MATRIZ_TRAZABILIDAD.md), [fuentes originales](docs/fuentes/README.md), [manual](docs/MANUAL_DOCENTE.md) y [entrega actual](docs/ENTREGA_2.md). SHA-256 en docs/fuentes/manifest.json. Se conserva el kit como antecedente, no como sustituto de las mallas originales.
+[Mapa de cuarto período](docs/ALCANCE_CUARTO_PERIODO.md), [trazabilidad](docs/MATRIZ_TRAZABILIDAD.md), [fuentes originales](docs/fuentes/README.md), [manual](docs/MANUAL_DOCENTE.md) y [secuencia por temas](docs/ENTREGA_3_SECUENCIA.md). SHA-256 en docs/fuentes/manifest.json. Se conserva el kit como antecedente, no como sustituto de las mallas originales.
 
 Los JSON ejecutables están en apps/web/src/content/. scripts/content/build-fourth-period.py contiene los guiones didácticos y genera las unidades/catalog.ts; requiere Python 3 solo para autoría, no para uso o instalación de aula. Al editar el contenido generado, actualiza el guion fuente para no perder cambios en futuras generaciones. Las mallas y extractos originales no se sobrescriben.
 
@@ -66,7 +66,7 @@ Los JSON ejecutables están en apps/web/src/content/. scripts/content/build-four
 2. Regenerar narraciones con `npm run audio:generate` (requiere FFmpeg y eSpeak-NG de desarrollo).
 3. Ejecutar validación, compilación y pruebas; revisar pedagogía y audio antes de aprobar contenidos.
 
-Hay **1.338 locuciones**; el índice de audio reutiliza 721 archivos distintos, conservando los recursos históricos del piloto. Las transcripciones están en public/audio/transcripts.json. No se necesita sintetizador ni internet para escuchar. La herramienta eSpeak-NG es GPL-3.0, de desarrollo; su código no se incluye en el navegador.
+Hay **1.650 locuciones**; el índice de audio reutiliza 826 archivos distintos, conservando los recursos históricos del piloto. Las transcripciones están en public/audio/transcripts.json. No se necesita sintetizador ni internet para escuchar. La herramienta eSpeak-NG es GPL-3.0, de desarrollo; su código no se incluye en el navegador.
 
 ## Validación técnica
 

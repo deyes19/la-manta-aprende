@@ -50,7 +50,8 @@ describe("cuarto período consultado", () => {
     expect(isCorrect(s, "", [0, 1])).toBe(false);
   });
   it("preserva el piloto y diferencia cuarto y quinto aunque compartan malla", () => {
-    expect(pilot.version).toBe(1);
+    expect(pilot.version).toBe(2);
+    expect(pilot.migrations?.[0].fromVersion).toBe(1);
     expect(pilot.steps).toHaveLength(33);
     const fourth = units.find(
       (u) => u.grade === 4 && u.subject === "Lengua Castellana",

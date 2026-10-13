@@ -130,7 +130,7 @@ it("recorre todas las frases de una instrucción larga y conserva el texto compl
   expect(chunks.every((c) => c.length <= 180)).toBe(true);
   expect(chunks.join(" ")).toBe(text);
   const stopped = vi.fn();
-  const stop = narrate("g5-lengua-castellana-p4-teatro-13", 1, {
+  const stop = narrate("g5-lengua-castellana-p4-teatro-13-ejemplo", 1, {
     onPlaying: stopped,
   });
   expect(utterances).toHaveLength(1);

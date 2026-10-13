@@ -61,6 +61,10 @@ export const stepSchema = z
       "Exploro",
     ]),
     title: z.string().min(1),
+    topic: z
+      .object({ id: z.string().min(1), title: z.string().min(1) })
+      .optional(),
+    drawingModel: z.enum(["semillas", "personajes", "comunidad"]).optional(),
     instruction: z.string().min(10),
     text: z.array(z.string()).default([]),
     showDate: z.boolean().optional(),
@@ -107,7 +111,7 @@ export const stepSchema = z
     groups: z
       .tuple([
         z.number().int().min(1).max(10),
-        z.number().int().min(1).max(5),
+        z.number().int().min(1).max(10),
         z.string(),
       ])
       .optional(),
@@ -142,6 +146,18 @@ export const unitSchema = z
     title: z.string(),
     grade: z.number().int().min(0).max(5),
     approach: z.enum(["primary", "preschool"]).default("primary"),
+    topics: z
+      .array(z.object({ id: z.string().min(1), title: z.string().min(1) }))
+      .optional(),
+    migrations: z
+      .array(
+        z.object({
+          fromVersion: z.number().int().positive(),
+          stepOrder: z.array(z.string().min(1)).min(1),
+          completedFrom: z.record(z.array(z.string().min(1))),
+        }),
+      )
+      .optional(),
     subject: z.string(),
     period: z.number().int().min(1).max(4),
     source: z.object({
@@ -175,6 +191,53 @@ export const unitSchema = z
   })
   .superRefine((u, c) => {
     const phases = new Set<string>(u.steps.map((s) => s.phase));
+    if (u.topics) {
+      const seen = new Set<string>();
+      let last = "";
+      for (const s of u.steps) {
+        if (!s.topic) continue;
+        if (
+          !u.topics.some(
+            (t) => t.id === s.topic!.id && t.title === s.topic!.title,
+          )
+        )
+          c.addIssue({ code: "custom", message: "Tema no declarado" });
+        if (s.topic.id !== last && seen.has(s.topic.id))
+          c.addIssue({
+            code: "custom",
+            message: "La secuencia vuelve a un tema ya cerrado",
+          });
+        seen.add(s.topic.id);
+        last = s.topic.id;
+      }
+      for (const t of u.topics) {
+        const steps = u.steps.filter((s) => s.topic?.id === t.id);
+        if (
+          steps[0]?.phase !== "Aprendo" ||
+          steps.at(-1)?.phase !== "Practico" ||
+          !steps.some((s) => s.phase === "Mi cuaderno")
+        )
+          c.addIssue({
+            code: "custom",
+            message:
+              "Cada tema debe explicarse, escribirse y practicarse antes del siguiente",
+          });
+      }
+    }
+    for (const migration of u.migrations ?? []) {
+      if (
+        migration.fromVersion >= u.version ||
+        new Set(migration.stepOrder).size !== migration.stepOrder.length ||
+        migration.stepOrder.some((id) => !u.steps.some((s) => s.id === id)) ||
+        Object.values(migration.completedFrom)
+          .flat()
+          .some((id) => !u.steps.some((s) => s.id === id))
+      )
+        c.addIssue({
+          code: "custom",
+          message: "Migración de secuencia no válida",
+        });
+    }
     if (
       u.approach === "primary" &&
       ![

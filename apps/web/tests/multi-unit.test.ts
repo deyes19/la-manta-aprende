@@ -59,6 +59,7 @@ describe("motor para distintas áreas", () => {
     expect(isCorrect(s, "Observar|Conversar|Acordar", [])).toBe(true);
     expect(isCorrect(s, "Conversar|Observar|Acordar", [])).toBe(false);
     const u = structuredClone(pilot);
+    delete u.migrations;
     u.steps[1] = s;
     expect(unitSchema.safeParse(u).success).toBe(true);
     s.activity!.choices = ["Observar", "Observar", "Acordar"];
