@@ -2,6 +2,7 @@ import { audioFile } from "../data/audio";
 import { useEffect, useState } from "react";
 import { units } from "../data/content";
 export async function checkOffline() {
+  if (import.meta.env.VITE_MANTA_DISTRIBUTION === "android") return true;
   if (!("serviceWorker" in navigator) || !("caches" in window)) return false;
   const registration = await navigator.serviceWorker.getRegistration();
   if (!registration?.active) return false;
@@ -38,7 +39,9 @@ export function Readiness() {
       setReady(ok);
       setMessage(
         ok
-          ? "Unidad y audios preparados para usar sin internet."
+          ? import.meta.env.VITE_MANTA_DISTRIBUTION === "android"
+            ? "Lecciones, imágenes y audios incluidos. Puedes aprender sin internet."
+            : "Unidad y audios preparados para usar sin internet."
           : "Todavía no está preparada. En producción, espera la descarga y pulsa Verificar; no desconectes aún.",
       );
     } catch {

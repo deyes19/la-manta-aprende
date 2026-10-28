@@ -5,6 +5,10 @@ export type VoicePreference = {
   mode: "browser" | "recorded";
   voiceURI: string;
 };
+const defaultMode =
+  import.meta.env.VITE_MANTA_DISTRIBUTION === "android"
+    ? "recorded"
+    : "browser";
 const preferenceKey = "manta-voice-v1";
 export const preferenceEvent = "manta-voice-change";
 let sessionPreference: VoicePreference | undefined;
@@ -13,11 +17,14 @@ export function getVoicePreference(): VoicePreference {
   try {
     const saved = JSON.parse(localStorage.getItem(preferenceKey) ?? "null");
     return {
-      mode: saved?.mode === "recorded" ? "recorded" : "browser",
+      mode:
+        saved?.mode === "recorded" || saved?.mode === "browser"
+          ? saved.mode
+          : defaultMode,
       voiceURI: typeof saved?.voiceURI === "string" ? saved.voiceURI : "",
     };
   } catch {
-    return { mode: "browser", voiceURI: "" };
+    return { mode: defaultMode, voiceURI: "" };
   }
 }
 export function setVoicePreference(preference: VoicePreference) {

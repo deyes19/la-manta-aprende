@@ -27,6 +27,12 @@ Abre `http://localhost:4173` en Edge/Chrome. Espera **«Unidad y audios preparad
 
 Windows: después de preparar la compilación, abre `scripts/iniciar-windows.cmd`. El ZIP de aula incluye la compilación y solo necesita Node instalado: no requiere npm ni descargas durante la clase. [Guía Windows](docs/INSTALACION_WINDOWS.md). El instalador autónomo de escritorio queda para otra fase.
 
+## Android para familias
+
+La versión descargable `La_Manta_Aprende_Android_Sin_Internet.apk` incluye todas las lecciones, imágenes y audios para abrir la aplicación sin conexión desde la primera sesión. Se instala una vez y luego se abre desde su icono. Guarda los avances por alias en el celular y permite exportar los reportes con el selector de documentos. Requiere Android 8 o posterior y WebView actualizado.
+
+[Guía para familias](docs/ANDROID_FAMILIAS.md) · [Construcción y firma del APK](apps/android/README.md). La firma y los archivos se verificaron; la instalación y el selector de archivos deben probarse en un dispositivo Android real antes de distribuir a las familias.
+
 ## Publicar en Vercel
 
 Conectar el proyecto a `deyes19/la-manta-aprende`, usar `main` como rama de producción y seleccionar Node.js 24.x. Las rutas de salida se interpretan desde **Root Directory**. Configurar una de estas dos opciones completas:

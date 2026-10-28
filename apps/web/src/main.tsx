@@ -26,16 +26,18 @@ class ErrorBoundary extends Component<
     );
   }
 }
-const updateSW = registerSW({
-  onNeedRefresh() {
-    const event = new CustomEvent("manta-update");
-    window.dispatchEvent(event);
-  },
-  onRegisterError() {
-    console.warn("No se registró el modo sin conexión.");
-  },
-});
-window.addEventListener("manta-apply-update", () => void updateSW(true));
+if (import.meta.env.VITE_MANTA_DISTRIBUTION !== "android") {
+  const updateSW = registerSW({
+    onNeedRefresh() {
+      const event = new CustomEvent("manta-update");
+      window.dispatchEvent(event);
+    },
+    onRegisterError() {
+      console.warn("No se registró el modo sin conexión.");
+    },
+  });
+  window.addEventListener("manta-apply-update", () => void updateSW(true));
+}
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ErrorBoundary>

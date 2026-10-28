@@ -6,3 +6,8 @@ apps/web/playwright-report/
 
 .venv-voice/
 __pycache__/
+
+apps/web/dist-android/
+apps/android/build/
+*.keystore
+*.jks

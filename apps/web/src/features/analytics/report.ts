@@ -90,6 +90,13 @@ export function toCSV(data: ReturnType<typeof rows>) {
   );
 }
 export function download(name: string, body: string, type: string) {
+  if (
+    import.meta.env.VITE_MANTA_DISTRIBUTION === "android" &&
+    window.MantaAndroid
+  ) {
+    window.MantaAndroid.saveReport(name, body, type);
+    return;
+  }
   const u = URL.createObjectURL(new Blob([body], { type }));
   const a = document.createElement("a");
   a.href = u;
