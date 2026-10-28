@@ -1,0 +1,9 @@
+{
+  "filename": "La_Manta_Aprende_Android_Sin_Internet.apk",
+  "bytes": 72027947,
+  "sha256": "18435c62af4280bbafe1761c6d35cd8761109ba0bd06bc0df4f1d669e1374866",
+  "version": "0.3.0",
+  "androidMinimum": "8.0",
+  "internetPermission": false,
+  "files": 877
+}

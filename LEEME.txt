@@ -1,0 +1,13 @@
+LA MANTA APRENDE - ANDROID SIN INTERNET
+
+1. Abre La_Manta_Aprende_Android_Sin_Internet.apk en el celular.
+2. Toca Instalar. Si Android solicita permiso para instalar desde esa aplicación, autoriza esta instalación.
+3. Abre el icono La Manta Aprende.
+4. Crea un perfil con alias, elige grado y abre una unidad.
+
+Incluye lecciones, imágenes y audios del cuarto período, desde transición a quinto. Puedes activar modo avión antes de abrirla.
+Android 8 o posterior y Android System WebView actualizado. Reserva aproximadamente 250 MB libres.
+Los pasos confirmados se guardan en este celular. No desinstales ni borres los datos para conservarlos.
+En Docente puedes exportar los resultados a un archivo. No se envían automáticamente.
+
+Se verificó la firma y el flujo offline de los archivos empaquetados. Falta probar instalación y uso en un Android real: ensayar primero en un celular antes de distribuir a todas las familias.
